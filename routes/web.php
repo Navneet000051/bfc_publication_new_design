@@ -22,3 +22,7 @@ Route::get('/privacy-policy', [HomeController::class, 'privacy_policy']);
 Route::get('/legal-disclaimer', [HomeController::class, 'legal_disclaimer']);
 Route::get('/refund-and-cancellation-policy', [HomeController::class, 'refund_and_cancellation_policy']);
 Route::get('/print-on-demand-book-publishing', [HomeController::class, 'print_on_demand_book_publishing']);
+Route::get('/klf', [HomeController::class, 'klf']);
+Route::get('/book-stall', [HomeController::class, 'book_stall']);
+Route::get('/gallery', [HomeController::class, 'gallery']);
+Route::get('/klf-sessions', [HomeController::class, 'klf_sessions']);

@@ -216,12 +216,12 @@
                                 the
                                 rich heritage of Awadh, featuring the biggest names in the fields of Arts, Literature,
                                 Music,
-                                Filmmaking, and much more.<a href="https://bfcpublications.com/klf/"
-                                    alt="KOSHALA LITERATURE FESTIVAL" target="_blank" style="color:red;"> Read More..</a>
+                                Filmmaking, and much more.<a href="{{ url('/klf') }}"
+                                    alt="KOSHALA LITERATURE FESTIVAL" style="color:red;"> Read More..</a>
                             </p>
                             <div class="row py-3">
                                 <div class="col-lg-6 col-12 mb-4" data-aos="fade-up" >
-                                    <a href="https://bfcpublications.com/book-stall" target="_blank" class="feature-card1">
+                                    <a href="{{ url('/book-stall') }}" class="feature-card1">
                                         <div class="feature-icon">
                                             <i class="bi bi-bookshelf"></i>
                                         </div>
@@ -231,7 +231,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-6 col-12 mb-4" data-aos="fade-up" >
-                                    <a href="https://bfcpublications.com/bfc-lounge" target="_blank" class="feature-card1">
+                                    <a href="{{ url('/bfc-lounge') }}" class="feature-card1">
                                         <div class="feature-icon">
                                             <i class="bi bi-cup-hot"></i>
                                         </div>
@@ -241,7 +241,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-6 col-12 mb-4" data-aos="fade-up" >
-                                    <a href="https://bfcpublications.com/sessions-klf" target="_blank"
+                                    <a href="{{ url('/klf-sessions') }}"
                                         class="feature-card1">
                                         <div class="feature-icon">
                                             <i class="bi bi-people"></i>
@@ -252,7 +252,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-6 col-12 mb-4" data-aos="fade-up" >
-                                    <a href="https://bfcpublications.com/gallery" target="_blank" class="feature-card1">
+                                    <a href="{{ url('/gallery') }}" class="feature-card1">
                                         <div class="feature-icon">
                                             <i class="bi bi-images"></i>
                                         </div>

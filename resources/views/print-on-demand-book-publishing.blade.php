@@ -15,12 +15,12 @@
             background: #fff;
         }
 
-        .pod-content {
+        .p-on-dbook {
             /* background: #f7f8ff; */
             position: relative;
         }
 
-        .pod-content::before {
+        .p-on-dbook::before {
             content: "";
             position: absolute;
             inset: 0;
@@ -146,7 +146,7 @@
         <section class="pod-content py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2 pod-container">
                 <div class="row align-items-center g-5">
-                    <div class="col-lg-6 order-lg-2">
+                    <div class="col-lg-6 order-lg-2 p-on-dbook">
                         <div class="pod-image"><img src="{{ asset('assets/img_new/other/print-on-demand.webp') }}"
                                 alt="Print-on-Demand book publishing"></div>
                     </div>

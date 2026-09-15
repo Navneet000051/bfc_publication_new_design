@@ -78,4 +78,20 @@ class HomeController extends Controller
     {
         return view('print-on-demand-book-publishing');
     }
+    public function klf()
+    {
+        return view('klf');
+    }
+    public function book_stall()
+    {
+        return view('book-stall');
+    }
+    public function gallery()
+    {
+        return view('gallery');
+    }
+    public function klf_sessions()
+    {
+        return view('klf-sessions');
+    }
 }

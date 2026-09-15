@@ -321,7 +321,7 @@
                             <div class="footer-column">
                                 <h4>Quick Links</h4>
                                 <ul>
-                                    <li><a href="{{ url('/ebook-publishing-packages') }}"><span
+                                    <li><a href="{{ url('/packages') }}"><span
                                                 class="footer-dot"></span>Packages</a></li>
                                     <li><a href="{{ '/services' }}"><span class="footer-dot"></span> Services</a></li>
                                     <li><a href="{{ url('/ebook-publisher-in-india') }}"><span
@@ -339,14 +339,14 @@
                             <div class="footer-column">
                                 <h4>Links</h4>
                                 <ul>
-                                    <li><a href="https://bfcpublications.com/klf"><span
-                                                class="footer-dot"></span>KLF</a>
+                                    <li><a href="{{ url('/klf')}}"><span class="footer-dot"></span>KLF</a>
                                     </li>
                                     <li><a href="{{ url('/career') }}"><span class="footer-dot"></span> Career</a></li>
                                     <li><a href="{{ url('/print-on-demand-book-publishing') }}"><span
                                                 class="footer-dot"></span> Print On Demand</a></li>
                                     <li> <a href="{{ url('/faq') }}"><span class="footer-dot"></span> FAQs</a></li>
-                                    <li><a href="{{ url('/contact-us') }}"> <span class="footer-dot"></span>Contact Us</a>
+                                    <li><a href="{{ url('/contact-us') }}"> <span class="footer-dot"></span>Contact
+                                            Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -420,4 +420,5 @@
     <script src="{{ asset('assets/js_new/scripts.js') }}"></script>
 
 </body>
+
 </html>
