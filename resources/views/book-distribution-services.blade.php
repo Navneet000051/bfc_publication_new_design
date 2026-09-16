@@ -284,7 +284,7 @@
 
         .bfc_floating_card.two {
             bottom: 45px;
-            left: -50px;
+            left: -35px;
             animation-delay: 1s;
         }
 
@@ -769,37 +769,40 @@
                 font-size: 34px;
             }
         }
+
+        .distributor-platform img {
+            width: 200px;
+            height: auto;
+            padding: 5px 20px;
+            border: 1px solid #f9d6d9;
+        }
     </style>
 
     <div class="bfc_book_editing">
-        <section class="bfc_editing_hero py-5">
+        <section class="bfc_editing_hero">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="row align-items-center">
                     <div class="col-lg-7">
                         <div class="bfc_hero_content bfc_reveal">
                             <div class="bfc_section_label">
-                                A Great Story Deserves a Great First Impression!
+                                Your Book Is Ready. Let’s Get It to Your Readers!
                             </div>
                             <h1>
-                                Cover Designing
+                                Distribution
                                 <span class="bfc_hero_highlight">
                                     Services
                                 </span>
                             </h1>
                             <p class="bfc_hero_text">
-                                Contrary to what the saying tells us, your book will be judged by its cover. Whether it’s
-                                catching a reader’s eye on a bookstore shelf or standing out among countless thumbnails
-                                online, your cover has one job: to make them want to take a closer look. At BFC
-                                Publications, our design team blends genre expertise with visual storytelling to create
-                                covers and layouts that don’t just look good — they sell good too. Every element of your
-                                book's design is thoughtfully crafted to reflect your story, meet your genre's reader
-                                expectations, and stand out on a crowded shelf — physical or digital.
+                                Make your book accessible to more readers through our extensive distribution network across
+                                India and beyond
                             </p>
-                            <!-- <a href="https://bfcpublications.com/customize-package/paperback"
-                                        class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a> -->
-                            <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
-                                data-bs-target="#start_bfcpublishing_modal">
-                                Get Your Cover Designed</button>
+                            <a href="{{ url('/customize-package')}}" class="px-4 rounded-pill hero-red-btn">Explore
+                                Distribution</a>
+
+                            <!-- <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
+                                                                    data-bs-target="#start_bfcpublishing_modal">
+                                                                    Explore Distribution</button> -->
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -826,9 +829,9 @@
                                     </span>
                                 </div>
                                 <div class="bfc_floating_card two">
-                                    <i class="fa-solid fa-palette"></i>
+                                    <i class="bi bi-pencil-square"></i>
                                     <span>
-                                        Expert Designing
+                                        Distribution
                                     </span>
                                 </div>
                             </div>
@@ -838,254 +841,119 @@
             </div>
         </section>
 
-        <!-- <section class="py-5">
-                        <div class="container-xxl px-lg-5 px-md-3 px-2">
-                            <div class="bfc_intro_box bfc_reveal">
-                                <div class="bfc_intro_content">
-                                    <div class="bfc_section_label">
-                                        Why Editing Matters
-                                    </div>
-                                    <h2 class="bfc_intro_title">
-                                        Before Your Book Meets Readers,
-                                        <span class="bfc_highlight">
-                                            Let It Meet Our Editors!
-                                        </span>
-                                    </h2>
-                                    <p class="bfc_intro_text">
-                                        A great book deserves more than just a spell-check before
-                                        it reaches readers. Our expert editors sharpen your
-                                        manuscript, improve its flow, and catch the details you
-                                        may have missed. Whether you need copy editing, formatting,
-                                        proofreading, or manuscript assessment, our editors work
-                                        with your manuscript while keeping your original voice
-                                        and story at the centre.
-                                    </p>
-                                    <div class="mt-4">
-                                        <a href="https://bfcpublications.com/customize-package/paperback" class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section> -->
-
         <section class="py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center mb-5 bfc_reveal">
                     <div class="bfc_section_label">
-                        Our Expertise
+                        Our Expertise Distributor
                     </div>
                     <h2 class="bfc_section_title">
-                        Cover Design
+                        More Platforms to Help Readers Discover Your Book.
                     </h2>
                     <p class="bfc_section_description">
-                        Your cover is the first glimpse readers get of your book. We design it to capture your story, fit
-                        your genre, and make a strong first impression—both online and in print.
+                        From online marketplaces to digital reading platforms, get your book in front of readers across a
+                        wide network of platforms.
                     </p>
                 </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="bfc_service_card bfc_reveal">
-                            <span class="bfc_service_number">
-                                01
-                            </span>
-                            <div class="bfc_service_icon">
-                                <i class="fa-solid fa-share"></i>
-                            </div>
-                            <h3>
-                                Genre-Specific Concepts
-                            </h3>
-                            <p>
-                                We study your manuscript, genre, and target audience to create cover concepts that feel
-                                right for your story.
-                            </p>
+                <div class="container distributor-platform">
+                    <div class="row justify-content-center text-center">
+
+                        <div class="col-lg-3 col-md-4 col-6 mb-4 ">
+                            <img src="{{ asset('assets/img_new/partner/amazon.webp') }}" alt="Amazon">
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="bfc_service_card bfc_reveal">
-                            <span class="bfc_service_number">
-                                02
-                            </span>
-                            <div class="bfc_service_icon">
-                                <i class="fa-solid fa-binoculars"></i>
-                            </div>
-                            <h3>
-                                Complete Print Cover
-                            </h3>
-                            <p>
-                                From the front cover to the spine and back cover, every element is designed as one cohesive
-                                package.
-                            </p>
+
+                        <div class="col-lg-3 col-md-4 col-6 mb-4 ">
+                            <img src="{{ asset('assets/img_new/partner/flipkart.webp') }}" alt="Flipkart">
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="bfc_service_card bfc_reveal">
-                            <span class="bfc_service_number">
-                                03
-                            </span>
-                            <div class="bfc_service_icon">
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
-                            <h3>
-                                Finer Details
-                            </h3>
-                            <p>
-                                We take care of the finer details, including back-cover blurb, author bio, barcode, and ISBN
-                                placement.
-                            </p>
+
+                        <div class="col-lg-3 col-md-4 col-6 mb-4 ">
+                            <img src="{{ asset('assets/img_new/partner/amazonkindle.webp') }}" alt="Kindle">
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="bfc_service_card bfc_reveal">
-                            <span class="bfc_service_number">
-                                04
-                            </span>
-                            <div class="bfc_service_icon">
-                                <i class="fa-brands fa-leanpub"></i>
-                            </div>
-                            <h3>
-                                eBook-Ready Covers
-                            </h3>
-                            <p>
-                                Dedicated eBook covers are designed and optimised for platforms like Amazon Kindle, Google
-                                Play Books, and Kobo.
-                            </p>
+
+                        <div class="col-lg-3 col-md-4 col-6 mb-4 ">
+                            <img src="{{ asset('assets/img_new/partner/googleplaybooks.jpg') }}" alt="Google Book">
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="bfc_service_card bfc_reveal">
-                            <span class="bfc_service_number">
-                                05
-                            </span>
-                            <div class="bfc_service_icon">
-                                <i class="bi bi-check2-circle"></i>
-                            </div>
-                            <h3>
-                                Built for Every Format
-                            </h3>
-                            <p>
-                                Your cover is designed to look just as good as a thumbnail on a screen as it does on a
-                                physical bookshelf.
-                            </p>
+
+                        <div class="col-lg-3 col-md-4 col-6 mb-4 ">
+                            <img src="{{ asset('assets/img_new/partner/snapdeal.webp') }}" alt="Snapdeal">
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-6 mb-4 ">
+                            <img src="{{ asset('assets/img_new/partner/shopclues.webp') }}" alt="Shopclues">
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-6 mb-4 ">
+                            <img src="{{ asset('assets/img_new/partner/smashword.webp') }}" alt="Amazon">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="bfc_process_section py-5">
+        <section class="bfc_process_section pt-0 pb-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center bfc_reveal">
-                    <div class="bfc_section_label">
-                        The Process
-                    </div>
                     <h2 class="bfc_section_title">
-                        How It Works
+                        Reach Readers Across India and Abroad
                     </h2>
-                    <p class="bfc_section_description">
-                        From your first idea to the final cover, here’s how we turn your vision into a finished design.
+                    <p class="bfc_section_description mw-75" style="max-width: 90%;">
+                        Your readers aren’t limited by geography, and your book shouldn’t be either. With distribution
+                        across multiple online marketplaces and digital platforms, your book can reach readers across India
+                        and in international markets. More platforms mean more opportunities for readers to discover,
+                        purchase, and read your book.
                     </p>
                 </div>
-                <div class="bfc_process_wrap">
-                    <div class="bfc_process_line"></div>
-                    <div class="row g-4">
-                        <div class="col-lg">
-                            <div class="bfc_process_item bfc_reveal">
-                                <div class="bfc_process_icon">
-                                    01
-                                </div>
-                                <h3>
-                                    Share Your Brief
-                                </h3>
-                                <p>
-                                    Tell us about your book, genre, audience, and the kind of look you have in mind. You can
-                                    also share any references or ideas you love.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <div class="bfc_process_item bfc_reveal">
-                                <div class="bfc_process_icon">
-                                    02
-                                </div>
-                                <h3>
-                                    Explore the Concepts
-                                </h3>
-                                <p>
-                                    Our designers create initial concepts based on your story, genre, and brief, giving your
-                                    book a visual identity that feels right for it.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <div class="bfc_process_item bfc_reveal">
-                                <div class="bfc_process_icon">
-                                    03
-                                </div>
-                                <h3>
-                                    Review & Refine
-                                </h3>
-                                <p>
-                                    Take a look, share your feedback, and let us know what you’d like changed. We refine the
-                                    design until you're happy with it.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <div class="bfc_process_item bfc_reveal">
-                                <div class="bfc_process_icon">
-                                    04
-                                </div>
-                                <h3>
-                                    Get Your Final Design
-                                </h3>
-                                <p>
-                                    Once everything is approved, you receive the final files, ready for print and/or eBook
-                                    publishing, depending on your requirements
-                                </p>
-                            </div>
-                        </div>
-                        <!-- <div class="col-lg">
-                                        <div class="bfc_process_item bfc_reveal">
-                                            <div class="bfc_process_icon">
-                                                05
-                                            </div>
-                                            <h3>
-                                               Final Sign-Off
-                                            </h3>
-                                            <p>
-                                               Once you're happy with the edits, your manuscript is ready for the next stage of your publishing journey.
-                                            </p>
-                                        </div>
-                                    </div> -->
-                    </div>
-                </div>
+
             </div>
         </section>
 
-        <!-- <section class="bfc_cta_section py-5" id="bfc-editing-cta">
-                        <div class="container-xxl px-lg-5 px-md-3 px-2">
-                            <div class="bfc_cta_box bfc_reveal">
-                                <div class="bfc_cta_content">
-                                    <div class="bfc_section_label">
-                                        Your Manuscript Deserves More
-                                    </div>
-                                    <h2 class="bfc_cta_title">
-                                        Ready to get your manuscript
-                                        <span class="bfc_highlight">
-                                            reader-ready?
-                                        </span>
-                                    </h2>
-                                    <p class="bfc_cta_text">
-                                        Whether you need full book editing or just
-                                        a final polish, our editors are ready to help
-                                        you refine your manuscript while keeping
-                                        your voice intact.
-                                    </p>
-                                    <a href="https://bfcpublications.com/customize-package/paperback" class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a>
-                                </div>
+        <section class="bfc_cta_section" id="bfc-editing-cta">
+            <div class="bfc_cta_box bfc_reveal py-md-5 py-4">
+                <div class="container-xxl px-lg-5 px-md-3 px-2">
+                    <div class="bfc_cta_content row justify-content-between align-items-center g-4">
+                        <div class="col-lg-12">
+                            <h2 class="bfc_cta_title">
+                                How Book Distribution
+                                <span class="bfc_highlight">
+                                    Works
+                                </span>
+                            </h2>
+                            <p class="bfc_cta_text">
+                                Getting your book out to readers involves more than simply listing it online. Here’s how the
+                                process works:
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="border p-4 rounded border-secondary">
+                                <h3 class="text-mute">Book Preparation</h3>
+                                <p class="bfc_cta_text">
+                                    Your published book is prepared in the required formats and specifications for
+                                    distribution
+                                    across different platforms.
+                                </p>
                             </div>
                         </div>
-                    </section> -->
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="border p-4 rounded border-secondary">
+                                <h3 class="text-mute">Platform Distribution</h3>
+                                <p class="bfc_cta_text">
+                                    The book is submitted and made available across relevant online marketplaces and digital
+                                    book platforms.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="border p-4 rounded border-secondary">
+                                <h3 class="text-mute">Book Availability</h3>
+                                <p class="bfc_cta_text">
+                                    Once listed, readers can discover, purchase, or access your book through the platforms
+                                    where it is distributed
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
 
         <section class="bfc_faq_section py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
@@ -1103,13 +971,14 @@
                         <h3 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#bfcFaqOne">
-                                How many cover design options do I get to choose from?
+                                What is book distribution?
                             </button>
                         </h3>
                         <div id="bfcFaqOne" class="accordion-collapse collapse show" data-bs-parent="#bfcEditingFaq">
                             <div class="accordion-body">
-                                The number of initial design concepts depends on the publishing package you choose. Our team
-                                works with you to develop a cover that suits your book, genre, and design preferences.
+                                Book distribution is the process of making your published book available to readers through
+                                different online marketplaces, bookstores, and digital reading platforms. It helps your book
+                                reach a wider audience and gives readers more ways to discover and purchase it.
 
                             </div>
                         </div>
@@ -1120,15 +989,16 @@
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#bfcFaqTwo">
-                                Can I request my own design ideas or reference covers?
+                                Where will my book be distributed?
                             </button>
                         </h3>
                         <div id="bfcFaqTwo" class="accordion-collapse collapse" data-bs-parent="#bfcEditingFaq">
 
                             <div class="accordion-body">
-                                Absolutely. You can share your ideas, preferences, mood boards, or reference covers with our
-                                designers. These help us understand the look and feel you have in mind while creating a
-                                design that's original to your book.
+                                Your book can be distributed across leading online marketplaces and digital book platforms,
+                                depending on the format and distribution channels applicable to your book. This can include
+                                platforms such as Amazon, Flipkart, ShopClues, Snapdeal, Amazon Kindle, Google Play Books,
+                                Kobo, and Smashwords.
                             </div>
                         </div>
                     </div>
@@ -1137,16 +1007,13 @@
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#bfcFaqThree">
-                                Do you design for both print and eBook, or do I need to choose one?
-
+                                Can my book reach readers outside India?
                             </button>
                         </h3>
                         <div id="bfcFaqThree" class="accordion-collapse collapse" data-bs-parent="#bfcEditingFaq">
                             <div class="accordion-body">
-                                We can design for both print and eBook formats. Print covers include the front, spine, and
-                                back, while eBook covers are created specifically for digital platforms and their display
-                                requirements.
-
+                                Yes. Depending on the distribution platform and format, your book can be made available to
+                                readers in international markets, giving you an opportunity to reach audiences beyond India.
                             </div>
                         </div>
                     </div>
@@ -1155,16 +1022,14 @@
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#bfcFaqFour">
-                                How long does the design process take?
-
+                                Which platforms distribute my book?
                             </button>
                         </h3>
                         <div id="bfcFaqFour" class="accordion-collapse collapse" data-bs-parent="#bfcEditingFaq">
                             <div class="accordion-body">
-                                The timeline depends on the scope of the design, the number of formats required, and the
-                                revision process. Once we understand your requirements, our team can give you an estimated
-                                timeline for your book.
-
+                                Your book may be distributed across platforms such as Amazon, Flipkart, ShopClues, Snapdeal,
+                                Amazon Kindle, Google Play Books, Kobo, and Smashwords. The platforms available may vary
+                                depending on your book’s format and distribution requirements.
                             </div>
                         </div>
                     </div>
@@ -1173,16 +1038,30 @@
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#bfcFaqFive">
-                                Which package includes design services?
-
+                                Can both paperback and eBooks be distributed?
                             </button>
                         </h3>
                         <div id="bfcFaqFive" class="accordion-collapse collapse" data-bs-parent="#bfcEditingFaq">
                             <div class="accordion-body">
-                                Design services are included in our publishing packages, with the exact scope depending on
-                                the package you choose. Our team can help you understand what's included and recommend the
-                                option that best fits your requirements.
-
+                                Yes. Both paperback books and eBooks can be distributed through applicable platforms. The
+                                availability of each format depends on the requirements and supported formats of the
+                                respective platform.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ 6 -->
+                    <div class="accordion-item bfc_reveal">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#bfcFaqSix">
+                                Does book distribution guarantee sales?
+                            </button>
+                        </h3>
+                        <div id="bfcFaqSix" class="accordion-collapse collapse" data-bs-parent="#bfcEditingFaq">
+                            <div class="accordion-body">
+                                No. Distribution makes your book available to a wider audience, but it does not guarantee
+                                sales. Sales depend on several factors, including the book itself, its visibility, reader
+                                interest, pricing, reviews, and marketing efforts.
                             </div>
                         </div>
                     </div>
@@ -1196,19 +1075,21 @@
                     <div class="bfc_cta_content row justify-content-between align-items-center g-4">
                         <div class="col-lg-8">
                             <h2 class="bfc_cta_title">
-                                Ready to Make Your Book 
+                                Ready to Get Your Book
+
                                 <span class="bfc_highlight">
-                                    Stand Out?
+                                    Out There?
                                 </span>
                             </h2>
                             <p class="bfc_cta_text">
-                                Tell us about your story, genre, and vision, and our designers will turn it into a cover that's made to stand out—online and in print.
+                                Get your book published, distributed, and in front of more readers across India and beyond.
+
                             </p>
                         </div>
                         <div class="col-lg-4 text-lg-end">
                             <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
                                 data-bs-target="#start_bfcpublishing_modal">
-                               Get Your Cover Designed</button>
+                                Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -1258,5 +1139,4 @@
             });
         });
     </script>
-
 @endsection()

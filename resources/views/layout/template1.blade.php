@@ -254,8 +254,9 @@
             </style>
         </div>
     </main>
+    
     <!-- footer  -->
-    <section class=" footer-section ">
+    <section class="footer-section ">
         <footer class="site-footer">
             <div class="footer-main">
                 <div class="container-xxl px-lg-5 px-md-3 px-2">

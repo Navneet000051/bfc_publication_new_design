@@ -241,7 +241,7 @@
                                     </a>
                                 </div>
                                 <div class="col-lg-6 col-12 mb-4" data-aos="fade-up" >
-                                    <a href="{{ url('/klf-sessions') }}"
+                                    <a href="{{ url('/sessions-klf') }}"
                                         class="feature-card1">
                                         <div class="feature-icon">
                                             <i class="bi bi-people"></i>

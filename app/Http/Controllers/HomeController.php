@@ -54,6 +54,10 @@ class HomeController extends Controller
     {
         return view('book-marketing-services');
     }
+    public function book_distribution_services()
+    {
+        return view('book-distribution-services');
+    }
     public function author_support()
     {
         return view('author-support');
@@ -90,8 +94,12 @@ class HomeController extends Controller
     {
         return view('gallery');
     }
-    public function klf_sessions()
+    public function sessions_klf()
     {
-        return view('klf-sessions');
+        return view('sessions-klf');
+    }
+    public function bfc_lounge()
+    {
+        return view('bfc-lounge');
     }
 }

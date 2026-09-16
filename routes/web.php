@@ -16,6 +16,7 @@ Route::get('/ebook-publisher-in-india', [HomeController::class, 'ebook_publisher
 Route::get('/book-editorial-services', [HomeController::class, 'book_editorial_services']);
 Route::get('/book-designing-services', [HomeController::class, 'book_designing_services']);
 Route::get('/book-marketing-services', [HomeController::class, 'book_marketing_services']);
+Route::get('/book-distribution-services', [HomeController::class, 'book_distribution_services']);
 Route::get('/author-support', [HomeController::class, 'author_support']);
 Route::get('/terms-and-condition', [HomeController::class, 'terms_and_condition']);
 Route::get('/privacy-policy', [HomeController::class, 'privacy_policy']);
@@ -25,4 +26,5 @@ Route::get('/print-on-demand-book-publishing', [HomeController::class, 'print_on
 Route::get('/klf', [HomeController::class, 'klf']);
 Route::get('/book-stall', [HomeController::class, 'book_stall']);
 Route::get('/gallery', [HomeController::class, 'gallery']);
-Route::get('/klf-sessions', [HomeController::class, 'klf_sessions']);
+Route::get('/sessions-klf', [HomeController::class, 'sessions_klf']);
+Route::get('/bfc-lounge', [HomeController::class, 'bfc_lounge']);

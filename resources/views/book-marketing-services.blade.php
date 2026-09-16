@@ -568,17 +568,10 @@
 
 
         .bfc_cta_box {
-
             position: relative;
-
             overflow: hidden;
-
-            padding: 75px;
-
             border-radius: 22px;
-
             color: #fff;
-
             background:
                 radial-gradient(circle at 90% 10%,
                     rgba(207, 70, 78, .2),
@@ -588,25 +581,17 @@
 
 
         .bfc_cta_box::before {
-
             content: "";
-
             position: absolute;
-
             width: 500px;
             height: 500px;
-
             right: -180px;
             top: -230px;
-
             border: 1px solid rgba(207, 70, 78, .3);
-
             border-radius: 50%;
         }
 
-
         .bfc_cta_box::after {
-
             content: "BOOK";
             position: absolute;
             right: 45px;
@@ -615,24 +600,17 @@
             color: rgba(255, 255, 255, .025);
         }
 
-
         .bfc_cta_content {
             position: relative;
             z-index: 2;
         }
 
-
         .bfc_cta_title {
-
             max-width: 800px;
-
-            font-size: clamp(35px, 4vw, 52px);
-
+            font-size: clamp(35px, 3vw, 35px);
             line-height: 1.2;
-
             margin-bottom: 18px;
         }
-
 
         .bfc_cta_text {
             max-width: 750px;
@@ -738,10 +716,6 @@
             .bfc_intro_box {
                 padding: 55px;
             }
-
-            .bfc_cta_box {
-                padding: 60px;
-            }
         }
 
         @media (max-width: 991px) {
@@ -762,10 +736,6 @@
 
             .bfc_process_item {
                 margin-bottom: 45px;
-            }
-
-            .bfc_cta_box {
-                padding: 55px 45px;
             }
 
         }
@@ -817,10 +787,10 @@
             }
 
 
-            .bfc_cta_box {
+            /* .bfc_cta_box {
                 padding: 45px 25px;
                 border-radius: 16px;
-            }
+            } */
 
             .bfc_cta_text {
                 font-size: 14px;
@@ -1362,27 +1332,28 @@
             </div>
         </section>
 
-        <section class="bfc_final_cta">
-            <div class="container-xxl px-lg-5 px-md-3 px-2">
-                <div class="bfc_final_box bfc_reveal">
-                    <div class="bfc_section_label justify-content-center">
-                        Let's Perfect Your Story
+         <section class="bfc_cta_section" id="bfc-editing-cta">
+            <div class="bfc_cta_box bfc_reveal py-md-5 py-4 rounded-0">
+                <div class="container-xxl px-lg-5 px-md-3 px-2">
+                    <div class="bfc_cta_content row justify-content-between align-items-center g-4">
+                        <div class="col-lg-8">
+                            <h2 class="bfc_cta_title">
+                                Ready to Help Your Book 
+                                <span class="bfc_highlight">
+                                    Find Its Readers?
+                                </span>
+                            </h2>
+                            <p class="bfc_cta_text">
+                                Tell us about your book and your goals, and let’s build a marketing strategy and get your story in front of the right readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 text-lg-end">
+                            <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
+                                data-bs-target="#start_bfcpublishing_modal">
+                               Start Marketing Your Book</button>
+                        </div>
                     </div>
-                    <h2>
-                        Ready to Help Your Book 
-                        <span class="bfc_highlight">
-                           Find Its Readers?
-                        </span>
-                    </h2>
-                    <p>
-                        Tell us about your book and your goals, and let’s build a marketing strategy and get your story in front of the right readers.
-
-                    </p>
-                    <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
-                        data-bs-target="#start_bfcpublishing_modal">
-                        Start Marketing Your Book</button>
                 </div>
-            </div>
         </section>
     </div>
 

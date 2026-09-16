@@ -334,16 +334,16 @@
             grid-row: span 2;
         }
 
-        .klf-video-grid,
-        .klf-session-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 16px;
-        }
+        /* 
+                        .klf-session-grid {
+                            display: grid;
+                            grid-template-columns: repeat(4, 1fr);
+                            gap: 16px;
+                        } */
 
-        .klf-session-grid {
-            grid-template-columns: repeat(4, 1fr);
-        }
+        /* .klf-session-grid {
+                            grid-template-columns: repeat(4, 1fr);
+                        } */
 
         .klf-video-card {
             min-height: 200px;
@@ -482,13 +482,13 @@
                 margin-top: 10px;
             }
 
-            .klf-session-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
+            /* .klf-session-grid {
+                                grid-template-columns: repeat(2, 1fr);
+                            }
 
-            .klf-video-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
+                            .klf-video-grid {
+                                grid-template-columns: repeat(2, 1fr);
+                            } */
         }
 
         @media (max-width: 767px) {
@@ -556,10 +556,10 @@
                 grid-template-rows: repeat(2, 135px);
             }
 
-            .klf-video-grid,
-            .klf-session-grid {
-                grid-template-columns: 1fr;
-            }
+            /* .klf-video-grid,
+                            .klf-session-grid {
+                                grid-template-columns: 1fr;
+                            } */
 
             .klf-gallery-grid {
                 grid-template-columns: 1fr 1fr;
@@ -621,7 +621,7 @@
                     <div>
                         <div class="klf-kicker">BFC Book Stall</div>
                         <h2>Books Met Their Readers.</h2>
-                    </div><a class="klf-feature-link" href="{{ url('/book-stall') }}" target="_blank">See more
+                    </div><a class="klf-feature-link" href="{{ url('/book-stall') }}">View More
                         <i class="bi bi-arrow-up-right"></i></a>
                 </div>
                 <div class="row align-items-center g-4">
@@ -664,7 +664,7 @@
                     <div>
                         <div class="klf-kicker">BFC Lounge</div>
                         <h2>Authors Took the Stage.</h2>
-                    </div><a class="klf-feature-link" href="{{ url('/bfc-lounge') }}" target="_blank">See more
+                    </div><a class="klf-feature-link" href="{{ url('/bfc-lounge') }}">View More
                         <i class="bi bi-arrow-up-right"></i></a>
                 </div>
                 <div class="row align-items-center g-4">
@@ -674,34 +674,52 @@
                             showcase worthy of their books.</p>
                     </div>
                     <div class="col-12">
-                        <div class="klf-video-grid">
-                            <button class="klf-media-button klf-video-card" type="button" data-klf-video="Fnzs2Wfl068"
-                                data-klf-title="KB Rao at BFC Lounge">
-                                <img src="{{ asset('assets/img_new/bfc-lounge/dr-arun.webp') }}" alt="KB Rao at BFC Lounge"
-                                    loading="lazy"><span class="klf-play"><i class="bi bi-play-fill"></i></span><span
-                                    class="klf-media-label">Dr Arun Chandra Dwivedi</span>
-                            </button>
-                            <button class="klf-media-button klf-video-card" type="button" data-klf-video="klQHW7-8APQ"
-                                data-klf-title="Pratibha Paul at BFC Lounge">
-                                <img src="{{ asset('assets/img_new/bfc-lounge/pratibha.webp') }}"
-                                    alt="Pratibha Paul at BFC Lounge" loading="lazy"><span class="klf-play"><i
-                                        class="bi bi-play-fill"></i></span><span class="klf-media-label">Pratibha
-                                    Paul</span>
-                            </button>
-                            <button class="klf-media-button klf-video-card" type="button" data-klf-video="pf4or5e6jgg"
-                                data-klf-title="Pratibha Paul at BFC Lounge">
-                                <img src="{{ asset('assets/img_new/bfc-lounge/trivendra.webp') }}"
-                                    alt="Pratibha Paul at BFC Lounge" loading="lazy"><span class="klf-play"><i
-                                        class="bi bi-play-fill"></i></span><span class="klf-media-label">Author
-                                    Trivendra</span>
-                            </button>
-                            <button class="klf-media-button klf-video-card" type="button" data-klf-video="VuCKk40LHOE"
-                                data-klf-title="Pratibha Paul at BFC Lounge">
-                                <img src="{{ asset('assets/img_new/bfc-lounge/kb-rao.webp') }}"
-                                    alt="Pratibha Paul at BFC Lounge" loading="lazy"><span class="klf-play"><i
-                                        class="bi bi-play-fill"></i></span><span class="klf-media-label">
-                                    Author KB Rao</span>
-                            </button>
+                        <div class="row klf-video-grid">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <button class="klf-media-button klf-video-card" type="button" data-klf-video="Fnzs2Wfl068"
+                                    data-klf-title="KB Rao at BFC Lounge">
+                                    <img src="{{ asset('assets/img_new/bfc-lounge/dr-arun.webp') }}"
+                                        alt="KB Rao at BFC Lounge" loading="lazy"><span class="klf-play"><i
+                                            class="bi bi-play-fill"></i></span><span class="klf-media-label">Dr Arun Chandra
+                                        Dwivedi</span>
+                                </button>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <button class="klf-media-button klf-video-card" type="button" data-klf-video="klQHW7-8APQ"
+                                    data-klf-title="Pratibha Paul at BFC Lounge">
+                                    <img src="{{ asset('assets/img_new/bfc-lounge/pratibha.webp') }}"
+                                        alt="Pratibha Paul at BFC Lounge" loading="lazy"><span class="klf-play"><i
+                                            class="bi bi-play-fill"></i></span><span class="klf-media-label">Pratibha
+                                        Paul</span>
+                                </button>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <button class="klf-media-button klf-video-card" type="button" data-klf-video="pf4or5e6jgg"
+                                    data-klf-title="Pratibha Paul at BFC Lounge">
+                                    <img src="{{ asset('assets/img_new/bfc-lounge/trivendra.webp') }}"
+                                        alt="Pratibha Paul at BFC Lounge" loading="lazy"><span class="klf-play"><i
+                                            class="bi bi-play-fill"></i></span><span class="klf-media-label">Author
+                                        Trivendra</span>
+                                </button>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <button class="klf-media-button klf-video-card" type="button" data-klf-video="VuCKk40LHOE"
+                                    data-klf-title="Pratibha Paul at BFC Lounge">
+                                    <img src="{{ asset('assets/img_new/bfc-lounge/kb-rao.webp') }}"
+                                        alt="Pratibha Paul at BFC Lounge" loading="lazy"><span class="klf-play"><i
+                                            class="bi bi-play-fill"></i></span><span class="klf-media-label">
+                                        Author KB Rao</span>
+                                </button>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <button class="klf-media-button klf-video-card" type="button" data-klf-video="f4Vu9UZV8GI"
+                                    data-klf-title="Pratibha Paul at BFC Lounge">
+                                    <img src="{{ asset('assets/img_new/bfc-lounge/heera-lal.webp') }}" alt="Dynamic DM"
+                                        loading="lazy"><span class="klf-play"><i class="bi bi-play-fill"></i></span><span
+                                        class="klf-media-label">
+                                        Dynamic DM</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -714,39 +732,66 @@
                     <div>
                         <div class="klf-kicker">KLF Sessions</div>
                         <h2>Ideas in The Open.</h2>
-                    </div><a class="klf-feature-link" href="{{ url('/sessions-klf') }}" target="_blank">See
-                        more <i class="bi bi-arrow-up-right"></i></a>
+                    </div><a class="klf-feature-link" href="{{ url('/sessions-klf') }}">View
+                        More <i class="bi bi-arrow-up-right"></i></a>
                 </div>
                 <p style="max-width:690px;color:var(--klf-muted);line-height:1.8;margin:0 0 26px">Watch Authors, Historians,
                     Mythologists, Scribes and Politicos grace the stage at KLF-Awadh and discuss their books and works out
                     in the open.</p>
-                <div class="klf-session-grid">
-                    <button class="klf-media-button klf-session-card" type="button" data-klf-video="oN-S65BVaUs"
-                        data-klf-title="The Story of Storytellers of Naimisaranya">
-                        <img src="{{ asset('assets/img_new/klf-sessions/devduitt.webp') }}"
-                            alt="The Story of Storytellers of Naimisaranya" loading="lazy"><span class="klf-play"><i
-                                class="bi bi-play-fill"></i></span><span class="klf-media-label">The Story of
-                            Storytellers</span>
-                    </button>
-                    <button class="klf-media-button klf-session-card" type="button" data-klf-video="-NkVySUp1hs"
-                        data-klf-title="Garuda Purana">
-                        <img src="{{ asset('assets/img_new/klf-sessions/sd.webp') }}" alt="Garuda Purana session"
-                            loading="lazy"><span class="klf-play"><i class="bi bi-play-fill"></i></span><span
-                            class="klf-media-label">Garuda Purana</span>
-                    </button>
-                    <button class="klf-media-button klf-session-card" type="button" data-klf-video="ZcpRnrAzcH8"
-                        data-klf-title="Jashn-e-Awadh">
-                        <img src="{{ asset('assets/img_new/klf-sessions/mmh.webp') }}" alt="Jashn-e-Awadh session"
-                            loading="lazy"><span class="klf-play"><i class="bi bi-play-fill"></i></span><span
-                            class="klf-media-label">Jashn-e-Awadh</span>
-                    </button>
-                    <button class="klf-media-button klf-session-card" type="button" data-klf-video="MtN9QAZUZrs"
-                        data-klf-title="Bravehearts of Bharat">
-                        <img src="{{ asset('assets/img_new/klf-sessions/tp.webp') }}" alt="Bravehearts of Bharat session"
-                            loading="lazy"><span class="klf-play"><i class="bi bi-play-fill"></i></span><span
-                            class="klf-media-label">
-                            Filmmaker & Actor Tigmanshu Dhulia with KLF-Awadh Founder</span>
-                    </button>
+                <div class="row klf-session-grid">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <button class="klf-media-button klf-session-card" type="button" data-klf-video="oN-S65BVaUs"
+                            data-klf-title="The Story of Storytellers of Naimisaranya">
+                            <img src="{{ asset('assets/img_new/klf-sessions/devduitt.webp') }}"
+                                alt="The Story of Storytellers of Naimisaranya" loading="lazy"><span class="klf-play"><i
+                                    class="bi bi-play-fill"></i></span><span class="klf-media-label">The Story of
+                                Storytellers
+                                of Naimisaranya</span>
+                        </button>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <button class="klf-media-button klf-session-card" type="button" data-klf-video="-NkVySUp1hs"
+                            data-klf-title="Garuda Purana">
+                            <img src="{{ asset('assets/img_new/klf-sessions/sd.webp') }}" alt="Garuda Purana session"
+                                loading="lazy"><span class="klf-play"><i class="bi bi-play-fill"></i></span><span
+                                class="klf-media-label">Garuda Purana</span>
+                        </button>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <button class="klf-media-button klf-session-card" type="button" data-klf-video="ZcpRnrAzcH8"
+                            data-klf-title="Jashn-e-Awadh">
+                            <img src="{{ asset('assets/img_new/klf-sessions/mmh.webp') }}" alt="Jashn-e-Awadh session"
+                                loading="lazy"><span class="klf-play"><i class="bi bi-play-fill"></i></span><span
+                                class="klf-media-label">Jashn-e-Awadh</span>
+                        </button>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <button class="klf-media-button klf-session-card" type="button" data-klf-video="MtN9QAZUZrs"
+                            data-klf-title="Bravehearts of Bharat">
+                            <img src="{{ asset('assets/img_new/klf-sessions/tp.webp') }}"
+                                alt="Bravehearts of Bharat session" loading="lazy"><span class="klf-play"><i
+                                    class="bi bi-play-fill"></i></span><span class="klf-media-label">
+                                Filmmaker & Actor Tigmanshu Dhulia with KLF-Awadh Founder</span>
+                        </button>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <button class="klf-media-button klf-session-card" type="button" data-klf-video="8tDXxR__AUk"
+                            data-klf-title="Bravehearts of Bharat">
+                            <img src="{{ asset('assets/img_new/klf-sessions/sharad_chayn.webp') }}"
+                                alt="Clash of Singularity" loading="lazy"><span class="klf-play"><i
+                                    class="bi bi-play-fill"></i></span><span class="klf-media-label"> Clash of Singularity
+                            </span>
+                        </button>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <button class="klf-media-button klf-session-card" type="button" data-klf-video="kPb2RCon8P8"
+                            data-klf-title="Bravehearts of Bharat">
+                            <img src="{{ asset('assets/img_new/klf-sessions/a_a_m.webp') }}" alt="Myth of Mythology"
+                                loading="lazy"><span class="klf-play"><i class="bi bi-play-fill"></i></span><span
+                                class="klf-media-label">
+                                Myth of Mythology</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -757,7 +802,7 @@
                     <div>
                         <div class="klf-kicker">KLF Gallery</div>
                         <h2>Festival Moments</h2>
-                    </div><a class="klf-feature-link" href="{{ url('/gallery') }}" target="_blank">See all <i
+                    </div><a class="klf-feature-link" href="{{ url('/gallery') }}">View More <i
                             class="bi bi-arrow-up-right"></i></a>
                 </div>
                 <div class="klf-gallery-grid">
@@ -806,7 +851,7 @@
             const video = document.getElementById('klfModalVideo');
             const close = () => { modal.classList.remove('is-open'); modal.setAttribute('aria-hidden', 'true'); video.src = ''; image.removeAttribute('src'); };
             document.querySelectorAll('[data-klf-image]').forEach((button) => button.addEventListener('click', () => { image.src = button.dataset.klfImage; image.alt = button.querySelector('img').alt; image.hidden = false; video.hidden = true; modal.classList.add('is-open'); modal.setAttribute('aria-hidden', 'false'); }));
-            document.querySelectorAll('[data-klf-video]').forEach((button) => button.addEventListener('click', () => { video.src = `https://www.youtube.com/embed/${button.dataset.klfVideo}?autoplay=1&rel=0`; video.title = button.dataset.klfTitle; video.hidden = false; image.hidden = true; modal.classList.add('is-open'); modal.setAttribute('aria-hidden', 'false'); }));
+            document.querySelectorAll('[data-klf-video]').forEach((button) => button.addEventListener('click', () => { video.src = `https://www.youtube.com/embed/${button.dataset.klfVideo}?&rel=0`; video.title = button.dataset.klfTitle; video.hidden = false; image.hidden = true; modal.classList.add('is-open'); modal.setAttribute('aria-hidden', 'false'); }));
             modal.querySelector('.klf-modal-close').addEventListener('click', close);
             modal.addEventListener('click', (event) => { if (event.target === modal) close(); });
             document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && modal.classList.contains('is-open')) close(); });
