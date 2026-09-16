@@ -28,3 +28,5 @@ Route::get('/book-stall', [HomeController::class, 'book_stall']);
 Route::get('/gallery', [HomeController::class, 'gallery']);
 Route::get('/sessions-klf', [HomeController::class, 'sessions_klf']);
 Route::get('/bfc-lounge', [HomeController::class, 'bfc_lounge']);
+Route::get('/royalty-calculator', [HomeController::class, 'royalty_calculator']);
+// Route::get('/customize-package', [HomeController::class, 'customize_package']);

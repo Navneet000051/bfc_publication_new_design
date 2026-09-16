@@ -62,6 +62,14 @@ class HomeController extends Controller
     {
         return view('author-support');
     }
+    public function royalty_calculator()
+    {
+        return view('royalty-calculator');
+    }
+    // public function customize_package()
+    // {
+    //     return view('customize-package');
+    // }
     public function terms_and_condition()
     {
         return view('terms-and-condition');
