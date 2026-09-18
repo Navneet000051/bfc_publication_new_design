@@ -26,6 +26,14 @@ class HomeController extends Controller
     {
         return view('packages');
     }
+    public function ebook_publishing_packages()
+    {
+        return view('ebook-publishing-packages');
+    }
+    public function paperback_publishing_packages()
+    {
+        return view('paperback-publishing-packages');
+    }
     public function services()
     {
         return view('services');

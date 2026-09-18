@@ -45,27 +45,25 @@
                                 <li><a class="dropdown-item" href="{{ url('/author-support') }}"> Author Support</a>
                                 </li>
 
-
-
                                 <!-- <li><a class="dropdown-item" href="#">Book Publishing</a></li>
                             <li><a class="dropdown-item" href="#">Editing</a></li>
                             <li><a class="dropdown-item" href="#"> Book Design</a></li>
                             <li><a class="dropdown-item" href="{{ url('/book-marketing-services') }}">Marketing </a></li> -->
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="{{ url('/packages') }}">Packages </a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="{{ url('/packages') }}" role="button"
+                                data-bs-toggle="dropdown">Packages <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="{{ url('/paperback-publishing-packages') }}">Paperback</a></li>
+                                <li><a class="dropdown-item" href="{{ url('/ebook-publishing-packages') }}">eBook</a>
+                                </li>
+                            </ul>
                         </li>
-                        <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ url('/packages') }}" role="button" data-bs-toggle="dropdown">Packages <i
-                                class="fa-solid fa-chevron-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item"
-                                    href="{{ url('/paperback-publishing-packages') }}">Paperback</a></li>
-                            <li><a class="dropdown-item" href="{{ url('/ebook-publishing-packages') }}">eBook</a>
-                            </li>
-                        </ul>
-                    </li> -->
                         <li class="nav-item"><a class="nav-link" href="{{ url('/royalty-calculator') }}">Royalty
                                 Calculator</a></li>
                         <li class="nav-item"><a class="nav-link"
@@ -254,7 +252,7 @@
             </style>
         </div>
     </main>
-    
+
     <!-- footer  -->
     <section class="footer-section ">
         <footer class="site-footer">
@@ -322,8 +320,8 @@
                             <div class="footer-column">
                                 <h4>Quick Links</h4>
                                 <ul>
-                                    <li><a href="{{ url('/packages') }}"><span
-                                                class="footer-dot"></span>Packages</a></li>
+                                    <li><a href="{{ url('/packages') }}"><span class="footer-dot"></span>Packages</a>
+                                    </li>
                                     <li><a href="{{ '/services' }}"><span class="footer-dot"></span> Services</a></li>
                                     <li><a href="{{ url('/ebook-publisher-in-india') }}"><span
                                                 class="footer-dot"></span>eBook Publisher</a></li>

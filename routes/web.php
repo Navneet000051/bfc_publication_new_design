@@ -10,6 +10,8 @@ Route::get('/faq', [HomeController::class, 'faq']);
 Route::get('/career', [HomeController::class, 'career']);
 Route::get('/contact-us', [HomeController::class, 'contact_us']);
 Route::get('/packages', [HomeController::class, 'packages']);
+Route::get('/paperback-publishing-packages', [HomeController::class, 'paperback_publishing_packages']);
+Route::get('/ebook-publishing-packages', [HomeController::class, 'ebook_publishing_packages']);
 Route::get('/services', [HomeController::class, 'services']);
 Route::get('/book-publisher-in-india', [HomeController::class, 'book_publisher_in_india']);
 Route::get('/ebook-publisher-in-india', [HomeController::class, 'ebook_publisher_in_india']);
