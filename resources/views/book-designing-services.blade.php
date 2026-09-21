@@ -795,8 +795,7 @@
                                 book's design is thoughtfully crafted to reflect your story, meet your genre's reader
                                 expectations, and stand out on a crowded shelf — physical or digital.
                             </p>
-                            <!-- <a href="https://bfcpublications.com/customize-package/paperback"
-                                        class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a> -->
+
                             <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
                                 data-bs-target="#start_bfcpublishing_modal">
                                 Get Your Cover Designed</button>
@@ -808,7 +807,7 @@
                                 <div class="bfc_book_circle"></div>
                                 <div class="bfc_book">
                                     <div class="bfc_book_title">
-                                        Your Story
+                                        Your Cover
                                         <br>
                                         Deserves
                                         <br>
@@ -822,7 +821,7 @@
                                 <div class="bfc_floating_card one">
                                     <i class="bi bi-check2-circle"></i>
                                     <span>
-                                        Polished Writing
+                                        Market-Ready
                                     </span>
                                 </div>
                                 <div class="bfc_floating_card two">
@@ -837,36 +836,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- <section class="py-5">
-                        <div class="container-xxl px-lg-5 px-md-3 px-2">
-                            <div class="bfc_intro_box bfc_reveal">
-                                <div class="bfc_intro_content">
-                                    <div class="bfc_section_label">
-                                        Why Editing Matters
-                                    </div>
-                                    <h2 class="bfc_intro_title">
-                                        Before Your Book Meets Readers,
-                                        <span class="bfc_highlight">
-                                            Let It Meet Our Editors!
-                                        </span>
-                                    </h2>
-                                    <p class="bfc_intro_text">
-                                        A great book deserves more than just a spell-check before
-                                        it reaches readers. Our expert editors sharpen your
-                                        manuscript, improve its flow, and catch the details you
-                                        may have missed. Whether you need copy editing, formatting,
-                                        proofreading, or manuscript assessment, our editors work
-                                        with your manuscript while keeping your original voice
-                                        and story at the centre.
-                                    </p>
-                                    <div class="mt-4">
-                                        <a href="https://bfcpublications.com/customize-package/paperback" class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section> -->
 
         <section class="py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
@@ -1040,52 +1009,51 @@
                                 </h3>
                                 <p>
                                     Once everything is approved, you receive the final files, ready for print and/or eBook
-                                    publishing, depending on your requirements
+                                    publishing, depending on your requirements.
                                 </p>
                             </div>
                         </div>
                         <!-- <div class="col-lg">
-                                        <div class="bfc_process_item bfc_reveal">
-                                            <div class="bfc_process_icon">
-                                                05
+                                            <div class="bfc_process_item bfc_reveal">
+                                                <div class="bfc_process_icon">
+                                                    05
+                                                </div>
+                                                <h3>
+                                                   Final Sign-Off
+                                                </h3>
+                                                <p>
+                                                   Once you're happy with the edits, your manuscript is ready for the next stage of your publishing journey.
+                                                </p>
                                             </div>
-                                            <h3>
-                                               Final Sign-Off
-                                            </h3>
-                                            <p>
-                                               Once you're happy with the edits, your manuscript is ready for the next stage of your publishing journey.
-                                            </p>
-                                        </div>
-                                    </div> -->
+                                        </div> -->
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- <section class="bfc_cta_section py-5" id="bfc-editing-cta">
-                        <div class="container-xxl px-lg-5 px-md-3 px-2">
-                            <div class="bfc_cta_box bfc_reveal">
-                                <div class="bfc_cta_content">
-                                    <div class="bfc_section_label">
-                                        Your Manuscript Deserves More
-                                    </div>
-                                    <h2 class="bfc_cta_title">
-                                        Ready to get your manuscript
-                                        <span class="bfc_highlight">
-                                            reader-ready?
-                                        </span>
-                                    </h2>
-                                    <p class="bfc_cta_text">
-                                        Whether you need full book editing or just
-                                        a final polish, our editors are ready to help
-                                        you refine your manuscript while keeping
-                                        your voice intact.
-                                    </p>
-                                    <a href="https://bfcpublications.com/customize-package/paperback" class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a>
-                                </div>
-                            </div>
+        <section class="bfc_cta_section" id="bfc-editing-cta">
+            <div class="bfc_cta_box bfc_reveal py-md-5 py-4">
+                <div class="container-xxl px-lg-5 px-md-3 px-2">
+                    <div class="bfc_cta_content row justify-content-between align-items-center g-4">
+                        <div class="col-lg-8">
+                            <h2 class="bfc_cta_title">
+                                Ready to Make Your Book
+                                <span class="bfc_highlight">
+                                    Stand Out?
+                                </span>
+                            </h2>
+                            <p class="bfc_cta_text">
+                                Tell us about your story, genre, and vision, and our designers will turn it into a cover
+                                that's made to stand out—online and in print.
+                            </p>
                         </div>
-                    </section> -->
+                        <div class="col-lg-4 text-lg-end">
+                            <a href="{{ url('/contact-us') }}" class="px-4 rounded-pill hero-red-btn"> Get Your Cover
+                                Designed</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
 
         <section class="bfc_faq_section py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
@@ -1190,29 +1158,7 @@
             </div>
         </section>
 
-        <section class="bfc_cta_section" id="bfc-editing-cta">
-            <div class="bfc_cta_box bfc_reveal py-md-5 py-4">
-                <div class="container-xxl px-lg-5 px-md-3 px-2">
-                    <div class="bfc_cta_content row justify-content-between align-items-center g-4">
-                        <div class="col-lg-8">
-                            <h2 class="bfc_cta_title">
-                                Ready to Make Your Book 
-                                <span class="bfc_highlight">
-                                    Stand Out?
-                                </span>
-                            </h2>
-                            <p class="bfc_cta_text">
-                                Tell us about your story, genre, and vision, and our designers will turn it into a cover that's made to stand out—online and in print.
-                            </p>
-                        </div>
-                        <div class="col-lg-4 text-lg-end">
-                            <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
-                                data-bs-target="#start_bfcpublishing_modal">
-                               Get Your Cover Designed</button>
-                        </div>
-                    </div>
-                </div>
-        </section>
+
     </div>
 
     <script>

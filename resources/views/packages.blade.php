@@ -1096,7 +1096,7 @@
                     </p>
                 </div>
                 <div class="row g-4">
-                    <div class="col-12 col-sm-6 col-lg-3 ">
+                    <div class="col-12 col-sm-6 col-lg-4 ">
                         <div class="price-card">
                             <span class="corner-badge2">
                                 <img src="{{ asset('assets/img_new/home/essential-icon.svg') }}" alt="Essential Package">

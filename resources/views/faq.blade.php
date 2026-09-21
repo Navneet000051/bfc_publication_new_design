@@ -178,7 +178,7 @@
         <section class="faq-hero">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="faq-hero-content">
-                    <div class="faq-eyebrow">BFC Publications</div>
+                    <!-- <div class="faq-eyebrow">BFC Publications</div> -->
                     <h1 class="faq-title">Frequently Asked <span>Questions</span></h1>
                     <p class="faq-intro">Find clear answers to common questions about self-publishing with BFC Publications.
                     </p>

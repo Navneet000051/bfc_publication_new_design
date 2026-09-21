@@ -218,7 +218,7 @@
 
         .bfc_book_title {
             position: absolute;
-            top: 88px;
+            top: 78px;
             left: 25px;
             right: 25px;
             text-align: center;
@@ -793,10 +793,9 @@
                                 our editors work with your manuscript while keeping your original voice and story at the
                                 centre.
                             </p>
-                            <!-- <a href="https://bfcpublications.com/customize-package/paperback"
-                                class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a> -->
-                                
-                                <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
+
+
+                            <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
                                 data-bs-target="#start_bfcpublishing_modal">
                                 Get Your Manuscript Edited</button>
                         </div>
@@ -807,7 +806,7 @@
                                 <div class="bfc_book_circle"></div>
                                 <div class="bfc_book">
                                     <div class="bfc_book_title">
-                                        Your Story
+                                        Your Manuscript
                                         <br>
                                         Deserves
                                         <br>
@@ -838,34 +837,34 @@
         </section>
 
         <!-- <section class="py-5">
-                                            <div class="container-xxl px-lg-5 px-md-3 px-2">
-                                                <div class="bfc_intro_box bfc_reveal">
-                                                    <div class="bfc_intro_content">
-                                                        <div class="bfc_section_label">
-                                                            Why Editing Matters
-                                                        </div>
-                                                        <h2 class="bfc_intro_title">
-                                                            Before Your Book Meets Readers,
-                                                            <span class="bfc_highlight">
-                                                                Let It Meet Our Editors!
-                                                            </span>
-                                                        </h2>
-                                                        <p class="bfc_intro_text">
-                                                            A great book deserves more than just a spell-check before
-                                                            it reaches readers. Our expert editors sharpen your
-                                                            manuscript, improve its flow, and catch the details you
-                                                            may have missed. Whether you need copy editing, formatting,
-                                                            proofreading, or manuscript assessment, our editors work
-                                                            with your manuscript while keeping your original voice
-                                                            and story at the centre.
-                                                        </p>
-                                                        <div class="mt-4">
-                                                            <a href="https://bfcpublications.com/customize-package/paperback" class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a>
+                                                <div class="container-xxl px-lg-5 px-md-3 px-2">
+                                                    <div class="bfc_intro_box bfc_reveal">
+                                                        <div class="bfc_intro_content">
+                                                            <div class="bfc_section_label">
+                                                                Why Editing Matters
+                                                            </div>
+                                                            <h2 class="bfc_intro_title">
+                                                                Before Your Book Meets Readers,
+                                                                <span class="bfc_highlight">
+                                                                    Let It Meet Our Editors!
+                                                                </span>
+                                                            </h2>
+                                                            <p class="bfc_intro_text">
+                                                                A great book deserves more than just a spell-check before
+                                                                it reaches readers. Our expert editors sharpen your
+                                                                manuscript, improve its flow, and catch the details you
+                                                                may have missed. Whether you need copy editing, formatting,
+                                                                proofreading, or manuscript assessment, our editors work
+                                                                with your manuscript while keeping your original voice
+                                                                and story at the centre.
+                                                            </p>
+                                                            <div class="mt-4">
+                                                                <a href="https://bfcpublications.com/customize-package/paperback" class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </section> -->
+                                            </section> -->
 
         <section class="py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
@@ -1074,9 +1073,12 @@
                             </p>
                         </div>
                         <div class="col-lg-4 text-lg-end">
-                            <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
+                            <!-- <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
                                 data-bs-target="#start_bfcpublishing_modal">
-                                Get Your Manuscript Edited</button>
+                                </button> -->
+
+                            <a href="{{ url('/contact-us') }}"
+                                    class="px-4 rounded-pill hero-red-btn">Get Your Manuscript Edited</a>
                         </div>
                     </div>
                 </div>
@@ -1179,27 +1181,27 @@
         </section>
 
         <!-- <section class="bfc_final_cta">
-                                            <div class="container-xxl px-lg-5 px-md-3 px-2">
-                                                <div class="bfc_final_box bfc_reveal">
-                                                    <div class="bfc_section_label justify-content-center">
-                                                        Let's Perfect Your Story
+                                                <div class="container-xxl px-lg-5 px-md-3 px-2">
+                                                    <div class="bfc_final_box bfc_reveal">
+                                                        <div class="bfc_section_label justify-content-center">
+                                                            Let's Perfect Your Story
+                                                        </div>
+                                                        <h2>
+                                                            Ready to get your manuscript
+                                                            <span class="bfc_highlight">
+                                                                reader-ready?
+                                                            </span>
+                                                        </h2>
+                                                        <p>
+                                                            Whether you need full book editing or just
+                                                            a final polish, our editors are ready to help
+                                                            you refine your manuscript while keeping
+                                                            your voice intact.
+                                                        </p>
+                                                        <a href="https://bfcpublications.com/customize-package/paperback" class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a>
                                                     </div>
-                                                    <h2>
-                                                        Ready to get your manuscript
-                                                        <span class="bfc_highlight">
-                                                            reader-ready?
-                                                        </span>
-                                                    </h2>
-                                                    <p>
-                                                        Whether you need full book editing or just
-                                                        a final polish, our editors are ready to help
-                                                        you refine your manuscript while keeping
-                                                        your voice intact.
-                                                    </p>
-                                                    <a href="https://bfcpublications.com/customize-package/paperback" class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a>
                                                 </div>
-                                            </div>
-                                        </section> -->
+                                            </section> -->
     </div>
 
     <script>

@@ -795,14 +795,12 @@
                             </h1>
                             <p class="bfc_hero_text">
                                 Make your book accessible to more readers through our extensive distribution network across
-                                India and beyond
+                                India and beyond.
                             </p>
-                            <a href="{{ url('/customize-package')}}" class="px-4 rounded-pill hero-red-btn">Explore
-                                Distribution</a>
 
-                            <!-- <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
-                                                                    data-bs-target="#start_bfcpublishing_modal">
-                                                                    Explore Distribution</button> -->
+                            <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
+                                data-bs-target="#start_bfcpublishing_modal">
+                                Get My Book Distributed</button>
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -811,11 +809,11 @@
                                 <div class="bfc_book_circle"></div>
                                 <div class="bfc_book">
                                     <div class="bfc_book_title">
-                                        Your Story
+                                        Your Book
                                         <br>
                                         Deserves
                                         <br>
-                                        The Best
+                                       To Travel
                                     </div>
                                     <div class="bfc_book_author">
                                         BFC Publications
@@ -825,7 +823,7 @@
                                 <div class="bfc_floating_card one">
                                     <i class="bi bi-check2-circle"></i>
                                     <span>
-                                        Polished Writing
+                                        Wider Reach
                                     </span>
                                 </div>
                                 <div class="bfc_floating_card two">
@@ -855,7 +853,7 @@
                         wide network of platforms.
                     </p>
                 </div>
-                <div class="container distributor-platform">
+                <div class="container distributor-platform bfc_reveal">
                     <div class="row justify-content-center text-center">
 
                         <div class="col-lg-3 col-md-4 col-6 mb-4 ">
@@ -867,7 +865,11 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-6 mb-4 ">
-                            <img src="{{ asset('assets/img_new/partner/amazonkindle.webp') }}" alt="Kindle">
+                            <img src="{{ asset('assets/img_new/partner/amazonkindle.webp') }}" alt="amazonkindle">
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-6 mb-4 ">
+                            <img src="{{ asset('assets/img_new/partner/kobo.webp') }}" alt="kobo">
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-6 mb-4 ">
@@ -890,7 +892,7 @@
             </div>
         </section>
 
-        <section class="bfc_process_section pt-0 pb-5">
+        <section class="bfc_process_section py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center bfc_reveal">
                     <h2 class="bfc_section_title">
@@ -947,7 +949,7 @@
                                 <h3 class="text-mute">Book Availability</h3>
                                 <p class="bfc_cta_text">
                                     Once listed, readers can discover, purchase, or access your book through the platforms
-                                    where it is distributed
+                                    where it is distributed.
                                 </p>
                             </div>
                         </div>
@@ -1087,9 +1089,8 @@
                             </p>
                         </div>
                         <div class="col-lg-4 text-lg-end">
-                            <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
-                                data-bs-target="#start_bfcpublishing_modal">
-                                Get Started</button>
+                           <a href="{{ url('/contact-us') }}"
+                                class="px-4 rounded-pill hero-red-btn">Get Started</a>
                         </div>
                     </div>
                 </div>

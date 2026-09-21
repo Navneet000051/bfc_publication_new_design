@@ -236,22 +236,22 @@
 
         /* .bfc_pencil {
 
-                    position: absolute;
+                            position: absolute;
 
-                    width: 280px;
-                    height: 8px;
+                            width: 280px;
+                            height: 8px;
 
-                    right: 5px;
-                    bottom: 90px;
+                            right: 5px;
+                            bottom: 90px;
 
-                    background: var(--bfc-accent);
+                            background: var(--bfc-accent);
 
-                    border-radius: 10px;
+                            border-radius: 10px;
 
-                    transform: rotate(-32deg);
+                            transform: rotate(-32deg);
 
-                    box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
-                } */
+                            box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+                        } */
 
 
         .bfc_floating_card {
@@ -624,9 +624,9 @@
         }
 
         /* .bfc_faq {
-                        max-width: 950px;
-                        margin: 50px auto 0;
-                    } */
+                                max-width: 950px;
+                                margin: 50px auto 0;
+                            } */
 
 
         .bfc_faq .accordion-item {
@@ -788,9 +788,9 @@
 
 
             /* .bfc_cta_box {
-                padding: 45px 25px;
-                border-radius: 16px;
-            } */
+                        padding: 45px 25px;
+                        border-radius: 16px;
+                    } */
 
             .bfc_cta_text {
                 font-size: 14px;
@@ -868,7 +868,7 @@
                                 Your Book is Published. Now Let’s Get It Seen!
                             </div>
                             <h1>
-                               Book Marketing
+                                Book Marketing
 
                                 <span class="bfc_hero_highlight">
                                     Services
@@ -884,8 +884,7 @@
                                 gets discovered.
 
                             </p>
-                            <!-- <a href="https://bfcpublications.com/customize-package/paperback"
-                                    class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a> -->
+
                             <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
                                 data-bs-target="#start_bfcpublishing_modal">
                                 Get Your Book Discovered</button>
@@ -901,7 +900,7 @@
                                         <br>
                                         Deserves
                                         <br>
-                                        The Best
+                                        To Be Seen
                                     </div>
                                     <div class="bfc_book_author">
                                         BFC Publications
@@ -911,7 +910,7 @@
                                 <div class="bfc_floating_card one">
                                     <i class="bi bi-check2-circle"></i>
                                     <span>
-                                        Polished Writing
+                                        Wider Reach
                                     </span>
                                 </div>
                                 <div class="bfc_floating_card two">
@@ -984,7 +983,7 @@
                                 03
                             </span>
                             <div class="bfc_service_icon">
-                              <i class="fa-solid fa-video"></i>
+                                <i class="fa-solid fa-video"></i>
                             </div>
                             <h3>
                                 Video Trailer Launch
@@ -1002,7 +1001,7 @@
                                 04
                             </span>
                             <div class="bfc_service_icon">
-                               <i class="fa-solid fa-globe"></i>
+                                <i class="fa-solid fa-globe"></i>
                             </div>
                             <h3>
                                 Author Website
@@ -1020,7 +1019,7 @@
                                 05
                             </span>
                             <div class="bfc_service_icon">
-                               <i class="fa-brands fa-amazon"></i>
+                                <i class="fa-brands fa-amazon"></i>
                             </div>
                             <h3>
                                 Amazon Sponsored Ads
@@ -1056,7 +1055,7 @@
                                 07
                             </span>
                             <div class="bfc_service_icon">
-                               <i class="fa-brands fa-whatsapp"></i>
+                                <i class="fa-brands fa-whatsapp"></i>
                             </div>
                             <h3>
                                 WhatsApp Marketing
@@ -1095,7 +1094,7 @@
                                 09
                             </span>
                             <div class="bfc_service_icon">
-                               <i class="fa-solid fa-pen-to-square"></i>
+                                <i class="fa-solid fa-pen-to-square"></i>
                             </div>
                             <h3>
                                 Amazon Author Page Setup
@@ -1137,7 +1136,7 @@
                                 11
                             </span>
                             <div class="bfc_service_icon">
-                               <i class="fa-solid fa-envelope"></i>
+                                <i class="fa-solid fa-envelope"></i>
                             </div>
                             <h3>
                                 Email Marketing
@@ -1224,7 +1223,7 @@
                                 </h3>
                                 <p>
                                     We track how your campaigns are performing and keep you updated on their progress and
-                                    key results
+                                    key results.
                                 </p>
                             </div>
                         </div>
@@ -1232,7 +1231,30 @@
                 </div>
             </div>
         </section>
+        <section class="bfc_cta_section" id="bfc-editing-cta">
+            <div class="bfc_cta_box bfc_reveal py-md-5 py-4 rounded-0">
+                <div class="container-xxl px-lg-5 px-md-3 px-2">
+                    <div class="bfc_cta_content row justify-content-between align-items-center g-4">
+                        <div class="col-lg-8">
+                            <h2 class="bfc_cta_title">
+                                Ready to Help Your Book
+                                <span class="bfc_highlight">
+                                    Find Its Readers?
+                                </span>
+                            </h2>
+                            <p class="bfc_cta_text">
+                                Tell us about your book and your goals, and let’s build a marketing strategy and get your
+                                story in front of the right readers.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 text-lg-end">
 
+                            <a href="{{ url('/contact-us') }}" class="px-4 rounded-pill hero-red-btn">Start Marketing Your
+                                Book</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
         <section class="bfc_faq_section py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center bfc_reveal">
@@ -1243,7 +1265,7 @@
                         Frequently Asked Questions
                     </h2>
                 </div>
-                <div class="accordion bfc_faq" id="bfcEditingFaq">
+                <div class="accordion bfc_faq mt-5" id="bfcEditingFaq">
                     <!-- FAQ 1 -->
                     <div class="accordion-item bfc_reveal">
                         <h3 class="accordion-header">
@@ -1254,7 +1276,9 @@
                         </h3>
                         <div id="bfcFaqOne" class="accordion-collapse collapse show" data-bs-parent="#bfcEditingFaq">
                             <div class="accordion-body">
-                                The marketing services included depend on the publishing package you choose. Some services are part of specific packages, while others can be added separately based on your marketing needs. Our team can help you understand exactly what’s included in your package.
+                                The marketing services included depend on the publishing package you choose. Some services
+                                are part of specific packages, while others can be added separately based on your marketing
+                                needs. Our team can help you understand exactly what’s included in your package.
 
                             </div>
                         </div>
@@ -1265,14 +1289,16 @@
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#bfcFaqTwo">
-                               Can I choose specific services instead of a full marketing package?
+                                Can I choose specific services instead of a full marketing package?
 
                             </button>
                         </h3>
                         <div id="bfcFaqTwo" class="accordion-collapse collapse" data-bs-parent="#bfcEditingFaq">
 
                             <div class="accordion-body">
-                               Yes, depending on your publishing package and requirements, you can choose specific marketing services that best suit your book and goals. Our team can help you put together the right mix of services.
+                                Yes, depending on your publishing package and requirements, you can choose specific
+                                marketing services that best suit your book and goals. Our team can help you put together
+                                the right mix of services.
 
                             </div>
                         </div>
@@ -1282,14 +1308,15 @@
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#bfcFaqThree">
-                               Who sets the ad budget for Facebook, Google, and Instagram campaigns?
+                                Who sets the ad budget for Facebook, Google, and Instagram campaigns?
 
 
                             </button>
                         </h3>
                         <div id="bfcFaqThree" class="accordion-collapse collapse" data-bs-parent="#bfcEditingFaq">
                             <div class="accordion-body">
-                                Ad budgets are flexible and decided by you in consultation with our marketing specialists, based on your target audience, campaign goals, and the reach you want to achieve.
+                                Ad budgets are flexible and decided by you in consultation with our marketing specialists,
+                                based on your target audience, campaign goals, and the reach you want to achieve.
 
                             </div>
                         </div>
@@ -1305,7 +1332,9 @@
                         </h3>
                         <div id="bfcFaqFour" class="accordion-collapse collapse" data-bs-parent="#bfcEditingFaq">
                             <div class="accordion-body">
-                                Marketing can begin before or after your book is published, depending on your goals and the type of campaign. Ideally, planning starts early so that promotional activities can build momentum around your book’s launch and continue after publication.
+                                Marketing can begin before or after your book is published, depending on your goals and the
+                                type of campaign. Ideally, planning starts early so that promotional activities can build
+                                momentum around your book’s launch and continue after publication.
 
 
                             </div>
@@ -1316,14 +1345,15 @@
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#bfcFaqFive">
-                               Do you provide marketing performance reports?
+                                Do you provide marketing performance reports?
 
 
                             </button>
                         </h3>
                         <div id="bfcFaqFive" class="accordion-collapse collapse" data-bs-parent="#bfcEditingFaq">
                             <div class="accordion-body">
-                                Yes, we track campaign performance and keep you updated on key results. The reporting format and frequency may vary depending on the marketing services and campaigns you choose.
+                                Yes, we track campaign performance and keep you updated on key results. The reporting format
+                                and frequency may vary depending on the marketing services and campaigns you choose.
 
                             </div>
                         </div>
@@ -1332,29 +1362,7 @@
             </div>
         </section>
 
-         <section class="bfc_cta_section" id="bfc-editing-cta">
-            <div class="bfc_cta_box bfc_reveal py-md-5 py-4 rounded-0">
-                <div class="container-xxl px-lg-5 px-md-3 px-2">
-                    <div class="bfc_cta_content row justify-content-between align-items-center g-4">
-                        <div class="col-lg-8">
-                            <h2 class="bfc_cta_title">
-                                Ready to Help Your Book 
-                                <span class="bfc_highlight">
-                                    Find Its Readers?
-                                </span>
-                            </h2>
-                            <p class="bfc_cta_text">
-                                Tell us about your book and your goals, and let’s build a marketing strategy and get your story in front of the right readers.
-                            </p>
-                        </div>
-                        <div class="col-lg-4 text-lg-end">
-                            <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
-                                data-bs-target="#start_bfcpublishing_modal">
-                               Start Marketing Your Book</button>
-                        </div>
-                    </div>
-                </div>
-        </section>
+
     </div>
 
     <script>

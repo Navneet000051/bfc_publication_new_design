@@ -445,6 +445,10 @@
                         </div>
 
                         <div class="store-item" >
+                            <img src="{{ asset('assets/img_new/partner/kobo.webp') }}" alt="kobo">
+                        </div>
+
+                        <div class="store-item" >
                             <img src="{{ asset('assets/img_new/partner/googleplaybooks.jpg') }}" alt="Google Book">
                         </div>
 

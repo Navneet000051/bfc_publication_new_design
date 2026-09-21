@@ -753,7 +753,7 @@ a {
     color: var(--bg-color);
     text-align: center;
     font-size: 15px;
-    padding: 15px 0px;
+    padding: 12px 0px;
     align-self: center;
     border: 1px solid transparent;
 }

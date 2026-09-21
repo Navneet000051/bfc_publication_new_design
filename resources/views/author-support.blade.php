@@ -814,7 +814,8 @@
                                 <div class="bfc_floating_card one">
                                     <i class="bi bi-check2-circle"></i>
                                     <span>
-                                        Polished Writing
+                                        <!-- Polished Writing  -->
+                                        Always Available
                                     </span>
                                 </div>
                                 <div class="bfc_floating_card two">
@@ -914,10 +915,10 @@
                                 05
                             </span>
                             <div class="bfc_service_icon">
-                              <i class="fa-solid fa-ghost"></i>
+                              <i class="fa-solid fa-pen-to-square"></i>
                             </div>
                             <h3>
-                                Ghostwriting Support
+                                Writing Support
                             </h3>
                             <p>
                                Have a story in mind but need help putting it into words? Our ghostwriting service can help bring your ideas and experiences to the page while keeping your vision at the heart of the book.
@@ -944,9 +945,9 @@
                             </p>
                         </div>
                         <div class="col-lg-4 text-lg-end">
-                            <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
-                                data-bs-target="#start_bfcpublishing_modal">
-                                Connect With Us </button>
+                          
+                                <a href="{{ url('/contact-us') }}"
+                                        class="px-4 rounded-pill hero-red-btn"> Connect With Us</a>
                         </div>
                     </div>
                 </div>

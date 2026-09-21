@@ -123,7 +123,7 @@
         .career-art-badge {
             position: absolute;
             z-index: 1;
-            top: 48%;
+            top: 37%;
             left: 26%;
             display: grid;
             width: 68px;
@@ -435,6 +435,7 @@
                 <div class="career-heading">
                     <div class="career-kicker">Life at BFC</div>
                     <h2>A workplace where people can grow</h2>
+                    <!-- <h2>Life at BFC</h2> -->
                     <p>Our policies are liberal and transparent, with a focus on recognising good work and developing the
                         people behind every project.</p>
                 </div>
