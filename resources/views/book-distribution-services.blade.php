@@ -749,12 +749,13 @@
                 width: 100%;
             }
 
-            .bfc_floating_card.one {
-                right: -25px;
+           .bfc_floating_card.one {
+                right: 20px;
             }
 
             .bfc_floating_card.two {
-                left: -25px;
+                left: 20px;
+                bottom: 11px;
             }
 
             .bfc_section_title {

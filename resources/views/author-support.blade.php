@@ -750,11 +750,12 @@
             }
 
             .bfc_floating_card.one {
-                right: -25px;
+                right: 20px;
             }
 
             .bfc_floating_card.two {
-                left: -25px;
+                left: 20px;
+                bottom: 11px;
             }
 
             .bfc_section_title {
@@ -781,13 +782,15 @@
                                 You Don’t Have to Figure Out Publishing Alone!
                             </div>
                             <h1>
-                               Author Support
+                                Author Support
                                 <span class="bfc_hero_highlight">
                                     Services
                                 </span>
                             </h1>
                             <p class="bfc_hero_text">
-                                Got questions along the way? We’ve got you. From your first conversation with us to seeing your book in readers’ hands, our team is here to guide you, keep you updated, and help you navigate every step.
+                                Got questions along the way? We’ve got you. From your first conversation with us to seeing
+                                your book in readers’ hands, our team is here to guide you, keep you updated, and help you
+                                navigate every step.
                             </p>
                             <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
                                 data-bs-target="#start_bfcpublishing_modal">
@@ -841,7 +844,8 @@
                         Support That Stays With You
                     </h2>
                     <p class="bfc_section_description">
-                       Publishing can come with a lot of questions. Here’s how we make sure you always know what’s happening and what comes next.
+                        Publishing can come with a lot of questions. Here’s how we make sure you always know what’s
+                        happening and what comes next.
                     </p>
                 </div>
                 <div class="row g-4 justify-content-center">
@@ -851,13 +855,14 @@
                                 01
                             </span>
                             <div class="bfc_service_icon">
-                               <i class="fa-solid fa-chart-line"></i>
+                                <i class="fa-solid fa-chart-line"></i>
                             </div>
                             <h3>
                                 Your Author Dashboard
                             </h3>
                             <p>
-                                Keep track of important details like your book’s sales, royalties, and publishing progress, all in one place.
+                                Keep track of important details like your book’s sales, royalties, and publishing progress,
+                                all in one place.
                             </p>
                         </div>
                     </div>
@@ -870,10 +875,11 @@
                                 <i class="fa-solid fa-arrows-to-dot"></i>
                             </div>
                             <h3>
-                               A Dedicated Point of Contact
+                                A Dedicated Point of Contact
                             </h3>
                             <p>
-                                Have a question? You won’t have to start from scratch every time. Your dedicated manager is there to guide you through the process and help with your queries.
+                                Have a question? You won’t have to start from scratch every time. Your dedicated manager is
+                                there to guide you through the process and help with your queries.
                             </p>
                         </div>
                     </div>
@@ -883,13 +889,14 @@
                                 03
                             </span>
                             <div class="bfc_service_icon">
-                               <i class="fa-solid fa-person-military-pointing"></i>
+                                <i class="fa-solid fa-person-military-pointing"></i>
                             </div>
                             <h3>
-                               Know What Happens Next
+                                Know What Happens Next
                             </h3>
                             <p>
-                                From signing up and submitting your manuscript to editing, design, publishing, and distribution, we keep you informed at every stage of your publishing journey.
+                                From signing up and submitting your manuscript to editing, design, publishing, and
+                                distribution, we keep you informed at every stage of your publishing journey.
                             </p>
                         </div>
                     </div>
@@ -899,13 +906,14 @@
                                 04
                             </span>
                             <div class="bfc_service_icon">
-                               <i class="fa-regular fa-thumbs-up"></i>
+                                <i class="fa-regular fa-thumbs-up"></i>
                             </div>
                             <h3>
-                               Support After Publication
+                                Support After Publication
                             </h3>
                             <p>
-                               Our support doesn’t stop once your book is published. We’re here to help with reprints, edition updates, and other post-publication requirements.
+                                Our support doesn’t stop once your book is published. We’re here to help with reprints,
+                                edition updates, and other post-publication requirements.
                             </p>
                         </div>
                     </div>
@@ -915,13 +923,15 @@
                                 05
                             </span>
                             <div class="bfc_service_icon">
-                              <i class="fa-solid fa-pen-to-square"></i>
+                                <i class="fa-solid fa-pen-to-square"></i>
                             </div>
                             <h3>
                                 Writing Support
                             </h3>
                             <p>
-                               Have a story in mind but need help putting it into words? Our ghostwriting service can help bring your ideas and experiences to the page while keeping your vision at the heart of the book.
+                                Have a story in mind but need help putting it into words? Our ghostwriting service can help
+                                bring your ideas and experiences to the page while keeping your vision at the heart of the
+                                book.
                             </p>
                         </div>
                     </div>
@@ -929,25 +939,25 @@
             </div>
         </section>
 
-          <section class="bfc_cta_section" id="bfc-editing-cta">
+        <section class="bfc_cta_section" id="bfc-editing-cta">
             <div class="bfc_cta_box bfc_reveal py-md-5 py-4">
                 <div class="container-xxl px-lg-5 px-md-3 px-2">
                     <div class="bfc_cta_content row justify-content-between align-items-center g-4">
                         <div class="col-lg-8">
                             <h2 class="bfc_cta_title">
-                               Stuck at Any Step? We've 
+                                Stuck at Any Step? We've
                                 <span class="bfc_highlight">
-                                    Got You Covered 
+                                    Got You Covered
                                 </span>
                             </h2>
                             <p class="bfc_cta_text">
-                               From your first manuscript to post-publish support, our team is here to guide you. Share your details and we'll get in touch with you.
+                                From your first manuscript to post-publish support, our team is here to guide you. Share
+                                your details and we'll get in touch with you.
                             </p>
                         </div>
                         <div class="col-lg-4 text-lg-end">
-                          
-                                <a href="{{ url('/contact-us') }}"
-                                        class="px-4 rounded-pill hero-red-btn"> Connect With Us</a>
+
+                            <a href="{{ url('/contact-us') }}" class="px-4 rounded-pill hero-red-btn"> Connect With Us</a>
                         </div>
                     </div>
                 </div>
@@ -957,20 +967,21 @@
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="bfc_final_box bfc_reveal">
                     <!-- <div class="bfc_section_label justify-content-center">
-                       
-                    </div> -->
+
+                        </div> -->
                     <h2>
-                        Stuck at Any Step? We've 
+                        Stuck at Any Step? We've
                         <span class="bfc_highlight">
-                            Got You Covered 
+                            Got You Covered
                         </span>
                     </h2>
                     <p>
-                        From your first manuscript to post-publish support, our team is here to guide you. Share your details and we'll get in touch with you.
+                        From your first manuscript to post-publish support, our team is here to guide you. Share your
+                        details and we'll get in touch with you.
                     </p>
                     <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
                         data-bs-target="#start_bfcpublishing_modal">
-                       Connect With Us </button>
+                        Connect With Us </button>
                 </div>
             </div>
         </section>
