@@ -35,12 +35,12 @@
             text-transform: uppercase;
         }
 
-        .career-kicker::before {
+        /* .career-kicker::before {
             width: 28px;
             height: 2px;
             content: '';
             background: currentColor;
-        }
+        } */
 
         .career-hero {
             position: relative;
@@ -139,7 +139,7 @@
         }
 
         .career-section {
-            padding: 86px 0;
+            padding: 65px 0;
         }
 
         .career-heading {
@@ -410,7 +410,7 @@
             <div class="career-shell">
                 <div class="row align-items-center g-5">
                     <div class="col-lg-6">
-                        <div class="career-kicker">BFC Publications Careers</div>
+                        <!-- <div class="career-kicker">BFC Publications Careers</div> -->
                         <h1>Build stories. <span>Build your future.</span></h1>
                         <p class="career-hero-copy">
                             We are a publishing house, and our success is determined by the calibre of the people we work with. As a result, we make continuous efforts to improve the skill set of our employees and offer them an environment congenial for personal and professional growth. Our human resource policies are liberal, transparent, and among the best in the industry.
@@ -423,7 +423,7 @@
                                 alt="BFC Publications workplace"><img class="career-art-three"
                                 src="{{ asset('assets/img_new/other/3.webp') }}"
                                 alt="BFC Publications team activity">
-                            <div class="career-art-badge">BFC</div>
+                            <!-- <div class="career-art-badge">BFC</div> -->
                         </div>
                     </div>
                 </div>
@@ -433,9 +433,9 @@
         <section class="container-xxl px-lg-5 px-md-3 px-2 career-section">
             <div class="career-shell">
                 <div class="career-heading">
-                    <div class="career-kicker">Life at BFC</div>
-                    <h2>A workplace where people can grow</h2>
-                    <!-- <h2>Life at BFC</h2> -->
+                    <!-- <div class="career-kicker">Life at BFC</div> -->
+                    <!-- <h2>A workplace where people can grow</h2> -->
+                    <h2>Life at BFC</h2>
                     <p>Our policies are liberal and transparent, with a focus on recognising good work and developing the
                         people behind every project.</p>
                 </div>
@@ -469,7 +469,7 @@
                     <div class="col-md-6">
                         <article class="career-value"><i class="bi bi-award"></i>
                             <h3>Remuneration</h3>
-                            <p>BFC Publications believes that everyone should have equal access to opportunities. The pay offered here is among the best in the industry. In addition to fixed income, the company also offers substantial incentives as well.</p>
+                            <p>BFC Publications believes that everyone should have equal access to opportunities. The pay offered here is among the best in the industry. In addition to fixed income, the company also offers substantial incentives.</p>
                         </article>
                     </div>
                     <div class="col-md-6">

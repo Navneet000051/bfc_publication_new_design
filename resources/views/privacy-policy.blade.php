@@ -47,6 +47,12 @@
             margin-bottom: 10px;
         }
 
+        .bfc_terms_section h1 {
+            margin: 4px 0 0;
+            color: var(--bfc_terms_primary);
+            font-size: clamp(20px, 3vw, 30px);
+            line-height: 1.4;
+        }
         .bfc_terms_section h2 {
             margin: 4px 0 0;
             color: var(--bfc_terms_primary);
@@ -150,8 +156,11 @@
                 padding: 30px 0;
             }
 
-            .bfc_terms_section h2 {
+            .bfc_terms_section h1 {
                 font-size: 25px;
+            }
+            .bfc_terms_section h2 {
+                font-size: 20px;
             }
 
             .bfc_terms_section p {
@@ -172,8 +181,11 @@
                 gap: 10px;
             }
 
-            .bfc_terms_section h2 {
+            .bfc_terms_section h1 {
                 font-size: 20px;
+            }
+            .bfc_terms_section h2 {
+                font-size: 19px;
             }
         }
     </style>
@@ -183,7 +195,7 @@
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <section class="bfc_terms_section" id="bfc_terms_cookies">
                     <div class="bfc_terms_section_heading">
-                        <h2> Privacy Policy</h2>
+                        <h1> Privacy Policy</h1>
                     </div>
                     <p>
                         We at BFC Publications are committed to protecting the privacy and security of your personal data.
@@ -204,7 +216,7 @@
 
                 <section class="bfc_terms_section" id="bfc_terms_license">
                     <div class="bfc_terms_section_heading">
-                        <h2> Information we collect</h2>
+                        <h2> Information We Collect</h2>
                     </div>
                     <p>
                         Information You Provide – During your initial visit to our Platforms, the Company shall seek certain
@@ -329,7 +341,7 @@
                     </div>
                     <p>
                         Mr. Ashish Kumar Verma has been appointed as Data Protection Officer for the compliance of the DPDP
-                        Act 2023. She can be contacted at dtataprotectionbfc@gmail.com for any query/concern/grievance
+                        Act 2023. He can be contacted at <a href="mailto:dataprotectionbfc@gmail.com">dataprotectionbfc@gmail.com </a> for any query/concern/grievance
                         related to protection/processing/erase/correction of your personal data.
                     </p>
                 </section>

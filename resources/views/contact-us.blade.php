@@ -253,8 +253,7 @@
                     <span>Reach Out</span> to Us
                 </h1>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, distinctio atque quas laudantium
-                    totam animi aliquam expedita ratione similique nisi.
+                    Have questions about publishing your book? Get in touch with our team for expert guidance and support at every step of your publishing journey.
                 </p>
             </div>
 

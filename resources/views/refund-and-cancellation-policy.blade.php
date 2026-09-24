@@ -47,6 +47,12 @@
             margin-bottom: 10px;
         }
 
+        .bfc_terms_section h1 {
+            margin: 4px 0 0;
+            color: var(--bfc_terms_primary);
+            font-size: clamp(20px, 3vw, 30px);
+            line-height: 1.4;
+        }
         .bfc_terms_section h2 {
             margin: 4px 0 0;
             color: var(--bfc_terms_primary);
@@ -150,6 +156,9 @@
                 padding: 30px 0;
             }
 
+            .bfc_terms_section h1 {
+                font-size: 25px;
+            }
             .bfc_terms_section h2 {
                 font-size: 25px;
             }
@@ -172,6 +181,9 @@
                 gap: 10px;
             }
 
+            .bfc_terms_section h1 {
+                font-size: 20px;
+            }
             .bfc_terms_section h2 {
                 font-size: 20px;
             }
@@ -183,7 +195,7 @@
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <section class="bfc_terms_section" id="bfc_terms_cookies">
                     <div class="bfc_terms_section_heading">
-                        <h2>Refund and Cancellation Policy</h2>
+                        <h1>Refund and Cancellation Policy</h1>
                     </div>
                     <p>
                        BFC Publications retains the right to terminate/cancel a project under specific circumstances. This includes situations where the author has outstanding payments, has failed to settle dues according to the agreed-upon schedule, has not submitted the manuscript within six months of the booking, or has not provided approvals within six months of the booking, for drafts submitted by the editorial team.

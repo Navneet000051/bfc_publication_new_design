@@ -62,9 +62,9 @@
             }
 
             /*{
-                max-width: 760px;
-            }*/ 
-            
+                                max-width: 760px;
+                            }*/
+
             .bfc_publishing_packages_content h1 {
                 font-size: 40px;
             }
@@ -126,615 +126,42 @@
         <div class="container-xxl px-lg-5 px-md-3 px-2 position-relative pt-2">
             <div class="bfc_publishing_packages_content text-center">
                 <h1>
-                    <span>Book Publishing Packages </span> for Every Author
+                    <span>Paperback Publishing Packages </span> for Every Author
                 </h1>
                 <p>
-                    Compare paperback and eBook plans side by side — editing, design, ISBN, marketing and
+                    Compare paperback plans side by side — editing, design, ISBN, marketing and
                     distribution, all laid out plainly. Not seeing the fit? Build your own plan below.
                 </p>
             </div>
             <div class="tab-panel active" id="paperback_details">
-                <div class="section-header2 text-center my-5">
-                    <h2>
-                        <span>Paperback publishing packages</span>
-                    </h2>
-                    <p class="w-75 text-center m-auto">Every plan includes ISBN allocation, a dedicated publishing manager
-                        and monthly royalty payouts. Higher tiers add rounds of editing, marketing reach and author copies.
-                    </p>
-                </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-12 col-sm-6 col-lg-3 ">
-                        <div class="price-card">
-                            <span class="corner-badge">
-                                <img src="{{ asset('assets/img_new/home/economy-icon.svg') }}" alt="Economy Package">
-                            </span>
-                            <h3 class="plan-name">Economy</h3>
-                            <div class="plan-price">
-                                <span class="amt">₹6,499</span>
-                                <span class="gst">+ GST</span>
-                            </div>
-                            <p class="plan-desc">Basic editing and publishing for new authors.</p>
-
-                            <ul class="plan-features">
-                                <li>
-                                    <span>Format Editing (2 Rounds)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Basic Cover Design</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>ISBN Allocation</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Author's E-certificate</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Online Sales Dashboard</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Author Profit Share (100%)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Profit / Royalty Payout (Monthly)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Inventory Manager</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Technical Support</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Dedicated Publishing Manager</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Non Exclusive Agreement</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Complimentary Author Copies (5)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Additional Author Copies (Order at Subsidised Price)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Number of Pages Allowed (75)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Content Allowed (Text and Images)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Paper Type (75 GSM Creamy / 75 GSM White)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Book Size (5*8 / 5.5*8.5)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Lamination (Gloss / Matte)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Book Interior (Black & White)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Book Cover (MultiColor 250 GSM)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>eBook Creation & Distribution</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                            </ul>
-                            <a href="#" class="plan-btn">Choose Economy</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-3 ">
-                        <div class="price-card">
-                            <span class="corner-badge2">
-                                <img src="{{ asset('assets/img_new/home/essential-icon.svg') }}" alt="Essential Package">
-                            </span>
-                            <h3 class="plan-name">Essential</h3>
-                            <div class="plan-price">
-                                <span class="amt">₹12,999</span><span class="gst">
-                                    + GST
-                                </span>
-                            </div>
-                            <p class="plan-desc">
-                                Enhanced editing and design for a professional book.
-                            </p>
-
-                            <ul class="plan-features">
-                                <li>
-                                    <span>Format Editing (2 Rounds)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Proof Reading (2 Rounds)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Cover Design (2 Rounds)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>ISBN Allocation</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Creative posts on Facebook, Instagram, and Twitter</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Author's E-certificate</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>ISBN Barcode</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Author's Copyright</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Paid marketing on Facebook and Instagram, along with collaboration with the
-                                        author (For 5 Days)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Online Listing & Distribution</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Online Sales Dashboard</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Author Profit Share (100%)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Profit / Royalty Payout (Monthly)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Inventory Manager</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Technical Support</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Dedicated Publishing Manager</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Non Exclusive Agreement</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Complimentary Author Copies (10)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Additional Author Copies (Order at Subsidised Price)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Number of Pages Allowed (100)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Content Allowed (Text and Images)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Paper Type (75 GSM Creamy / 75 GSM White)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Book Size (5*8 / 5.5*8.5)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Lamination (Gloss / Matte)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Book Interior (Black & White)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Book Cover (MultiColor 250 GSM)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>eBook Creation & Distribution</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                            </ul>
-                            <a href="#" class="plan-btn">Choose Essential</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-3 ">
-                        <div class="price-card">
-                            <span class="corner-badge3">
-                                <img src="{{ asset('assets/img_new/home/regular-icon.svg') }}" alt="Regular Package">
-                            </span>
-                            <h3 class="plan-name">Regular</h3>
-                            <div class="plan-price"><span class="amt">₹19,499</span><span class="gst">+ GST</span></div>
-                            <p class="plan-desc">Advance publishing with marketing support.</p>
-
-                            <ul class="plan-features">
-                                <li>
-                                    <span>Format Editing (2 Rounds)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Proof Reading (2 Rounds)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Cover Design (2 Rounds)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>ISBN Allocation</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Creative posts on Facebook, Instagram, and Twitter</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>KDP</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Author's E-certificate</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Instagram Book Launch</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>ISBN Barcode</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Author's Copyright</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Paid marketing on Facebook and Instagram, along with collaboration with the
-                                        author (For 10 Days)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Digital Poster (1)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Paid Youtube Marketing (For 5 Days)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Amazon Prime Listing</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Youtube Marketing - Trailer Launch</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Establishing a YouTube channel with custom thumbnail and cover</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Digital Releases (On 2 Website)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Amazon Author Page Set Up</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Online Listing & Distribution</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Online Sales Dashboard</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Author Profit Share (100%)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Profit / Royalty Payout (Monthly)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Inventory Manager</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Technical Support</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Dedicated Publishing Manager</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Non Exclusive Agreement</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Complimentary Author Copies (12)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Additional Author Copies (Order at Subsidised Price)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Number of Pages Allowed (100)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Content Allowed (Text and Images)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Paper Type (75 GSM Creamy / 75 GSM White)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Book Size (5*8 / 5.5*8.5)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Lamination (Gloss / Matte)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Book Interior (Black & White)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Book Cover (MultiColor 250 GSM)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>eBook Creation & Distribution</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                            </ul>
-                            <a href="#" class="plan-btn">Choose Regular</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-3 ">
-                        <div class="price-card">
-                            <span class="corner-badge4">
-                                <img src="{{ asset('assets/img_new/home/elite-icon.svg') }}" alt="Elite Package">
-                            </span>
-                            <h3 class="plan-name">Elite</h3>
-                            <div class="plan-price"><span class="amt">₹34,999</span><span class="gst">+ GST</span></div>
-                            <p class="plan-desc">Premium package with maximum exposure.</p>
-
-                            <ul class="plan-features">
-                                <li>
-                                    <span>Format Editing (2 Rounds)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Proof Reading (2 Rounds)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Cover Design (2 Rounds)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>ISBN Allocation</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Creative posts on Facebook, Instagram, and Twitter</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>KDP</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Author's E-certificate</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>ISBN Barcode</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Author's Copyright</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Paid marketing on Facebook and Instagram, along with collaboration with the
-                                        author (For 15 Days)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Digital Poster (2)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Paid Youtube Marketing (For 10 Days)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Podcast</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Amazon Prime Listing</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Copyright</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Youtube Marketing - Trailer Launch</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Establishing a YouTube channel with custom thumbnail and cover</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Digital Releases (On 8 Website)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Goodreads Account Set Up</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Amazon Author Page Set Up</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Bonafide Amazon Reviews</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Online Listing & Distribution</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Online Sales Dashboard</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Author Profit Share (100%)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Profit / Royalty Payout (Monthly)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Inventory Manager</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Technical Support</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Dedicated Publishing Manager</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Non Exclusive Agreement</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Complimentary Author Copies (15)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Additional Author Copies (Order at Subsidised Price)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Number of Pages Allowed (150)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Content Allowed (Text and Images)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Paper Type (75 GSM Creamy / 75 GSM White)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Book Size (5*8 / 5.5*8.5)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Lamination (Gloss / Matte)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Book Interior (Black & White)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Book Cover (MultiColor 250 GSM)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>eBook Creation & Distribution</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                            </ul>
-                            <a href="#" class="plan-btn">Choose Elite</a>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="bfc_packages_details pt-5">
-                    <div class="section-header2 text-lg-start text-center">
-                        <h2>Full feature comparison</h2>
-                        <p>
-                            Every single line from the feature list, across all four
-                            paperback plans — nothing left out.
-                        </p>
-                    </div>
-                    <div class="bfc_packages_details_toggle">
-                        <button type="button" class="bfc_packages_details_btn border" data-bs-toggle="collapse"
-                            data-bs-target="#bfcPaperbackComparison" aria-expanded="false"
-                            aria-controls="bfcPaperbackComparison">
-                            <span>Compare all paperback plans</span>
-                            <span class="bfc_packages_details_icon">
-                                <span class="plus-icon"><i class="fa-solid fa-plus"></i></span>
-                                <span class="minus-icon"><i class="fa-solid fa-minus"></i></span>
-                            </span>
-                        </button>
-                    </div>
-                    <div class="collapse" id="bfcPaperbackComparison">
+                    <div>
                         <div class="bfc_packages_details_table_wrap">
                             <div class="table-responsive">
                                 <table class="table bfc_packages_details_table overflow-hidden">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Feature</th>
-                                            <th scope="col">Economy</th>
-                                            <th scope="col">Essential</th>
-                                            <th scope="col">Regular</th>
-                                            <th scope="col">Elite</th>
+                                            <th scope="col">Feature Description</th>
+                                            <th scope="col">Economy
+                                                <h3 class="price_details"><i class="fa-solid fa-indian-rupee-sign"></i>6,499
+                                                    <span>+ GST</span>
+                                                </h3>
+                                            </th>
+                                            <th scope="col">Essential
+                                                <h3 class="price_details"><i
+                                                        class="fa-solid fa-indian-rupee-sign"></i>12,999 <span>+ GST</span>
+                                                </h3>
+                                            </th>
+                                            <th scope="col">Regular
+                                                <h3 class="price_details"><i
+                                                        class="fa-solid fa-indian-rupee-sign"></i>19,499 <span>+ GST</span>
+                                                </h3>
+                                            </th>
+                                            <th scope="col">Elite
+                                                <h3 class="price_details"><i
+                                                        class="fa-solid fa-indian-rupee-sign"></i>34,999 <span>+ GST</span>
+                                                </h3>
+                                            </th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -1069,6 +496,22 @@
                                             <td><span class="bfc_yes">Yes</span></td>
                                             <td><span class="bfc_yes">Yes</span></td>
                                         </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>
+                                                <a href="{{ url('/customize-package/paperback') }}" class="px-3 rounded-pill hero-red-btn py-2 d-block">Get Now</a>
+                                            </td>
+                                            <td>
+                                                <a href="{{ url('/customize-package/paperback') }}" class="px-3 rounded-pill hero-red-btn py-2 d-block">Get Now</a>
+                                            </td>
+                                            <td>
+                                                <a href="{{ url('/customize-package/paperback') }}" class="px-3 rounded-pill hero-red-btn py-2 d-block">Get Now</a>
+                                            </td>
+                                            <td>
+                                                <a href="{{ url('/customize-package/paperback') }}" class="px-3 rounded-pill hero-red-btn py-2 d-block">Get Now</a>
+                                            </td>
+                                            
+                                        </tr>
 
                                     </tbody>
                                 </table>
@@ -1076,7 +519,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -1254,7 +696,8 @@
                 </div>
                 <div class="col-lg-6 col-12 text-lg-end text-center">
                     <div class="">
-                        <a href="https://bfcpublications.com/customize-package/paperback" class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a>
+                        <a href="{{ url('/customize-package/paperback') }}" class="px-4 rounded-pill hero-red-btn">Click
+                            Here to Customize Your Plan</a>
 
                     </div>
                 </div>

@@ -342,7 +342,7 @@
             <div class="svc-shell container-xxl px-lg-5 px-md-3 px-2 py-3">
                 <div class="row align-items-center g-5">
                     <div class="col-lg-7">
-                        <div class="svc-kicker">BFC Publications</div>
+                        <!-- <div class="svc-kicker">BFC Publications</div> -->
                         <h1>Self-publishing <span>Services in India</span></h1>
                         <p>
                             From shaping your manuscript to reaching readers across the country, BFC Publications puts you
@@ -641,7 +641,7 @@
             <section class="faq-content py-4">
                 <div class="container-xxl px-lg-5 px-md-3 px-2">
                     <div class="svc-heading">
-                        <div class="svc-kicker">Need To Know</div>
+                        <!-- <div class="svc-kicker">Need To Know</div> -->
                         <h2>Frequently Asked Questions</h2>
                     </div>
                     <div class="faq-list">

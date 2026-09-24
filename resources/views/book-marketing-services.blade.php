@@ -40,12 +40,12 @@
             margin-bottom: 14px;
         }
 
-        .bfc_section_label::before {
+        /* .bfc_section_label::before {
             content: "";
             width: 30px;
             height: 2px;
             background: var(--bfc-accent);
-        }
+        } */
 
 
         .bfc_section_title {
@@ -591,14 +591,14 @@
             border-radius: 50%;
         }
 
-        .bfc_cta_box::after {
+        /* .bfc_cta_box::after {
             content: "BOOK";
             position: absolute;
             right: 45px;
             bottom: -65px;
             font-size: 180px;
             color: rgba(255, 255, 255, .025);
-        }
+        } */
 
         .bfc_cta_content {
             position: relative;
@@ -930,9 +930,9 @@
         <section class="py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center mb-5 bfc_reveal">
-                    <div class="bfc_section_label">
+                    <!-- <div class="bfc_section_label">
                         Our Expertise
-                    </div>
+                    </div> -->
                     <h2 class="bfc_section_title">
                         Marketing Services We Offer
                     </h2>
@@ -1158,9 +1158,9 @@
         <section class="bfc_process_section py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center bfc_reveal">
-                    <div class="bfc_section_label">
+                    <!-- <div class="bfc_section_label">
                         The Process
-                    </div>
+                    </div> -->
                     <h2 class="bfc_section_title">
                         How It Works
                     </h2>
@@ -1250,8 +1250,7 @@
                         </div>
                         <div class="col-lg-4 text-lg-end">
 
-                            <a href="{{ url('/contact-us') }}" class="px-4 rounded-pill hero-red-btn">Start Marketing Your
-                                Book</a>
+                            <a href="{{ url('/contact') }}" class="px-4 rounded-pill hero-red-btn">Connect With Us</a>
                         </div>
                     </div>
                 </div>
@@ -1259,9 +1258,9 @@
         <section class="bfc_faq_section py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center bfc_reveal">
-                    <div class="bfc_section_label">
+                    <!-- <div class="bfc_section_label">
                         Need To Know
-                    </div>
+                    </div> -->
                     <h2 class="bfc_section_title">
                         Frequently Asked Questions
                     </h2>

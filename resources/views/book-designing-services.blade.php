@@ -40,12 +40,12 @@
             margin-bottom: 14px;
         }
 
-        .bfc_section_label::before {
-            content: "";
-            width: 30px;
-            height: 2px;
-            background: var(--bfc-accent);
-        }
+        /* .bfc_section_label::before {
+                content: "";
+                width: 30px;
+                height: 2px;
+                background: var(--bfc-accent);
+            } */
 
         .bfc_section_title {
             color: var(--bfc-primary);
@@ -504,14 +504,14 @@
             border-radius: 50%;
         }
 
-        .bfc_cta_box::after {
-            content: "BOOK";
-            position: absolute;
-            right: 45px;
-            bottom: -65px;
-            font-size: 180px;
-            color: rgba(255, 255, 255, .025);
-        }
+        /* .bfc_cta_box::after {
+                content: "BOOK";
+                position: absolute;
+                right: 45px;
+                bottom: -65px;
+                font-size: 180px;
+                color: rgba(255, 255, 255, .025);
+            } */
 
         .bfc_cta_content {
             position: relative;
@@ -749,7 +749,7 @@
                 width: 100%;
             }
 
-          .bfc_floating_card.one {
+            .bfc_floating_card.one {
                 right: 20px;
             }
 
@@ -841,9 +841,9 @@
         <section class="py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center mb-5 bfc_reveal">
-                    <div class="bfc_section_label">
-                        Our Expertise
-                    </div>
+                    <!-- <div class="bfc_section_label">
+                            Our Expertise
+                        </div> -->
                     <h2 class="bfc_section_title">
                         Cover Design
                     </h2>
@@ -945,9 +945,9 @@
         <section class="bfc_process_section py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center bfc_reveal">
-                    <div class="bfc_section_label">
-                        The Process
-                    </div>
+                    <!-- <div class="bfc_section_label">
+                            The Process
+                        </div> -->
                     <h2 class="bfc_section_title">
                         How It Works
                     </h2>
@@ -1015,18 +1015,18 @@
                             </div>
                         </div>
                         <!-- <div class="col-lg">
-                                            <div class="bfc_process_item bfc_reveal">
-                                                <div class="bfc_process_icon">
-                                                    05
+                                                <div class="bfc_process_item bfc_reveal">
+                                                    <div class="bfc_process_icon">
+                                                        05
+                                                    </div>
+                                                    <h3>
+                                                       Final Sign-Off
+                                                    </h3>
+                                                    <p>
+                                                       Once you're happy with the edits, your manuscript is ready for the next stage of your publishing journey.
+                                                    </p>
                                                 </div>
-                                                <h3>
-                                                   Final Sign-Off
-                                                </h3>
-                                                <p>
-                                                   Once you're happy with the edits, your manuscript is ready for the next stage of your publishing journey.
-                                                </p>
-                                            </div>
-                                        </div> -->
+                                            </div> -->
                     </div>
                 </div>
             </div>
@@ -1049,7 +1049,7 @@
                             </p>
                         </div>
                         <div class="col-lg-4 text-lg-end">
-                            <a href="{{ url('/contact-us') }}" class="px-4 rounded-pill hero-red-btn"> Get Your Cover
+                            <a href="{{ url('/contact') }}" class="px-4 rounded-pill hero-red-btn"> Get Your Cover
                                 Designed</a>
                         </div>
                     </div>
@@ -1059,9 +1059,9 @@
         <section class="bfc_faq_section py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center bfc_reveal">
-                    <div class="bfc_section_label">
-                        Need To Know
-                    </div>
+                    <!-- <div class="bfc_section_label">
+                            Need To Know
+                        </div> -->
                     <h2 class="bfc_section_title">
                         Frequently Asked Questions
                     </h2>
@@ -1112,7 +1112,7 @@
                         </h3>
                         <div id="bfcFaqThree" class="accordion-collapse collapse" data-bs-parent="#bfcEditingFaq">
                             <div class="accordion-body">
-                                We can design for both print and eBook formats. Print covers include the front, spine, and
+                                We can design for both print and <a href="{{ url('/ebook-publisher-in-india') }}"> eBook formats </a>. Print covers include the front, spine, and
                                 back, while eBook covers are created specifically for digital platforms and their display
                                 requirements.
 
@@ -1148,7 +1148,8 @@
                         </h3>
                         <div id="bfcFaqFive" class="accordion-collapse collapse" data-bs-parent="#bfcEditingFaq">
                             <div class="accordion-body">
-                                Design services are included in our publishing packages, with the exact scope depending on
+                                Design services are included in our <a href="{{ url('packages') }}"> publishing packages
+                                </a>, with the exact scope depending on
                                 the package you choose. Our team can help you understand what's included and recommend the
                                 option that best fits your requirements.
 

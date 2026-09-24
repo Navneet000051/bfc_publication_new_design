@@ -62,9 +62,9 @@
             }
 
             /*{
-                max-width: 760px;
-            }*/ 
-            
+                        max-width: 760px;
+                    }*/
+
             .bfc_publishing_packages_content h1 {
                 font-size: 40px;
             }
@@ -121,7 +121,7 @@
 
     <section class="pricing-section2 py-md-5 py-3 position-relative">
         <div class="package_shadow">
-            <img src="{{ asset('assets/img_new/home/package_shadow.svg') }}" alt="package_shadow">
+            <!-- <img src="{{ asset('assets/img_new/home/package_shadow.svg') }}" alt="package_shadow"> -->
         </div>
         <div class="container-xxl px-lg-5 px-md-3 px-2 position-relative pt-2">
             <div class="bfc_publishing_packages_content text-center">
@@ -251,8 +251,10 @@
                             <a href="#" class="plan-btn">Choose Economy</a>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-3 ">
-                        <div class="price-card">
+                    <div class="col-12 col-sm-6 col-lg-3 position-relative">
+                        <span class="highlight_packages">Most Purchased</span>
+                        <div class="price-card price-cardhover">
+
                             <span class="corner-badge2">
                                 <img src="{{ asset('assets/img_new/home/essential-icon.svg') }}" alt="Essential Package">
                             </span>
@@ -1171,7 +1173,7 @@
                     <div class="section-header2 text-lg-start text-center">
                         <h2>Full feature comparison</h2>
                         <p>
-                             Every single line from the feature list for the eBook plan — nothing left out.
+                            Every single line from the feature list for the eBook plan — nothing left out.
                         </p>
                     </div>
                     <div class="bfc_packages_details_toggle">
@@ -1489,7 +1491,8 @@
                 </div>
                 <div class="col-lg-6 col-12 text-lg-end text-center">
                     <div class="">
-                        <a href="https://bfcpublications.com/customize-package/paperback" class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a>
+                        <a href="https://bfcpublications.com/customize-package/paperback"
+                            class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a>
 
                     </div>
                 </div>

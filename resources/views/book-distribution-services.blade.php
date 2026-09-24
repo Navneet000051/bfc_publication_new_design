@@ -40,12 +40,12 @@
             margin-bottom: 14px;
         }
 
-        .bfc_section_label::before {
-            content: "";
-            width: 30px;
-            height: 2px;
-            background: var(--bfc-accent);
-        }
+        /* .bfc_section_label::before {
+                content: "";
+                width: 30px;
+                height: 2px;
+                background: var(--bfc-accent);
+            } */
 
         .bfc_section_title {
             color: var(--bfc-primary);
@@ -382,6 +382,39 @@
             transform: scaleX(1);
         }
 
+        .bfc_service_card1 {
+            position: relative;
+            height: 100%;
+            cursor: pointer;
+            border: 1px solid var(--bfc-border);
+            overflow: hidden;
+            transition: all .35s ease;
+        }
+
+        /* .bfc_service_card1::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--bfc-accent);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform .35s ease;
+        } */
+
+        .bfc_service_card1:hover {
+            transform: translateY(-8px);
+            border-color: transparent;
+            background-color: #feedeb5d;
+            box-shadow: 0 25px 60px rgba(38, 49, 146, .11);
+        }
+
+        .bfc_service_card1:hover::before {
+            transform: scaleX(1);
+        }
+
         .bfc_service_icon {
             width: 65px;
             height: 65px;
@@ -504,14 +537,14 @@
             border-radius: 50%;
         }
 
-        .bfc_cta_box::after {
-            content: "BOOK";
-            position: absolute;
-            right: 45px;
-            bottom: -65px;
-            font-size: 180px;
-            color: rgba(255, 255, 255, .025);
-        }
+        /* .bfc_cta_box::after {
+                content: "BOOK";
+                position: absolute;
+                right: 45px;
+                bottom: -65px;
+                font-size: 180px;
+                color: rgba(255, 255, 255, .025);
+            } */
 
         .bfc_cta_content {
             position: relative;
@@ -749,7 +782,7 @@
                 width: 100%;
             }
 
-           .bfc_floating_card.one {
+            .bfc_floating_card.one {
                 right: 20px;
             }
 
@@ -814,7 +847,7 @@
                                         <br>
                                         Deserves
                                         <br>
-                                       To Travel
+                                        To Travel
                                     </div>
                                     <div class="bfc_book_author">
                                         BFC Publications
@@ -843,9 +876,9 @@
         <section class="py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center mb-5 bfc_reveal">
-                    <div class="bfc_section_label">
-                        Our Expertise Distributor
-                    </div>
+                    <!-- <div class="bfc_section_label">
+                            Our Expertise Distributor
+                        </div> -->
                     <h2 class="bfc_section_title">
                         More Platforms to Help Readers Discover Your Book.
                     </h2>
@@ -927,7 +960,7 @@
                             </p>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="border p-4 rounded border-secondary">
+                            <div class="border p-4 rounded border-secondary bfc_service_card1">
                                 <h3 class="text-mute">Book Preparation</h3>
                                 <p class="bfc_cta_text">
                                     Your published book is prepared in the required formats and specifications for
@@ -937,7 +970,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="border p-4 rounded border-secondary">
+                            <div class="border p-4 rounded border-secondary bfc_service_card1">
                                 <h3 class="text-mute">Platform Distribution</h3>
                                 <p class="bfc_cta_text">
                                     The book is submitted and made available across relevant online marketplaces and digital
@@ -946,7 +979,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="border p-4 rounded border-secondary">
+                            <div class="border p-4 rounded border-secondary bfc_service_card1">
                                 <h3 class="text-mute">Book Availability</h3>
                                 <p class="bfc_cta_text">
                                     Once listed, readers can discover, purchase, or access your book through the platforms
@@ -961,9 +994,9 @@
         <section class="bfc_faq_section py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center bfc_reveal">
-                    <div class="bfc_section_label">
-                        Need To Know
-                    </div>
+                    <!-- <div class="bfc_section_label">
+                            Need To Know
+                        </div> -->
                     <h2 class="bfc_section_title">
                         Frequently Asked Questions
                     </h2>
@@ -1046,7 +1079,9 @@
                         </h3>
                         <div id="bfcFaqFive" class="accordion-collapse collapse" data-bs-parent="#bfcEditingFaq">
                             <div class="accordion-body">
-                                Yes. Both paperback books and eBooks can be distributed through applicable platforms. The
+                                Yes. Both <a href="{{ url('/paperback-publishing-packages') }}">Paperback</a> books and <a
+                                    href="{{ url('/ebook-publishing-packages') }}">eBook</a> can be distributed through
+                                applicable platforms. The
                                 availability of each format depends on the requirements and supported formats of the
                                 respective platform.
                             </div>
@@ -1090,8 +1125,7 @@
                             </p>
                         </div>
                         <div class="col-lg-4 text-lg-end">
-                           <a href="{{ url('/contact-us') }}"
-                                class="px-4 rounded-pill hero-red-btn">Get Started</a>
+                            <a href="{{ url('/contact') }}" class="px-4 rounded-pill hero-red-btn">Get Started</a>
                         </div>
                     </div>
                 </div>

@@ -62,9 +62,9 @@
             }
 
             /*{
-                max-width: 760px;
-            }*/ 
-            
+                    max-width: 760px;
+                }*/
+
             .bfc_publishing_packages_content h1 {
                 font-size: 40px;
             }
@@ -126,122 +126,29 @@
         <div class="container-xxl px-lg-5 px-md-3 px-2 position-relative pt-2">
             <div class="bfc_publishing_packages_content text-center">
                 <h1>
-                    <span>Book Publishing Packages </span> for Every Author
+                    <span>eBook Publishing Packages </span> for Every Author
                 </h1>
                 <p>
-                    Compare paperback and eBook plans side by side — editing, design, ISBN, marketing and
+                    Compare eBook plans side by side — editing, design, ISBN, marketing and
                     distribution, all laid out plainly. Not seeing the fit? Build your own plan below.
                 </p>
             </div>
 
             <div class="tab-panel active" id="ebook_details">
-                <div class="section-header2 text-center my-5">
-                    <h2 style="text-transform: unset;">
-                        <span>eBook Publishing Packages</span>
-                    </h2>
-                    <p class="w-75 text-center m-auto">
-                        One straightforward eBook plan covering formatting, cover design, ISBN and distribution — with a
-                        custom option for anything more.
-                    </p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-12 col-sm-6 col-lg-4 ">
-                        <div class="price-card">
-                            <span class="corner-badge2">
-                                <img src="{{ asset('assets/img_new/home/essential-icon.svg') }}" alt="Essential Package">
-                            </span>
-                            <h3 class="plan-name">Essential</h3>
-                            <div class="plan-price">
-                                <span class="amt">₹3,999</span><span class="gst">
-                                    + GST
-                                </span>
-                            </div>
-                            <p class="plan-desc">
-                                Enhanced editing and design for a professional book.
-                            </p>
-
-                            <ul class="plan-features">
-                                <li>
-                                    <span>Content Uploading Allowed - Unlimited</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Format Editing (Upto 75 Pages)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Cover Design (Basic)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>ISBN Allocation</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Online Distribution</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Author's E-certificate</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Online Sales Dashboard</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Author Profit Share (100%)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Profit / Royalty Payout (Monthly)</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Publishing Support</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Technical Support</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-                                <li>
-                                    <span>Dedicated Publishing Manager</span>
-                                    <i class="bi bi-check-circle-fill"></i>
-                                </li>
-
-                            </ul>
-                            <a href="#" class="plan-btn">Choose Essential</a>
-                        </div>
-                    </div>
-                </div>
-
+     
                 <div class="bfc_packages_details pt-5">
-                    <div class="section-header2 text-lg-start text-center">
-                        <h2>Full feature comparison</h2>
-                        <p>
-                             Every single line from the feature list for the eBook plan — nothing left out.
-                        </p>
-                    </div>
-                    <div class="bfc_packages_details_toggle">
-                        <button type="button" class="bfc_packages_details_btn border" data-bs-toggle="collapse"
-                            data-bs-target="#bfcPaperbackComparison" aria-expanded="false"
-                            aria-controls="bfcPaperbackComparison">
-                            <span>Compare all eBook plans</span>
-                            <span class="bfc_packages_details_icon">
-                                <span class="plus-icon"><i class="fa-solid fa-plus"></i></span>
-                                <span class="minus-icon"><i class="fa-solid fa-minus"></i></span>
-                            </span>
-                        </button>
-                    </div>
-                    <div class="collapse" id="bfcPaperbackComparison">
+                    <div>
                         <div class="bfc_packages_details_table_wrap">
                             <div class="table-responsive">
                                 <table class="table bfc_packages_details_table overflow-hidden">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Feature</th>
-                                            <th scope="col">Essential</th>
+                                            <th scope="col">Feature Description</th>
+                                            <th scope="col">Essential
+                                                <h3 class="price_details"><i
+                                                        class="fa-solid fa-indian-rupee-sign"></i>3,999 <span>+ GST</span>
+                                                </h3>
+                                            </th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -331,6 +238,13 @@
                                         <tr>
                                             <td>Dedicated Publishing Manager</td>
                                             <td><span class="bfc_yes">Yes</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td class="py-3">
+                                                <a href="{{ url('/customize-package/paperback') }}"
+                                                    class="px-3 rounded-pill hero-red-btn py-2 my-4">Get Now</a>
+                                            </td>
                                         </tr>
 
                                     </tbody>
@@ -517,7 +431,8 @@
                 </div>
                 <div class="col-lg-6 col-12 text-lg-end text-center">
                     <div class="">
-                        <a href="https://bfcpublications.com/customize-package/paperback" class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a>
+                        <a href="https://bfcpublications.com/customize-package/paperback"
+                            class="px-4 rounded-pill hero-red-btn">Click Here to Customize Your Plan</a>
 
                     </div>
                 </div>

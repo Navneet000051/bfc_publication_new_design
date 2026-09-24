@@ -37,8 +37,8 @@
         }
 
         /* =========================================================
-                                                                               COMMON
-                                                                               ========================================================= */
+                                                                                   COMMON
+                                                                                   ========================================================= */
 
         .bfc_about_section_tag {
             display: inline-flex;
@@ -52,12 +52,12 @@
             margin-bottom: 14px;
         }
 
-        .bfc_about_section_tag::before {
-            content: "";
-            width: 28px;
-            height: 2px;
-            background: var(--bfc_about_red);
-        }
+        /* .bfc_about_section_tag::before {
+                content: "";
+                width: 28px;
+                height: 2px;
+                background: var(--bfc_about_red);
+            } */
 
         .bfc_about_heading {
 
@@ -79,8 +79,8 @@
 
 
         /* =========================================================
-                                                                               HERO
-                                                                               ========================================================= */
+                                                                                   HERO
+                                                                                   ========================================================= */
 
         .bfc_about_hero {
             position: relative;
@@ -185,8 +185,8 @@
 
 
         /* =========================================================
-                                                                               HERO IMAGE
-                                                                               ========================================================= */
+                                                                                   HERO IMAGE
+                                                                                   ========================================================= */
 
         .bfc_about_hero_visual {
             position: relative;
@@ -241,8 +241,8 @@
 
 
         /* =========================================================
-                                                                               ABOUT STORY
-                                                                               ========================================================= */
+                                                                                   ABOUT STORY
+                                                                                   ========================================================= */
 
         .bfc_about_story {
             background: #fff;
@@ -275,8 +275,8 @@
 
 
         /* =========================================================
-                                                                               VALUES
-                                                                               ========================================================= */
+                                                                                   VALUES
+                                                                                   ========================================================= */
 
         .bfc_about_values {
             background: var(--bfc_about_light);
@@ -330,8 +330,8 @@
 
 
         /* =========================================================
-                                                                               TEAM
-                                                                               ========================================================= */
+                                                                                   TEAM
+                                                                                   ========================================================= */
 
         .bfc_about_team {
             background: #fff;
@@ -405,8 +405,8 @@
 
 
         /* =========================================================
-                                                                               EDITORIAL TEAM
-                                                                               ========================================================= */
+                                                                                   EDITORIAL TEAM
+                                                                                   ========================================================= */
 
         .bfc_about_editorial {
             background:
@@ -485,8 +485,8 @@
 
 
         /* =========================================================
-                                                                               PHILOSOPHY
-                                                                               ========================================================= */
+                                                                                   PHILOSOPHY
+                                                                                   ========================================================= */
 
         .bfc_about_philosophy {
             background: #fff;
@@ -525,8 +525,8 @@
 
 
         /* =========================================================
-                                                                               RESPONSIVE
-                                                                               ========================================================= */
+                                                                                   RESPONSIVE
+                                                                                   ========================================================= */
 
         @media (max-width: 1199px) {
 
@@ -663,9 +663,9 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 order-md-1 order-2">
                         <div class="bfc_about_hero_content" data-aos="fade-up">
-                            <div class="bfc_about_hero_tag">
-                                About BFC Publications
-                            </div>
+                            <!-- <div class="bfc_about_hero_tag">
+                                    About BFC Publications
+                                </div> -->
                             <h1 class="bfc_about_hero_title">
                                 Your story deserves
                                 <span>to be heard.</span>
@@ -679,31 +679,31 @@
                                 through the publishing process, because we believe in their unique vision and strive to meet
                                 their expectations.
                             </p>
-                            <div class="bfc_about_hero_buttons">
-                                <a href="#bfc_about_team" class="bfc_about_btn bfc_about_btn_primary">
-                                    Meet Our Team
-                                    <i class="bi bi-arrow-right"></i>
-                                </a>
-                                <a href="#bfc_about_story" class="bfc_about_btn bfc_about_btn_outline">
-                                    Discover Our Story
-                                </a>
-                            </div>
+                            <!-- <div class="bfc_about_hero_buttons">
+                                    <a href="#bfc_about_team" class="bfc_about_btn bfc_about_btn_primary">
+                                        Meet Our Team
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                    <a href="#bfc_about_story" class="bfc_about_btn bfc_about_btn_outline">
+                                        Discover Our Story
+                                    </a>
+                                </div> -->
                         </div>
                     </div>
                     <div class="col-lg-6 order-md-2 order-1 mb-4 mb-lg-0">
                         <div class="bfc_about_hero_visual" data-aos="fade-left">
                             <div class="bfc_about_hero_image_wrap">
-                                <img src="{{ asset('assets/img_new/about/hero_about.webp') }}"
-                                    alt="BFC Publications" class="bfc_about_hero_image">
-                                <div class="bfc_about_float_card">
-                                    <div class="bfc_about_float_icon">
-                                        <i class="bi bi-book-half"></i>
-                                    </div>
-                                    <strong>Ideas into Books</strong>
-                                    <small>
-                                        Helping authors publish with confidence.
-                                    </small>
-                                </div>
+                                <img src="{{ asset('assets/img_new/about/hero_about.webp') }}" alt="BFC Publications"
+                                    class="bfc_about_hero_image">
+                                <!-- <div class="bfc_about_float_card">
+                                        <div class="bfc_about_float_icon">
+                                            <i class="bi bi-book-half"></i>
+                                        </div>
+                                        <strong>Ideas into Books</strong>
+                                        <small>
+                                            Helping authors publish with confidence.
+                                        </small>
+                                    </div> -->
                             </div>
                         </div>
                     </div>
@@ -776,11 +776,11 @@
         <section class="bfc_about_section bfc_about_values py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2 bfc_about_container">
                 <div class="text-center mb-5" data-aos="fade-up">
-                    <div class="bfc_about_section_tag">
-                        What Drives Us
-                    </div>
+                    <!-- <div class="bfc_about_section_tag">
+                            What Drives Us
+                        </div> -->
                     <h2 class="bfc_about_heading">
-                        Built around <span>authors</span>
+                       What Drives <span>Us</span>
                     </h2>
                     <p class="bfc_about_description mx-auto" style="max-width:720px;">
                         Publishing is more than printing a book. It's about
@@ -789,21 +789,6 @@
                     </p>
                 </div>
                 <div class="row g-4">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="bfc_about_value_card" data-aos="fade-up">
-                            <div class="bfc_about_value_icon">
-                                <i class="bi bi-stars"></i>
-                            </div>
-                            <h3 class="bfc_about_value_title">
-                                Quality
-                            </h3>
-                            <p class="bfc_about_value_text">
-                                From editing to design, every stage receives
-                                careful attention so your finished book reflects
-                                the quality of your writing.
-                            </p>
-                        </div>
-                    </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="bfc_about_value_card" data-aos="fade-up">
                             <div class="bfc_about_value_icon">
@@ -819,6 +804,23 @@
                             </p>
                         </div>
                     </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="bfc_about_value_card" data-aos="fade-up">
+                            <div class="bfc_about_value_icon">
+                                <i class="bi bi-stars"></i>
+                            </div>
+                            <h3 class="bfc_about_value_title">
+                                Quality
+                            </h3>
+                            <p class="bfc_about_value_text">
+                                From editing to design, every stage receives
+                                careful attention so your finished book reflects
+                                the quality of your writing.
+                            </p>
+                        </div>
+                    </div>
+
                     <div class="col-lg-3 col-md-6">
                         <div class="bfc_about_value_card" data-aos="fade-up">
                             <div class="bfc_about_value_icon">
@@ -857,11 +859,11 @@
         <section class="bfc_about_section bfc_about_team py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2 bfc_about_container">
                 <div class="bfc_about_team_intro" data-aos="fade-up">
-                    <div class="bfc_about_section_tag">
-                        Meet The Team
-                    </div>
+                    <!-- <div class="bfc_about_section_tag">
+                            Meet The Team
+                        </div> -->
                     <h2 class="bfc_about_heading">
-                        The <span>Go-Getters</span>
+                        Meet <span>The Team</span>
                     </h2>
                     <p class="bfc_about_description">
                         Behind every successful publishing journey is a team
@@ -883,7 +885,7 @@
                                     Shweta Mishra
                                 </h3>
                                 <div class="bfc_about_team_role">
-                                    Publishing Consultant
+                                    Sr. Publishing Consultant
                                 </div>
                                 <p class="bfc_about_team_text">
                                     Shweta is one of our most passionate Publishing Consultants with abundant marketing
@@ -909,7 +911,7 @@
                                     Chitra Pal
                                 </h3>
                                 <div class="bfc_about_team_role">
-                                    Quality Control & Customer Support
+                                    Sr.Publishing Consultant
                                 </div>
                                 <p class="bfc_about_team_text">
                                     With more than 7 years of Quality Control and Customer Support experience under her
@@ -968,8 +970,7 @@
                         <div class="bfc_about_editorial_card" data-aos="fade-up">
                             <div class="bfc_about_editorial_top">
                                 <div class="bfc_about_editorial_image">
-                                    <img src="{{ asset('assets/img_new/team/ashish.webp') }}"
-                                        alt="Ashish Verma">
+                                    <img src="{{ asset('assets/img_new/team/ashish.webp') }}" alt="Ashish Verma">
                                 </div>
                                 <div>
                                     <h3 class="bfc_about_editorial_name">
@@ -1006,8 +1007,7 @@
                         <div class="bfc_about_editorial_card" data-aos="fade-up">
                             <div class="bfc_about_editorial_top">
                                 <div class="bfc_about_editorial_image">
-                                    <img src="{{ asset('assets/img_new/team/gaurav.webp') }}"
-                                        alt="Gaurav Saxena">
+                                    <img src="{{ asset('assets/img_new/team/gaurav.webp') }}" alt="Gaurav Saxena">
                                 </div>
                                 <div>
                                     <h3 class="bfc_about_editorial_name">
@@ -1033,8 +1033,7 @@
                         <div class="bfc_about_editorial_card" data-aos="fade-up">
                             <div class="bfc_about_editorial_top">
                                 <div class="bfc_about_editorial_image">
-                                    <img src="{{ asset('assets/img_new/team/vaishnavi.webp') }}"
-                                        alt="Vaishnavi Vijay">
+                                    <img src="{{ asset('assets/img_new/team/vaishnavi.webp') }}" alt="Vaishnavi Vijay">
                                 </div>
                                 <div>
                                     <h3 class="bfc_about_editorial_name">
@@ -1064,8 +1063,7 @@
                         <div class="bfc_about_editorial_card" data-aos="fade-up">
                             <div class="bfc_about_editorial_top">
                                 <div class="bfc_about_editorial_image">
-                                    <img src="{{ asset('assets/img_new/team/chitransh.webp') }}"
-                                        alt="Chitransh Srivastava">
+                                    <img src="{{ asset('assets/img_new/team/chitransh.webp') }}" alt="Chitransh Srivastava">
                                 </div>
                                 <div>
                                     <h3 class="bfc_about_editorial_name">
@@ -1107,7 +1105,7 @@
 
                     <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
                         data-bs-target="#start_bfcpublishing_modal">
-                        Get Your Cover Designed</button>
+                      Connect With Us</button>
                 </div>
             </div>
         </section>

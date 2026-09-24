@@ -39,13 +39,13 @@
             text-transform: uppercase;
             margin-bottom: 14px;
         }
-
+/* 
         .bfc_section_label::before {
             content: "";
             width: 30px;
             height: 2px;
             background: var(--bfc-accent);
-        }
+        } */
 
         .bfc_section_title {
             color: var(--bfc-primary);
@@ -503,7 +503,7 @@
             border: 1px solid rgba(207, 70, 78, .3);
             border-radius: 50%;
         }
-
+/* 
         .bfc_cta_box::after {
             content: "BOOK";
             position: absolute;
@@ -511,7 +511,7 @@
             bottom: -65px;
             font-size: 180px;
             color: rgba(255, 255, 255, .025);
-        }
+        } */
 
         .bfc_cta_content {
             position: relative;
@@ -870,9 +870,9 @@
         <section class="py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center mb-5 bfc_reveal">
-                    <div class="bfc_section_label">
+                    <!-- <div class="bfc_section_label">
                         Our Expertise
-                    </div>
+                    </div> -->
                     <h2 class="bfc_section_title">
                         What We Offer
                     </h2>
@@ -882,8 +882,8 @@
                         manuscript step by step to make your book the best version of itself.
                     </p>
                 </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-6">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4">
                         <div class="bfc_service_card bfc_reveal">
                             <span class="bfc_service_number">
                                 01
@@ -903,7 +903,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 col-lg-4">
                         <div class="bfc_service_card bfc_reveal">
                             <span class="bfc_service_number">
                                 02
@@ -922,7 +922,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 col-lg-4">
                         <div class="bfc_service_card bfc_reveal">
                             <span class="bfc_service_number">
                                 03
@@ -942,7 +942,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 col-lg-4">
                         <div class="bfc_service_card bfc_reveal">
                             <span class="bfc_service_number">
                                 04
@@ -960,6 +960,22 @@
                             </p>
                         </div>
                     </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="bfc_service_card bfc_reveal">
+                            <span class="bfc_service_number">
+                                05
+                            </span>
+                            <div class="bfc_service_icon">
+                                <i class="fa-solid fa-ghost"></i>
+                            </div>
+                            <h3>
+                                Ghostwriting Support
+                            </h3>
+                            <p>
+                                Have a story in mind but need help putting it into words? Our ghostwriting service can help bring your ideas and experiences to the page while keeping your vision at the heart of the book.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -967,9 +983,9 @@
         <section class="bfc_process_section py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center bfc_reveal">
-                    <div class="bfc_section_label">
+                    <!-- <div class="bfc_section_label">
                         The Process
-                    </div>
+                    </div> -->
                     <h2 class="bfc_section_title">
                         How It Works
                     </h2>
@@ -1078,7 +1094,7 @@
                                     data-bs-target="#start_bfcpublishing_modal">
                                     </button> -->
 
-                            <a href="{{ url('/contact-us') }}" class="px-4 rounded-pill hero-red-btn">Get Your Manuscript
+                            <a href="{{ url('/contact') }}" class="px-4 rounded-pill hero-red-btn">Get Your Manuscript
                                 Edited</a>
                         </div>
                     </div>
@@ -1088,9 +1104,9 @@
         <section class="bfc_faq_section py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center bfc_reveal">
-                    <div class="bfc_section_label">
+                    <!-- <div class="bfc_section_label">
                         Need To Know
-                    </div>
+                    </div> -->
                     <h2 class="bfc_section_title">
                         Frequently Asked Questions
                     </h2>

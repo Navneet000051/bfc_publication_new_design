@@ -35,12 +35,12 @@
             text-transform: uppercase;
         }
 
-        .klf-kicker::before {
+        /* .klf-kicker::before {
             width: 27px;
             height: 2px;
             content: '';
             background: currentColor;
-        }
+        } */
 
         .klf-hero {
             position: relative;
@@ -578,7 +578,7 @@
             <div class="container-xxl px-lg-5 px-md-3 px-2 klf-shell">
                 <div class="row align-items-center g-5">
                     <div class="col-lg-6">
-                        <div class="klf-kicker">BFC Publications presents</div>
+                        <!-- <div class="klf-kicker">BFC Publications presents</div> -->
                         <h1>The Koshala <span>Literature Festival</span></h1>
                         <p>Rediscovering humanity through the rich heritage of Awadh.</p>
                         <div class="klf-date"><i class="bi bi-calendar-event"></i>04–06 November 2022</div>
@@ -589,7 +589,7 @@
                                 class="klf-collage-left" src="{{ asset('assets/img_new/home/klf2.webp') }}"
                                 alt="KLF-Awadh audience"><img class="klf-collage-right"
                                 src="{{ asset('assets/img_new/home/klf3.webp') }}" alt="KLF-Awadh event">
-                            <div class="klf-collage-badge">KLF<br>Awadh</div>
+                            <!-- <div class="klf-collage-badge">KLF<br>Awadh</div> -->
                         </div>
                     </div>
                 </div>
@@ -599,7 +599,7 @@
         <section class="klf-intro py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2 klf-shell">
                 <div class="klf-intro-copy">
-                    <div class="klf-kicker">KLF-Awadh 2022</div>
+                    <!-- <div class="klf-kicker">KLF-Awadh 2022</div> -->
                     <h2>A three-day Celebration of Awadh</h2>
                     <p>
                         Held between 4-6 November 2022, KLF-Awadh was a three-day long celebration revolving around the rich

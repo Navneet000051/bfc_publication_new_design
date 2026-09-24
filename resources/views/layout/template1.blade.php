@@ -21,7 +21,8 @@
 
     <!-- header  -->
     <header class="main-header shadow-sm">
-        <div class="container-xxl px-lg-5 px-md-3 px-2">
+        <!-- <div class="container-xxl px-lg-5 px-md-3 px-2"> -->
+        <div class="container-xxl">
             <nav class="navbar navbar-custom">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <img src="{{ asset('assets/img_new/logo.svg') }}" alt="BFC Publications">
@@ -76,7 +77,7 @@
                         </li>
                     </ul>
                     <div class="header-buttons">
-                        <a href="{{ url('/contact-us') }}" class="contact-btn">Contact Us</a>
+                        <a href="{{ url('/contact') }}" class="contact-btn">Contact Us</a>
                         <button type="button" class="publish-btn" data-bs-toggle="modal"
                             data-bs-target="#start_bfcpublishing_modal">
                             Start Publishing Now</button>
@@ -134,7 +135,7 @@
                 <li><a href="https://bfcpublications.com/blog"><span>Blogs</span></a></li>
             </ul>
             <div class="mobile-actions">
-                <a href="{{ url('/contact-us') }}" class="contact-btn">Contact Us</a>
+                <a href="{{ url('/contact') }}" class="contact-btn">Contact Us</a>
                 <!-- <a href="#" class="publish-btn">Start Publishing Now</a> -->
                 <button type="button" class="publish-btn" data-bs-toggle="modal"
                     data-bs-target="#start_bfcpublishing_modal">
@@ -257,7 +258,8 @@
     <section class="footer-section ">
         <footer class="site-footer">
             <div class="footer-main">
-                <div class="container-xxl px-lg-5 px-md-3 px-2">
+                <!-- <div class="container-xxl px-lg-5 px-md-3 px-2"> -->
+                <div class="container-xxl">
                     <div class="row gy-4">
                         <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
                             <div class="footer-about">
@@ -344,7 +346,7 @@
                                     <li><a href="{{ url('/print-on-demand-book-publishing') }}"><span
                                                 class="footer-dot"></span> Print On Demand</a></li>
                                     <li> <a href="{{ url('/faq') }}"><span class="footer-dot"></span> FAQs</a></li>
-                                    <li><a href="{{ url('/contact-us') }}"> <span class="footer-dot"></span>Contact
+                                    <li><a href="{{ url('/contact') }}"> <span class="footer-dot"></span>Contact
                                             Us</a>
                                     </li>
                                 </ul>
@@ -388,7 +390,8 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <div class="container-xxl px-lg-5 px-md-3 px-2">
+                <!-- <div class="container-xxl px-lg-5 px-md-3 px-2"> -->
+                <div class="container-xxl">
                     <div class="row align-items-center gy-2">
                         <div class="col-md-5">
                             <p class="copyright">© All Rights Reserved.BFC Publications </p>

@@ -40,12 +40,12 @@
             margin-bottom: 14px;
         }
 
-        .bfc_section_label::before {
+        /* .bfc_section_label::before {
             content: "";
             width: 30px;
             height: 2px;
             background: var(--bfc-accent);
-        }
+        } */
 
         .bfc_section_title {
             color: var(--bfc-primary);
@@ -504,14 +504,14 @@
             border-radius: 50%;
         }
 
-        .bfc_cta_box::after {
+        /* .bfc_cta_box::after {
             content: "BOOK";
             position: absolute;
             right: 45px;
             bottom: -65px;
             font-size: 180px;
             color: rgba(255, 255, 255, .025);
-        }
+        } */
 
         .bfc_cta_content {
             position: relative;
@@ -837,9 +837,9 @@
         <section class="py-5">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="text-center mb-5 bfc_reveal">
-                    <div class="bfc_section_label">
+                    <!-- <div class="bfc_section_label">
                         Our Expertise
-                    </div>
+                    </div> -->
                     <h2 class="bfc_section_title">
                         Support That Stays With You
                     </h2>
@@ -929,9 +929,7 @@
                                 Writing Support
                             </h3>
                             <p>
-                                Have a story in mind but need help putting it into words? Our ghostwriting service can help
-                                bring your ideas and experiences to the page while keeping your vision at the heart of the
-                                book.
+                                Have a story or idea in mind but need help putting it into words? Our writing services help you shape your ideas into clear, engaging, and well-crafted content while keeping your voice and vision at the heart of it.
                             </p>
                         </div>
                     </div>
@@ -956,8 +954,7 @@
                             </p>
                         </div>
                         <div class="col-lg-4 text-lg-end">
-
-                            <a href="{{ url('/contact-us') }}" class="px-4 rounded-pill hero-red-btn"> Connect With Us</a>
+                            <a href="{{ url('/contact') }}" class="px-4 rounded-pill hero-red-btn"> Connect With Us</a>
                         </div>
                     </div>
                 </div>
