@@ -120,7 +120,7 @@
         <div class="container-xxl px-lg-5 px-md-3 px-2 position-relative pt-2">
             <div class="bfc_publishing_packages_content text-center">
                 <h1>
-                    <span>Gall</span>ery
+                   KLF <span>Gallery</span>
                 </h1>
                 <p>
                     Visit ourpicture gallery and catch glimpses of the sessions held during the inaugural edition of the

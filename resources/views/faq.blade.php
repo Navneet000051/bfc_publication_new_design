@@ -173,7 +173,6 @@
             }
         }
     </style>
-
     <div class="faq-page">
         <section class="faq-hero">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
@@ -193,7 +192,10 @@
                         <summary class="faq-question">What is self publishing?</summary>
                         <div class="faq-answer">
                             <p>
-                                Self publishing is the act of publishing a manuscript at the author's risk, unlike traditional publishing wherein the publisher bears the costs and risks of the same. Under the self publishingmodel, the author takes all the calls concerning the book's cover, its layout, the price at which the book is to be sold and the marketing gimmicks to be deployed.
+                                Self publishing is the act of publishing a manuscript at the author's risk, unlike
+                                traditional publishing wherein the publisher bears the costs and risks of the same. Under
+                                the self publishingmodel, the author takes all the calls concerning the book's cover, its
+                                layout, the price at which the book is to be sold and the marketing gimmicks to be deployed.
                             </p>
                         </div>
                     </details>
@@ -201,7 +203,9 @@
                         <summary class="faq-question">Since when is BFC active as a publisher?</summary>
                         <div class="faq-answer">
                             <p>
-                                We are a relatively young publication and we do not hide the fact, primarily because we believe in building trust and going for the long haul. Despite that, we have managed to build a significant following and have several reputed authors and books in our repertoire.
+                                We are a relatively young publication and we do not hide the fact, primarily because we
+                                believe in building trust and going for the long haul. Despite that, we have managed to
+                                build a significant following and have several reputed authors and books in our repertoire.
                             </p>
                         </div>
                     </details>
@@ -210,7 +214,10 @@
                         </summary>
                         <div class="faq-answer">
                             <p>
-                                After initial consultations, the author is to sign a contract with us, which ensures that both parties uphold their end of the bargain. Following this, a dedicated project manager shall be assigned to you, who, with his team of proofreaders, editors, and graphic designers will go to work on your manuscript, based on your briefings.
+                                After initial consultations, the author is to sign a contract with us, which ensures that
+                                both parties uphold their end of the bargain. Following this, a dedicated project manager
+                                shall be assigned to you, who, with his team of proofreaders, editors, and graphic designers
+                                will go to work on your manuscript, based on your briefings.
                             </p>
                         </div>
                     </details>
@@ -218,7 +225,10 @@
                         <summary class="faq-question">What are the costs involved?</summary>
                         <div class="faq-answer">
                             <p>
-                                The publishing cost may vary depending upon the a la carte services you choose to avail, and the publishing format you pick for your manuscript, e-Book or paperback. You can also pick from the pre-assembled packages listed on the website to zero-in on the final publishing cost.
+                                The publishing cost may vary depending upon the a la carte services you choose to avail, and
+                                the publishing format you pick for your manuscript, e-Book or paperback. You can also pick
+                                from the pre-assembled packages listed on the website to zero-in on the final publishing
+                                cost.
                             </p>
                         </div>
                     </details>
@@ -226,7 +236,11 @@
                         <summary class="faq-question">Are there any other writing solutions on offer?</summary>
                         <div class="faq-answer">
                             <p>
-                                There are a bunch of services that authors may choose from, depending upon their needs. This includes, proofreading the manuscript for errors; copy editing, which entails revising the written material to improve its readability and making sure that the manuscript is free of any grammatical or factual errors; and ghostwriting, wherein the manuscript is written by one of our executives, based on the written outline and briefings provided by you.
+                                There are a bunch of services that authors may choose from, depending upon their needs. This
+                                includes, proofreading the manuscript for errors; copy editing, which entails revising the
+                                written material to improve its readability and making sure that the manuscript is free of
+                                any grammatical or factual errors; and ghostwriting, wherein the manuscript is written by
+                                one of our executives, based on the written outline and briefings provided by you.
                             </p>
                         </div>
                     </details>
@@ -234,7 +248,9 @@
                         <summary class="faq-question">How long does it take to print a book?</summary>
                         <div class="faq-answer">
                             <p>
-                                This may vary depending upon the book size, and the amount of work that is to be put into the manuscript. Usually, however, it takes 45 days to publish a book, starting from the day of manuscript submission.
+                                This may vary depending upon the book size, and the amount of work that is to be put into
+                                the manuscript. Usually, however, it takes 45 days to publish a book, starting from the day
+                                of manuscript submission.
                             </p>
                         </div>
                     </details>
@@ -242,7 +258,9 @@
                         <summary class="faq-question">How many copies of my book will be printed?</summary>
                         <div class="faq-answer">
                             <p>
-                                We work on the Print-On-Demand model, which means copies are printed based on the demand the book generates. To avoid any dispatch delays, however, as many as 20 copies of the book are stocked up in our warehouse at all times.
+                                We work on the Print-On-Demand model, which means copies are printed based on the demand the
+                                book generates. To avoid any dispatch delays, however, as many as 20 copies of the book are
+                                stocked up in our warehouse at all times.
                             </p>
                         </div>
                     </details>
@@ -306,13 +324,13 @@
                     <div class="bfc_cta_content row justify-content-between align-items-center g-4">
                         <div class="col-lg-8">
                             <h2 class="bfc_cta_title text-md-start text-center">
-                                Still can’t find what you're 
+                                Still can’t find what you're
                                 <span class="bfc_highlight">
-                                 looking for?
+                                    looking for?
                                 </span>
                             </h2>
                             <p class="bfc_cta_text text-md-start text-center">
-                               No problem! You can create your own plan just the way you want it.
+                                No problem! You can create your own plan just the way you want it.
                             </p>
                         </div>
                         <div class="col-lg-4 text-xl-end text-md-start text-center">
@@ -324,4 +342,6 @@
                 </div>
         </section>
     </div>
+
+
 @endsection
