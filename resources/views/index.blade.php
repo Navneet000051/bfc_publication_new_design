@@ -8,9 +8,9 @@
                     <div class="col-lg-6 text-center text-lg-start mb-lg-0 mb-5">
                         <h3 class="fw-bold text-dark mb-2" data-aos="fade-up">Trusted by More Than
                         </h3>
-                        <h1 class="display-2 mb-2" data-aos="fade-up" >4K Authors</h1>
-                        <h2 class="fw-bold mb-3" data-aos="fade-up" >Your Story Could Be Next!</h2>
-                        <p class="text-muted mb-4" data-aos="fade-up" >From your first manuscript
+                        <h1 class="display-2 mb-2" data-aos="fade-up">4K Authors</h1>
+                        <h2 class="fw-bold mb-3" data-aos="fade-up">Your Story Could Be Next!</h2>
+                        <p class="text-muted mb-4" data-aos="fade-up">From your first manuscript
                             submission to ISBN registration, editing,
                             cover design, and distribution — we handle it all.</p>
                         <div class="d-flex flex-column flex-sm-row gap-3" data-aos="fade-up">
@@ -24,8 +24,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-8 items-center">
-                        <div class="card shadow-sm border rounded-5 book-form-hero" data-aos="fade-up"
-                            >
+                        <div class="card shadow-sm border rounded-5 book-form-hero" data-aos="fade-up">
                             <h3 class="text-center fw-bold mb-4 py-4">Tell Us About Your Book</h3>
                             <form id="publishing_start_form" class="bookform-set">
                                 <div class="form-group mb-2">
@@ -81,7 +80,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-6  counter-item" data-aos="fade-up" >
+                    <div class="col-lg-3 col-6  counter-item" data-aos="fade-up">
                         <div class="counter-icon">
                             <img src="{{ asset('assets/img_new/home/author-icon.svg') }}" alt="book counter">
                         </div>
@@ -95,7 +94,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-6 counter-item" data-aos="fade-up" >
+                    <div class="col-lg-3 col-6 counter-item" data-aos="fade-up">
                         <div class="counter-icon">
                             <img src="{{ asset('assets/img_new/home/publishing-icon.svg') }}" alt="book counter">
                         </div>
@@ -109,7 +108,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-6 counter-item" data-aos="fade-up" >
+                    <div class="col-lg-3 col-6 counter-item" data-aos="fade-up">
                         <div class="counter-icon">
                             <img src="{{ asset('assets/img_new/home/rating-icon.svg') }}" alt="Rating Counter">
                         </div>
@@ -132,18 +131,18 @@
 
                     <div class="col-lg-6 mb-lg-0 mb-4">
                         <div class="achievement-content">
-                            <span class="achievement-tag" data-aos="fade-up" >
+                            <span class="achievement-tag" data-aos="fade-up">
                                 Our Achievements
                                 <img src="{{ asset('assets/img_new/home/achievement_vector.svg') }}" alt="Our Achievements">
                             </span>
 
-                            <h2 class="achievement-title pt-lg-0 pt-3" data-aos="fade-up" >
+                            <h2 class="achievement-title pt-lg-0 pt-3" data-aos="fade-up">
                                 <span>BFC PUBLICATIONS</span> Enters the
                                 Asia Book of Records and India
                                 Book of Records
                             </h2>
 
-                            <p class="achievement-description" data-aos="fade-up" >
+                            <p class="achievement-description" data-aos="fade-up">
                                 We proudly earned a place in the Asia Book of Records and India Book of Records for
                                 publishing
                                 63 e-books in a single day. This milestone not only reflects our commitment to making
@@ -153,7 +152,7 @@
                                 industry.
                             </p>
 
-                            <div class="achievement-logo" data-aos="fade-up" >
+                            <div class="achievement-logo" data-aos="fade-up">
                                 <img src="{{ asset('assets/img_new/home/asia.svg') }}" alt="Asia Book Record">
 
                                 <img src="{{ asset('assets/img_new/home/indiabook.svg') }}" alt="India Book Record">
@@ -162,7 +161,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-5 col-md-7 items-center" data-aos="fade-up" >
+                    <div class="col-lg-5 col-md-7 items-center" data-aos="fade-up">
                         <div class="authors-journey-stories text-center m-0 owl-carousel">
                             <article class="author-stories-section__slide">
                                 <img src="{{ asset('assets/img_new/home/achievement1.webp') }}" alt="Asia Book Record">
@@ -185,8 +184,7 @@
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="row align-items-center justify-content-lg-between justify-content-center">
 
-                    <div class="col-lg-5 col-md-8 items-center mb-lg-0 mb-4 order-lg-1 order-2" data-aos="fade-up"
-                        >
+                    <div class="col-lg-5 col-md-8 items-center mb-lg-0 mb-4 order-lg-1 order-2" data-aos="fade-up">
                         <div class="authors-journey-stories text-center m-0 owl-carousel">
                             <article class="author-stories-section__slide">
                                 <img src="{{ asset('assets/img_new/home/klf1.webp') }}" alt="Koshala Literature Festival">
@@ -202,25 +200,25 @@
 
                     <div class="col-lg-6 mb-lg-0 order-lg-2 order-1">
                         <div class="achievement-content">
-                            <span class="achievement-tag" data-aos="fade-up" >
+                            <span class="achievement-tag" data-aos="fade-up">
                                 BFC Publications Presents
                                 <img src="{{ asset('assets/img_new/home/achievement_vector.svg') }}" alt="line vector">
                             </span>
 
-                            <h2 class="achievement-title pt-lg-0 pt-3" data-aos="fade-up" >
+                            <h2 class="achievement-title pt-lg-0 pt-3" data-aos="fade-up">
                                 Koshala <span> Literature </span> Festival
                             </h2>
 
-                            <p class="achievement-description" data-aos="fade-up" >
+                            <p class="achievement-description" data-aos="fade-up">
                                 Held between 4-6 November 2022, KLF-Awadh was a three-day long celebration revolving around
                                 the
                                 rich heritage of Awadh, featuring the biggest names in the fields of Arts, Literature,
                                 Music,
-                                Filmmaking, and much more.<a href="{{ url('/klf') }}"
-                                    alt="KOSHALA LITERATURE FESTIVAL" style="color:red;"> Read More..</a>
+                                Filmmaking, and much more.<a href="{{ url('/klf') }}" alt="KOSHALA LITERATURE FESTIVAL"
+                                    style="color:red;"> Read More..</a>
                             </p>
                             <div class="row py-3">
-                                <div class="col-lg-6 col-12 mb-4" data-aos="fade-up" >
+                                <div class="col-lg-6 col-12 mb-4" data-aos="fade-up">
                                     <a href="{{ url('/book-stall') }}" class="feature-card1">
                                         <div class="feature-icon">
                                             <i class="bi bi-bookshelf"></i>
@@ -230,7 +228,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-lg-6 col-12 mb-4" data-aos="fade-up" >
+                                <div class="col-lg-6 col-12 mb-4" data-aos="fade-up">
                                     <a href="{{ url('/bfc-lounge') }}" class="feature-card1">
                                         <div class="feature-icon">
                                             <i class="bi bi-cup-hot"></i>
@@ -240,9 +238,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-lg-6 col-12 mb-4" data-aos="fade-up" >
-                                    <a href="{{ url('/sessions-klf') }}"
-                                        class="feature-card1">
+                                <div class="col-lg-6 col-12 mb-4" data-aos="fade-up">
+                                    <a href="{{ url('/sessions-klf') }}" class="feature-card1">
                                         <div class="feature-icon">
                                             <i class="bi bi-people"></i>
                                         </div>
@@ -251,7 +248,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-lg-6 col-12 mb-4" data-aos="fade-up" >
+                                <div class="col-lg-6 col-12 mb-4" data-aos="fade-up">
                                     <a href="{{ url('/gallery') }}" class="feature-card1">
                                         <div class="feature-icon">
                                             <i class="bi bi-images"></i>
@@ -313,15 +310,15 @@
             <div class="container-xxl px-lg-5 px-md-3 px-2">
 
                 <div class="section-header">
-                    <h2 data-aos="fade-up" >Publishing <span>Services</span> We Offer</h2>
-                    <p data-aos="fade-up" >We provide end-to-end publishing solutions to help your
+                    <h2 data-aos="fade-up">Publishing <span>Services</span> We Offer</h2>
+                    <p data-aos="fade-up">We provide end-to-end publishing solutions to help your
                         book
                         stand out and reach the right readers.</p>
                 </div>
 
                 <div class="row g-4 py-lg-5 py-4">
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" >
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up">
                         <div class="service-card shadow-lg">
                             <div class="icon-head d-flex gap-2 items-center items-self-center">
                                 <img src="{{ asset('assets/img_new/home/editorial.svg') }}" alt="Editorial Services">
@@ -338,7 +335,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" >
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up">
                         <div class="service-card shadow-lg">
                             <div class="icon-head d-flex gap-2 items-center items-self-center">
                                 <img src="{{ asset('assets/img_new/home/designing.svg') }}" alt="Designing Services">
@@ -355,7 +352,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" >
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up">
                         <div class="service-card shadow-lg">
                             <div class="icon-head d-flex gap-2 items-center items-self-center">
                                 <img src="{{ asset('assets/img_new/home/marketing.svg') }}" alt="Marketing Services">
@@ -373,7 +370,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" >
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up">
                         <div class="service-card shadow-lg">
                             <div class="icon-head d-flex gap-2 items-center items-self-center">
                                 <img src="{{ asset('assets/img_new/home/distribution.svg') }}" alt="Distribution Services">
@@ -389,7 +386,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" >
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up">
                         <div class="service-card shadow-lg">
                             <div class="icon-head d-flex gap-2 items-center items-self-center">
                                 <img src="{{ asset('assets/img_new/home/author_support.svg') }}" alt="Author Support">
@@ -403,7 +400,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" >
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up">
                         <div class="service-card shadow-lg">
                             <div class="icon-head d-flex gap-2 items-center items-self-center">
                                 <img src="{{ asset('assets/img_new/home/legal_support.svg') }}" alt="Legal Support">
@@ -427,7 +424,7 @@
         <section class="pb-4">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="section-header">
-                    <h2 data-aos="fade-up" > Our <span>Distribution</span> Platforms</h2>
+                    <h2 data-aos="fade-up"> Our <span>Distribution</span> Platforms</h2>
                 </div>
                 <section class="store-section py-5" data-aos="fade-up">
                     <div class="store-slider owl-carousel">
@@ -436,27 +433,27 @@
                             <img src="{{ asset('assets/img_new/partner/amazon.webp') }}" alt="Amazon">
                         </div>
 
-                        <div class="store-item" >
+                        <div class="store-item">
                             <img src="{{ asset('assets/img_new/partner/flipkart.webp') }}" alt="Flipkart">
                         </div>
 
-                        <div class="store-item" >
+                        <div class="store-item">
                             <img src="{{ asset('assets/img_new/partner/amazonkindle.webp') }}" alt="Kindle">
                         </div>
 
-                        <div class="store-item" >
+                        <div class="store-item">
                             <img src="{{ asset('assets/img_new/partner/kobo.webp') }}" alt="kobo">
                         </div>
 
-                        <div class="store-item" >
+                        <div class="store-item">
                             <img src="{{ asset('assets/img_new/partner/googleplaybooks.jpg') }}" alt="Google Book">
                         </div>
 
-                        <div class="store-item" >
+                        <div class="store-item">
                             <img src="{{ asset('assets/img_new/partner/snapdeal.webp') }}" alt="Snapdeal">
                         </div>
 
-                        <div class="store-item" >
+                        <div class="store-item">
                             <img src="{{ asset('assets/img_new/partner/shopclues.webp') }}" alt="Shopclues">
                         </div>
 
@@ -471,13 +468,13 @@
         <section class="pricing-section py-md-5 py-4">
             <div class="container-xxl px-lg-5 px-md-3 px-2 position-relative pt-2">
                 <div class="section-header">
-                    <h2 data-aos="fade-up" >Our <span>Publishing</span> packages</h2>
-                    <p data-aos="fade-up" >Choose the perfect plan that suits your book and budget.
+                    <h2 data-aos="fade-up">Our <span>Publishing</span> packages</h2>
+                    <p data-aos="fade-up">Choose the perfect plan that suits your book and budget.
                     </p>
                 </div>
 
                 <div class="d-flex justify-content-center mb-5 ">
-                    <div class="format-toggle" data-tab="paperback" data-aos="fade-up" >
+                    <div class="format-toggle" data-tab="paperback" data-aos="fade-up">
                         <button class="format-btn active" data-tab="paperback">Paperback</button>
                         <button class="format-btn" data-tab="ebook">eBook</button>
                     </div>
@@ -485,7 +482,7 @@
                 </div>
                 <div class="tab-panel active" id="paperback">
                     <div class="row g-4 justify-content-center">
-                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" >
+                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up">
                             <div class="price-card">
                                 <span class="corner-badge">
                                     <img src="{{ asset('assets/img_new/home/economy-icon.svg') }}" alt="Economy Package">
@@ -508,7 +505,7 @@
                                     Economy</a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" >
+                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up">
                             <div class="price-card">
                                 <span class="corner-badge2">
                                     <img src="{{ asset('assets/img_new/home/essential-icon.svg') }}"
@@ -530,7 +527,7 @@
                                     Essential</a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" >
+                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up">
                             <div class="price-card">
                                 <span class="corner-badge3">
                                     <img src="{{ asset('assets/img_new/home/regular-icon.svg') }}" alt="Regular Package">
@@ -550,7 +547,7 @@
                                     Regular</a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" >
+                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up">
                             <div class="price-card">
                                 <span class="corner-badge4">
                                     <img src="{{ asset('assets/img_new/home/elite-icon.svg') }}" alt="Elite Package">
@@ -578,7 +575,7 @@
 
                 <div class="tab-panel" id="ebook">
                     <div class="row g-4 justify-content-start">
-                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up" >
+                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up">
                             <div class="price-card">
                                 <span class="corner-badge2">
                                     <img src="{{ asset('assets/img_new/home/essential-icon.svg') }}"
@@ -605,27 +602,28 @@
             </div>
         </section>
 
-        <section class="bg-white py-md-5 py-4">
-            <div class="container-xxl px-lg-5 px-md-3 px-2">
+        <section class="py-5"
+            style="background: radial-gradient(circle at 85% 25%, rgba(207, 70, 78, .18), transparent 27%), linear-gradient(120deg, #263192 0%, #252f8a 55%, #1c246d 100%);">
+            <div class="container py-4">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 mb-3">
                         <div class="section-header2 text-center">
-                            <h2 style="text-transform:unset !important;" data-aos="fade-up" >Still
-                                <span>can’t find</span> what you're looking for?
+                            <h2 style="text-transform:unset !important; color:#fff;" data-aos="fade-up">Still
+                                <span style="color: #CF464E;">Can’t Find</span> What You're Looking For?
                             </h2>
-                            <p class="mb-0" data-aos="fade-up" >No problem! You can create your own
+                            <p style="color:#fff;" class="mb-0" data-aos="fade-up">No problem! You can create your own
                                 plan
                                 just the way you want it.</p>
                         </div>
                     </div>
-                    <div class="col-12 text-center mt-3" data-aos="fade-up" >
+                    <div class="col-12 text-center mt-3" data-aos="fade-up">
                         <div class="">
                             <a href="https://bfcpublications.com/customize-package/paperback"
                                 class="px-4 rounded-pill hero-red-btn">Click Here to Customise Your Plan</a>
 
                             <!-- <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
-                                data-bs-target="#start_bfcpublishing_modal">
-                                Click Here to Customise Your Plan</button> -->
+                                            data-bs-target="#start_bfcpublishing_modal">
+                                            Click Here to Customise Your Plan</button> -->
 
                         </div>
                     </div>
@@ -637,10 +635,10 @@
             <div class="rings"></div>
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="section-header mb-5">
-                    <h2 style="text-transform:unset !important;" data-aos="fade-up" >How Your
+                    <h2 style="text-transform:unset !important;" data-aos="fade-up">How Your
                         <span>Manuscript</span> Becomes a Book
                     </h2>
-                    <p data-aos="fade-up" >From manuscript to marketing and distribution, here's how
+                    <p data-aos="fade-up">From manuscript to marketing and distribution, here's how
                         it
                         all comes together.</p>
                 </div>
@@ -687,7 +685,7 @@
                         </article>
 
                         <article class="step" data-image="{{ asset('assets/img_new/home/contract-signing.webp') }}"
-                            data-aos="fade-up" >
+                            data-aos="fade-up">
                             <div class="mark"><img src="{{ asset('assets/img_new/home/bookmark.svg') }}"
                                     alt="contract-signing">
                             </div>
@@ -700,7 +698,7 @@
                         </article>
 
                         <article class="step" data-image="{{ asset('assets/img_new/home/manuscript-submission.webp') }}"
-                            data-aos="fade-up" >
+                            data-aos="fade-up">
                             <div class="mark"><img src="{{ asset('assets/img_new/home/bookmark.svg') }}"
                                     alt="manuscript-submission"></div>
                             <div>
@@ -713,7 +711,7 @@
 
                         <article class="step"
                             data-image="{{ asset('assets/img_new/home/proofreading-format-editing.webp') }}"
-                            data-aos="fade-up" >
+                            data-aos="fade-up">
                             <div class="mark"><img src="{{ asset('assets/img_new/home/bookmark.svg') }}"
                                     alt="proofreading-format-editing"></div>
                             <div>
@@ -725,7 +723,7 @@
                         </article>
 
                         <article class="step" data-image="{{ asset('assets/img_new/home/manuscript_designing.webp') }}"
-                            data-aos="fade-up" >
+                            data-aos="fade-up">
                             <div class="mark"><img src="{{ asset('assets/img_new/home/bookmark.svg') }}" alt="designing">
                             </div>
                             <div>
@@ -738,7 +736,7 @@
 
                         <article class="step"
                             data-image="{{ asset('assets/img_new/home/marketing-online-distribution.webp') }}"
-                            data-aos="fade-up" >
+                            data-aos="fade-up">
                             <div class="mark"><img src="{{ asset('assets/img_new/home/bookmark.svg') }}"
                                     alt="marketing-online-distribution"></div>
                             <div>
@@ -755,7 +753,7 @@
                         </article>
 
                         <article class="step" data-image="{{ asset('assets/img_new/home/royalty.webp') }}"
-                            data-aos="fade-up" >
+                            data-aos="fade-up">
                             <div class="mark"><img src="{{ asset('assets/img_new/home/bookmark.svg') }}"
                                     alt="marketing-online-distribution"></div>
                             <div>
@@ -806,9 +804,9 @@
         <section class="why-choose-section py-md-5 py-4">
             <div class="container-xxl px-lg-5 px-md-3 px-2 position-relative py-3">
                 <div class="section-header">
-                    <h2 data-aos="fade-up" >Why <span>Choose</span> Us</h2>
+                    <h2 data-aos="fade-up">Why <span>Choose</span> Us</h2>
                     <!-- <h2>We Have the Best Self-Publishing Services in India</h2> -->
-                    <p data-aos="fade-up" >We have the best self-publishing services in India.
+                    <p data-aos="fade-up">We have the best self-publishing services in India.
                         Here’s
                         what makes us the preferred choice for
                         authors.</p>
@@ -819,7 +817,7 @@
                         <div class="why-choose-section__benefit-list">
                             <article
                                 class="why-choose-section__benefit why-choose-section__benefit--left why-choose-section__reveal"
-                                data-aos="fade-up" >
+                                data-aos="fade-up">
                                 <span class="why-choose-section__number">01</span>
                                 <span class="why-choose-section__icon"> <img
                                         src="{{ asset('assets/img_new/home/quality.svg') }}"
@@ -834,7 +832,7 @@
                             </article>
                             <article
                                 class="why-choose-section__benefit why-choose-section__benefit--left why-choose-section__reveal"
-                                data-aos="fade-up" >
+                                data-aos="fade-up">
                                 <span class="why-choose-section__number">02</span>
                                 <span class="why-choose-section__icon">
                                     <img src="{{ asset('assets/img_new/home/writing.svg') }}"
@@ -851,7 +849,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-6 order-1 order-lg-2" data-aos="fade-up" >
+                    <div class="col-12 col-lg-6 order-1 order-lg-2" data-aos="fade-up">
                         <figure class="why-choose-section__image-card why-choose-section__reveal">
                             <img src="{{ asset('assets/img_new/home/why-choose.webp') }}"
                                 alt="Author reading a book in a library">
@@ -862,7 +860,7 @@
                         <div class="why-choose-section__benefit-list">
                             <article
                                 class="why-choose-section__benefit why-choose-section__benefit--right why-choose-section__reveal"
-                                data-aos="fade-up" >
+                                data-aos="fade-up">
                                 <span class="why-choose-section__number"> 03</span>
                                 <span class="why-choose-section__icon"><img
                                         src="{{ asset('assets/img_new/home/rupee.svg') }}"
@@ -876,7 +874,7 @@
                             </article>
                             <article
                                 class="why-choose-section__benefit why-choose-section__benefit--right why-choose-section__reveal"
-                                data-aos="fade-up" >
+                                data-aos="fade-up">
                                 <span class="why-choose-section__number">04</span>
                                 <span class="why-choose-section__icon"><img
                                         src="{{ asset('assets/img_new/home/regulation.svg') }}"
@@ -894,7 +892,7 @@
                     </div>
                 </div>
 
-                <div class="why-choose-section__cta pt-5" data-aos="fade-up" >
+                <div class="why-choose-section__cta pt-5" data-aos="fade-up">
                     <!-- <a href="#" class="">Publish With Us</a> -->
                     <button type="button" class="px-4 rounded-pill hero-red-btn" data-bs-toggle="modal"
                         data-bs-target="#start_bfcpublishing_modal">
@@ -906,97 +904,91 @@
         <section class="browse-genres-section py-md-5 py-4">
             <div class="browse-genres-section__rings" aria-hidden="true"></div>
             <div class="container-xxl px-lg-5 px-md-3 px-2">
-                <div class="section-header" data-aos="fade-up" >
+                <div class="section-header" data-aos="fade-up">
                     <h2>Browse <span>Genres</span> </h2>
                 </div>
 
                 <div class="browse-genres-section__grid pt-5">
                     <a class="browse-genres-section__card browse-genres-section__card--fiction browse-genres-section__card--feature"
                         href="https://store.bfcpublications.com/Fiction">
-                        <span class="browse-genres-section__copy" data-aos="fade-down" >
+                        <span class="browse-genres-section__copy" data-aos="fade-down">
                             <strong>Fiction</strong>
                             <!-- <p>180 Books</p> -->
                         </span>
                         <div class="browse-genres-section__books browse-genres-section__books--feature" aria-hidden="true"
-                            data-aos="fade-up" >
+                            data-aos="fade-up">
                             <img src="{{asset('assets/img_new/home/fiction.webp')}}" alt="fiction">
                         </div>
                     </a>
 
                     <a class="browse-genres-section__card browse-genres-section__card--non-fiction"
                         href="https://store.bfcpublications.com/Non-fiction">
-                        <div class="browse-genres-section__copy" data-aos="fade-down" >
+                        <div class="browse-genres-section__copy" data-aos="fade-down">
                             <strong>Non-Fiction</strong>
                             <!-- <p>140 Books</p> -->
                         </div>
-                        <div class="browse-genres-section__books" aria-hidden="true" data-aos="fade-up"
-                            >
+                        <div class="browse-genres-section__books" aria-hidden="true" data-aos="fade-up">
                             <img src="{{asset('assets/img_new/home/non-fiction.webp')}}" alt="non-fiction book">
                         </div>
                     </a>
                     <a class="browse-genres-section__card browse-genres-section__card--poetry"
                         href="https://store.bfcpublications.com/Poetry">
-                        <div class="browse-genres-section__copy" data-aos="fade-down" >
+                        <div class="browse-genres-section__copy" data-aos="fade-down">
                             <strong>Poetry</strong>
                             <!-- <p>80 Books</p> -->
                         </div>
-                        <div class="browse-genres-section__books" aria-hidden="true" data-aos="fade-up"
-                            >
+                        <div class="browse-genres-section__books" aria-hidden="true" data-aos="fade-up">
                             <img src="{{asset('assets/img_new/home/poetry.webp')}}" alt="Poetry Book">
                         </div>
                     </a>
                     <a class="browse-genres-section__card browse-genres-section__card--children"
                         href="https://store.bfcpublications.com/Others">
-                        <span class="browse-genres-section__copy" data-aos="fade-down" >
+                        <span class="browse-genres-section__copy" data-aos="fade-down">
                             <strong>Other Books</strong>
                             <!-- <p>78 Books</p> -->
                         </span>
-                        <div class="browse-genres-section__books" aria-hidden="true" data-aos="fade-up"
-                            >
+                        <div class="browse-genres-section__books" aria-hidden="true" data-aos="fade-up">
                             <img src="{{asset('assets/img_new/home/children-book.webp')}}" alt="Children’s Book">
                         </div>
                     </a>
                     <a class="browse-genres-section__card browse-genres-section__card--biography"
                         href="https://store.bfcpublications.com/Biography">
-                        <span class="browse-genres-section__copy" data-aos="fade-down" >
+                        <span class="browse-genres-section__copy" data-aos="fade-down">
                             <strong>Biography</strong>
                             <!-- <p>56 Books</p> -->
                         </span>
-                        <div class="browse-genres-section__books" aria-hidden="true" data-aos="fade-up"
-                            >
+                        <div class="browse-genres-section__books" aria-hidden="true" data-aos="fade-up">
                             <img src="{{asset('assets/img_new/home/biography.webp')}}" alt="Biography Book">
                         </div>
                     </a>
                     <a class="browse-genres-section__card browse-genres-section__card--stories"
                         href="https://store.bfcpublications.com/Short-Stories">
-                        <span class="browse-genres-section__copy" data-aos="fade-down" >
+                        <span class="browse-genres-section__copy" data-aos="fade-down">
                             <strong>Short-Stories</strong>
                             <!-- <p>36 Books</p> -->
                         </span>
-                        <div class="browse-genres-section__books" aria-hidden="true" data-aos="fade-up"
-                            >
+                        <div class="browse-genres-section__books" aria-hidden="true" data-aos="fade-up">
                             <img src="{{asset('assets/img_new/home/short-stories.webp')}}" alt="Short Stories Book">
                         </div>
                     </a>
                     <a class="browse-genres-section__card browse-genres-section__card--academic is-selected"
                         href="https://store.bfcpublications.com/Academic">
-                        <span class="browse-genres-section__copy" data-aos="fade-down" >
+                        <span class="browse-genres-section__copy" data-aos="fade-down">
                             <strong>Academic</strong>
                             <!-- <p>78 Books</p> -->
                         </span>
-                        <div class="browse-genres-section__books" aria-hidden="true" data-aos="fade-up"
-                            >
+                        <div class="browse-genres-section__books" aria-hidden="true" data-aos="fade-up">
                             <img src="{{asset('assets/img_new/home/academic.webp')}}" alt="Academic Book">
                         </div>
                     </a>
                     <a class="browse-genres-section__card browse-genres-section__card--romance browse-genres-section__card--feature"
                         href="https://store.bfcpublications.com/Romance">
-                        <span class="browse-genres-section__copy" data-aos="fade-down" >
+                        <span class="browse-genres-section__copy" data-aos="fade-down">
                             <strong>Romance</strong>
                             <!-- <p>180 Books</p> -->
                         </span>
                         <span class="browse-genres-section__books browse-genres-section__books--feature" aria-hidden="true"
-                            data-aos="fade-up" >
+                            data-aos="fade-up">
                             <img src="{{asset('assets/img_new/home/romance.webp')}}" alt="Romance Book">
                         </span>
                     </a>
@@ -1014,22 +1006,22 @@
 
                     <div class="col-lg-6 mb-lg-0 mb-4">
                         <div class="achievement-content">
-                            <span class="start-publishing-tag" data-aos="fade-up" >
+                            <span class="start-publishing-tag" data-aos="fade-up">
                                 <span> BFC Publications Podcast</span>
                                 <img src="{{ asset('assets/img_new/home/publishing-line.svg') }}" alt="Our Achievements">
                             </span>
 
-                            <h2 class="achievement-title pt-lg-0 pt-3" data-aos="fade-up" >
+                            <h2 class="achievement-title pt-lg-0 pt-3" data-aos="fade-up">
                                 Stories Beyond the Book
                             </h2>
 
-                            <p class="achievement-description" data-aos="fade-up" >
+                            <p class="achievement-description" data-aos="fade-up">
                                 Your story deserves to be heard beyond the pages of your book. Our podcast gives you a
                                 platform
                                 to share your writing journey, the inspiration behind your work, and the experiences that
                                 brought your book to life.
                             </p>
-                            <div class="d-flex flex-column flex-sm-row gap-3" data-aos="fade-up" >
+                            <div class="d-flex flex-column flex-sm-row gap-3" data-aos="fade-up">
                                 <!-- <a href="#" class="px-3 rounded-pill hero-red-btn">Book Your Podcast Now</a> -->
                                 <a href="https://www.youtube.com/playlist?list=PL_3-JMsvsLTwtS4Luw9IgPz9Y2hV_Fggi"
                                     target="_blank" class="btn btn-light podcast-btn border-dark rounded-pill px-3 py-3">See
@@ -1040,14 +1032,13 @@
                     </div>
 
                     <div class="col-lg-6 col-12 items-center">
-                        <div class="d-flex justify-content-between podcast-btn-1221" data-aos="fade-left"
-                            >
+                        <div class="d-flex justify-content-between podcast-btn-1221" data-aos="fade-left">
                             <h3 class="mb-0">Discover</h3>
                             <!-- <a href="#" class="align-self-center">View All <i class="fa-solid fa-arrow-right-long"></i></a> -->
                         </div>
                         <div class="row">
                             <div class="col-md-8">
-                                <article class="author-stories-section__slide" data-aos="fade-up" >
+                                <article class="author-stories-section__slide" data-aos="fade-up">
                                     <button class="author-stories-section__video-trigger" type="button"
                                         data-video="https://www.youtube.com/embed/4Rvn_o72NtI?si=NK10888fQKV2S1IJ?autoplay=1"
                                         aria-label="Play author testimonial video">
@@ -1060,7 +1051,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="row gap-2">
-                                    <div class="col-12" data-aos="fade-left" >
+                                    <div class="col-12" data-aos="fade-left">
                                         <article class="author-stories-section__slide">
                                             <button class="author-stories-section__video-trigger" type="button"
                                                 data-video="https://www.youtube.com/embed/1il-T_RbXZ4?si=ZK-x7v2UjpaGjhcw?autoplay=1"
@@ -1072,7 +1063,7 @@
                                             </button>
                                         </article>
                                     </div>
-                                    <div class="col-12" data-aos="fade-left" >
+                                    <div class="col-12" data-aos="fade-left">
                                         <article class="author-stories-section__slide">
                                             <button class="author-stories-section__video-trigger" type="button"
                                                 data-video="https://www.youtube.com/embed/7S4XPs9h0zA?si=LSDLlEUv5-GigEtD?autoplay=1"
@@ -1087,13 +1078,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="d-flex justify-content-between podcast-btn-1221 mt-3" data-aos="fade-left"
-                            >
+                        <div class="d-flex justify-content-between podcast-btn-1221 mt-3" data-aos="fade-left">
                             <h3 class="mb-0">Most Watched</h3>
                             <!-- <a href="#" class="align-self-center">View All <i class="fa-solid fa-arrow-right-long"></i></a> -->
                         </div>
                         <div class="row">
-                            <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" >
+                            <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up">
                                 <article class="author-stories-section__slide">
                                     <button class="author-stories-section__video-trigger" type="button"
                                         data-video="https://www.youtube.com/embed/KL2Gkqzd9yY?si=QVMlyYDeI0Y-D-7k?autoplay=1"
@@ -1105,7 +1095,7 @@
                                     </button>
                                 </article>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" >
+                            <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up">
                                 <article class="author-stories-section__slide">
                                     <button class="author-stories-section__video-trigger" type="button"
                                         data-video="https://www.youtube.com/embed/sLZGP6KGPnA?si=01cI8EnUabGpc6Yz?autoplay=1"
@@ -1117,7 +1107,7 @@
                                     </button>
                                 </article>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up" >
+                            <div class="col-lg-4 col-md-6 mb-3" data-aos="fade-up">
                                 <article class="author-stories-section__slide">
                                     <button class="author-stories-section__video-trigger" type="button"
                                         data-video="https://www.youtube.com/embed/o-wJUZdK6Ho?si=Ckrloaz2e0Iyljo_?autoplay=1"
@@ -1131,57 +1121,57 @@
                             </div>
                         </div>
                         <!-- <div class="most-watch-reel-grid">
-                                                                                                                                                            <article class="author-stories-section__slide">
-                                                                                                                                                                <button class="author-stories-section__video-trigger" type="button"
-                                                                                                                                                                    data-video="https://www.youtube.com/embed/SiD-n52KVFU?si=n5V7jRzu61fT4G0Y?autoplay=1"
-                                                                                                                                                                    aria-label="Play author testimonial video">
-                                                                                                                                                                    <img class="podcast-reel" src="{{asset('assets/img_new/home/reel1.png')}}"
-                                                                                                                                                                        alt="Author recording a testimonial in a studio">
-                                                                                                                                                                    <span class="author-stories-section__play" aria-hidden="true"><i
-                                                                                                                                                                            class="fa-solid fa-play"></i></span>
-                                                                                                                                                                </button>
-                                                                                                                                                            </article>
-                                                                                                                                                            <article class="author-stories-section__slide">
-                                                                                                                                                                <button class="author-stories-section__video-trigger" type="button"
-                                                                                                                                                                    data-video="https://www.youtube.com/embed/BKIWzVAa0Y8?si=wqCVDCMhwYXI1yoN?autoplay=1"
-                                                                                                                                                                    aria-label="Play author testimonial video">
-                                                                                                                                                                    <img class="podcast-reel" src="{{asset('assets/img_new/home/reel2.png')}}"
-                                                                                                                                                                        alt="Author recording a testimonial in a studio">
-                                                                                                                                                                    <span class="author-stories-section__play" aria-hidden="true"><i
-                                                                                                                                                                            class="fa-solid fa-play"></i></span>
-                                                                                                                                                                </button>
-                                                                                                                                                            </article>
-                                                                                                                                                            <article class="author-stories-section__slide">
-                                                                                                                                                                <button class="author-stories-section__video-trigger" type="button"
-                                                                                                                                                                    data-video="https://www.youtube.com/embed/BKIWzVAa0Y8?si=wqCVDCMhwYXI1yoN?autoplay=1"
-                                                                                                                                                                    aria-label="Play author testimonial video">
-                                                                                                                                                                    <img class="podcast-reel" src="{{asset('assets/img_new/home/reel3.png')}}"
-                                                                                                                                                                        alt="Author recording a testimonial in a studio">
-                                                                                                                                                                    <span class="author-stories-section__play" aria-hidden="true"><i
-                                                                                                                                                                            class="fa-solid fa-play"></i></span>
-                                                                                                                                                                </button>
-                                                                                                                                                            </article>
-                                                                                                                                                            <article class="author-stories-section__slide">
-                                                                                                                                                                <button class="author-stories-section__video-trigger" type="button"
-                                                                                                                                                                    data-video="https://www.youtube.com/embed/BKIWzVAa0Y8?si=wqCVDCMhwYXI1yoN?autoplay=1"
-                                                                                                                                                                    aria-label="Play author testimonial video">
-                                                                                                                                                                    <img class="podcast-reel" src="{{asset('assets/img_new/home/reel4.png')}}"
-                                                                                                                                                                        alt="Author recording a testimonial in a studio">
-                                                                                                                                                                    <span class="author-stories-section__play" aria-hidden="true"><i
-                                                                                                                                                                            class="fa-solid fa-play"></i></span>
-                                                                                                                                                                </button>
-                                                                                                                                                            </article>
-                                                                                                                                                            <article class="author-stories-section__slide">
-                                                                                                                                                                <button class="author-stories-section__video-trigger" type="button"
-                                                                                                                                                                    data-video="https://www.youtube.com/embed/BKIWzVAa0Y8?si=wqCVDCMhwYXI1yoN?autoplay=1"
-                                                                                                                                                                    aria-label="Play author testimonial video">
-                                                                                                                                                                    <img class="podcast-reel" src="{{asset('assets/img_new/home/reel5.png')}}"
-                                                                                                                                                                        alt="Author recording a testimonial in a studio">
-                                                                                                                                                                    <span class="author-stories-section__play" aria-hidden="true"><i
-                                                                                                                                                                            class="fa-solid fa-play"></i></span>
-                                                                                                                                                                </button>
-                                                                                                                                                            </article> 
-                                                                                                                                                        </div> -->
+                                                                                                                                                                        <article class="author-stories-section__slide">
+                                                                                                                                                                            <button class="author-stories-section__video-trigger" type="button"
+                                                                                                                                                                                data-video="https://www.youtube.com/embed/SiD-n52KVFU?si=n5V7jRzu61fT4G0Y?autoplay=1"
+                                                                                                                                                                                aria-label="Play author testimonial video">
+                                                                                                                                                                                <img class="podcast-reel" src="{{asset('assets/img_new/home/reel1.png')}}"
+                                                                                                                                                                                    alt="Author recording a testimonial in a studio">
+                                                                                                                                                                                <span class="author-stories-section__play" aria-hidden="true"><i
+                                                                                                                                                                                        class="fa-solid fa-play"></i></span>
+                                                                                                                                                                            </button>
+                                                                                                                                                                        </article>
+                                                                                                                                                                        <article class="author-stories-section__slide">
+                                                                                                                                                                            <button class="author-stories-section__video-trigger" type="button"
+                                                                                                                                                                                data-video="https://www.youtube.com/embed/BKIWzVAa0Y8?si=wqCVDCMhwYXI1yoN?autoplay=1"
+                                                                                                                                                                                aria-label="Play author testimonial video">
+                                                                                                                                                                                <img class="podcast-reel" src="{{asset('assets/img_new/home/reel2.png')}}"
+                                                                                                                                                                                    alt="Author recording a testimonial in a studio">
+                                                                                                                                                                                <span class="author-stories-section__play" aria-hidden="true"><i
+                                                                                                                                                                                        class="fa-solid fa-play"></i></span>
+                                                                                                                                                                            </button>
+                                                                                                                                                                        </article>
+                                                                                                                                                                        <article class="author-stories-section__slide">
+                                                                                                                                                                            <button class="author-stories-section__video-trigger" type="button"
+                                                                                                                                                                                data-video="https://www.youtube.com/embed/BKIWzVAa0Y8?si=wqCVDCMhwYXI1yoN?autoplay=1"
+                                                                                                                                                                                aria-label="Play author testimonial video">
+                                                                                                                                                                                <img class="podcast-reel" src="{{asset('assets/img_new/home/reel3.png')}}"
+                                                                                                                                                                                    alt="Author recording a testimonial in a studio">
+                                                                                                                                                                                <span class="author-stories-section__play" aria-hidden="true"><i
+                                                                                                                                                                                        class="fa-solid fa-play"></i></span>
+                                                                                                                                                                            </button>
+                                                                                                                                                                        </article>
+                                                                                                                                                                        <article class="author-stories-section__slide">
+                                                                                                                                                                            <button class="author-stories-section__video-trigger" type="button"
+                                                                                                                                                                                data-video="https://www.youtube.com/embed/BKIWzVAa0Y8?si=wqCVDCMhwYXI1yoN?autoplay=1"
+                                                                                                                                                                                aria-label="Play author testimonial video">
+                                                                                                                                                                                <img class="podcast-reel" src="{{asset('assets/img_new/home/reel4.png')}}"
+                                                                                                                                                                                    alt="Author recording a testimonial in a studio">
+                                                                                                                                                                                <span class="author-stories-section__play" aria-hidden="true"><i
+                                                                                                                                                                                        class="fa-solid fa-play"></i></span>
+                                                                                                                                                                            </button>
+                                                                                                                                                                        </article>
+                                                                                                                                                                        <article class="author-stories-section__slide">
+                                                                                                                                                                            <button class="author-stories-section__video-trigger" type="button"
+                                                                                                                                                                                data-video="https://www.youtube.com/embed/BKIWzVAa0Y8?si=wqCVDCMhwYXI1yoN?autoplay=1"
+                                                                                                                                                                                aria-label="Play author testimonial video">
+                                                                                                                                                                                <img class="podcast-reel" src="{{asset('assets/img_new/home/reel5.png')}}"
+                                                                                                                                                                                    alt="Author recording a testimonial in a studio">
+                                                                                                                                                                                <span class="author-stories-section__play" aria-hidden="true"><i
+                                                                                                                                                                                        class="fa-solid fa-play"></i></span>
+                                                                                                                                                                            </button>
+                                                                                                                                                                        </article> 
+                                                                                                                                                                    </div> -->
                     </div>
 
                 </div>
@@ -1191,23 +1181,23 @@
         <section class="author-journey-stories-bg py-md-5 py-4">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="section-header pb-5">
-                    <h2 data-aos="fade-up" >Hear It from Our <span>Authors</span> </h2>
-                    <p data-aos="fade-up" >Real stories from debut and seasoned authors, on what it
+                    <h2 data-aos="fade-up">Hear It from Our <span>Authors</span> </h2>
+                    <p data-aos="fade-up">Real stories from debut and seasoned authors, on what it
                         took
                         to get their book to market.</p>
                 </div>
                 <div class="row justify-content-lg-between justify-content-center items-align-center">
                     <div class="col-lg-6 mb-lg-0 mb-4 order-lg-1 order-2 align-self-center">
                         <div class="author-stories-journey">
-                            <h3 data-aos="fade-up" >Welcome to Our Author's Testimonial Playlist!
+                            <h3 data-aos="fade-up">Welcome to Our Author's Testimonial Playlist!
                             </h3>
-                            <p data-aos="fade-up" >Hear inspiring stories from authors who turned
+                            <p data-aos="fade-up">Hear inspiring stories from authors who turned
                                 their
                                 dreams into reality with our publishing
                                 services. From debut writers to seasoned storytellers, they share their experiences,
                                 challenges,
                                 and the incredible journey of bringing their books to life.</p>
-                            <p data-aos="fade-up" >Get insights into our premium editing, marketing
+                            <p data-aos="fade-up">Get insights into our premium editing, marketing
                                 strategies, and the personalized support that
                                 helped them achieve their goals. If you're an aspiring author, these testimonials will
                                 motivate
@@ -1218,14 +1208,12 @@
                                 make it unforgettable!
                             </p>
                         </div>
-                        <div class="browse-genres-section__footer text-start ps-lg-0 ps-3" data-aos="fade-up"
-                            >
+                        <div class="browse-genres-section__footer text-start ps-lg-0 ps-3" data-aos="fade-up">
                             <a href="https://www.youtube.com/playlist?list=PL_3-JMsvsLTwwfRuuhNKrOjRXFeSc1e8Q">View All
                                 <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-7 items-center order-lg-2 order-1" data-aos="fade-up"
-                        >
+                    <div class="col-lg-5 col-md-7 items-center order-lg-2 order-1" data-aos="fade-up">
                         <div class="authors-journey-stories text-center owl-carousel">
 
                             <article class="author-stories-section__slide">
@@ -1320,10 +1308,10 @@
         <section class="features-author-feedback py-md-5 py-4">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="section-header">
-                    <h2 data-aos="fade-up" >Featured <span>Authors</span></h2>
+                    <h2 data-aos="fade-up">Featured <span>Authors</span></h2>
                 </div>
                 <div class="featured-authors-slider owl-carousel py-4">
-                    <div class="feature-authors-card h-100" data-aos="fade-up" >
+                    <div class="feature-authors-card h-100" data-aos="fade-up">
                         <img src="{{ asset('assets/img_new/home/rajankarla.png') }}" alt="rajankarla Authors">
                         <h3>Rajan Kalra</h3>
                         <span class="">Author and Writer</span>
@@ -1335,7 +1323,7 @@
 
                         </p>
                     </div>
-                    <div class="feature-authors-card h-100" data-aos="fade-up" >
+                    <div class="feature-authors-card h-100" data-aos="fade-up">
                         <img src="{{ asset('assets/img_new/home/yashodhara.png') }}" alt="yashodhara Authors">
                         <h3>Yashodhara</h3>
                         <span class="">Author and Writer</span>
@@ -1346,7 +1334,7 @@
                             readers on a personal level.
                         </p>
                     </div>
-                    <div class="feature-authors-card h-100" data-aos="fade-up" >
+                    <div class="feature-authors-card h-100" data-aos="fade-up">
                         <img src="{{ asset('assets/img_new/home/abu-malik.png') }}" alt="Abu Malik Authors">
                         <h3>Abu Malik</h3>
                         <span class="">Author and Writer</span>
@@ -1358,7 +1346,7 @@
 
                         </p>
                     </div>
-                    <div class="feature-authors-card h-100" data-aos="fade-up" >
+                    <div class="feature-authors-card h-100" data-aos="fade-up">
                         <img src="{{ asset('assets/img_new/home/ravindr-dey.png') }}" alt="Dr. Ravindra Dey Authors">
                         <h3>Dr. Ravindra Dey</h3>
                         <span class="">Author and Writer</span>
@@ -1376,9 +1364,9 @@
         <section class="most-popular-section py-md-5 py-4">
             <div class="container-xxl px-lg-5 px-md-3 px-2">
                 <div class="section-header pb-5">
-                    <h2 data-aos="fade-up" >Featured <span>Books</span></h2>
+                    <h2 data-aos="fade-up">Featured <span>Books</span></h2>
                 </div>
-                <div class="" data-aos="fade-up" >
+                <div class="" data-aos="fade-up">
                     <div id="mostPopularSlider" class="featured-books-slider owl-carousel owl-theme">
                     </div>
                 </div>
@@ -1390,21 +1378,21 @@
                 <div class="row align-items-center justify-content-center">
 
                     <div class="col-lg-6 mb-lg-0 mb-4">
-                        <div class="achievement-content" >
-                            <span class="start-publishing-tag" data-aos="fade-up" >
+                        <div class="achievement-content">
+                            <span class="start-publishing-tag" data-aos="fade-up">
                                 <span> Start Publishing Now</span>
                                 <img src="{{ asset('assets/img_new/home/publishing-line2.svg') }}" alt="Our Achievements">
                             </span>
 
-                            <h2 class="achievement-title pt-lg-0 pt-3" data-aos="fade-up" >
+                            <h2 class="achievement-title pt-lg-0 pt-3" data-aos="fade-up">
                                 Tell us about your book
                             </h2>
 
-                            <p class="achievement-description" data-aos="fade-up" >
+                            <p class="achievement-description" data-aos="fade-up">
                                 A publishing consultant will get in touch to walk you through the right package for your
                                 manuscript.
                             </p>
-                            <p class="achievement-description" data-aos="fade-up" >
+                            <p class="achievement-description" data-aos="fade-up">
                                 No spam, no pressure &mdash; just a conversation about your book
                             </p>
                         </div>

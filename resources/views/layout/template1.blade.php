@@ -29,9 +29,75 @@
                 </a>
                 <div class="desktop-navigation d-flex align-items-center ms-auto gap-3 justify-content-between">
                     <ul class="navbar-nav main-menu flex-row">
-                        <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/about') }}">About</a>
+                        </li>
+
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                            <div class="d-flex">
+                                <a class="nav-link" href="{{ url('/services') }}">
+                                    Services
+                                </a>
+                                <button type="button"
+                                    class="dropdown-toggle btn p-0 text-decoration-none text-dark btn-link"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </button>
+                            </div>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="{{ url('/book-editorial-services') }}">
+                                        Editorial Services
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ url('/book-designing-services') }}">
+                                        Designing Services
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ url('/book-marketing-services') }}">
+                                        Marketing Services
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ url('/book-distribution-services') }}">
+                                        Distribution Services
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ url('/author-support') }}">
+                                        Author Support
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="d-flex">
+                                <a class="nav-link" href="{{ url('/packages') }}">
+                                    Packages
+                                </a>
+                                <button type="button"
+                                    class="dropdown-toggle btn p-0 text-decoration-none text-dark btn-link"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </button>
+                            </div>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item"
+                                        href="{{ url('/paperback-publishing-packages') }}">Paperback</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="{{ url('/ebook-publishing-packages') }}">eBook</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="{{ url('/services') }}" role="button"
                                 data-bs-toggle="dropdown">Services <i class="fa-solid fa-chevron-down"></i></a>
                             <ul class="dropdown-menu">
 
@@ -45,16 +111,9 @@
                                         Distribution Services</a></li>
                                 <li><a class="dropdown-item" href="{{ url('/author-support') }}"> Author Support</a>
                                 </li>
-
-                                <!-- <li><a class="dropdown-item" href="#">Book Publishing</a></li>
-                            <li><a class="dropdown-item" href="#">Editing</a></li>
-                            <li><a class="dropdown-item" href="#"> Book Design</a></li>
-                            <li><a class="dropdown-item" href="{{ url('/book-marketing-services') }}">Marketing </a></li> -->
                             </ul>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/packages') }}">Packages </a>
-                        </li> -->
+                        </li> 
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="{{ url('/packages') }}" role="button"
                                 data-bs-toggle="dropdown">Packages <i class="fa-solid fa-chevron-down"></i></a>
@@ -64,16 +123,22 @@
                                 <li><a class="dropdown-item" href="{{ url('/ebook-publishing-packages') }}">eBook</a>
                                 </li>
                             </ul>
+                        </li> -->
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/royalty-calculator') }}">Royalty
+                                Calculator</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="{{ url('/royalty-calculator') }}">Royalty
-                                Calculator</a></li>
-                        <li class="nav-item"><a class="nav-link"
-                                href="https://authordashboard.bfcpublications.com">Author
-                                Dashboard</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://store.bfcpublications.com">Book
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://authordashboard.bfcpublications.com">Author
+                                Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://store.bfcpublications.com">Book
                                 Store</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="https://bfcpublications.com/blog">Blogs</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://bfcpublications.com/blog">Blogs</a>
                         </li>
                     </ul>
                     <div class="header-buttons">
@@ -103,15 +168,72 @@
             <ul class="mobile-menu">
                 <li><a href="{{ url('/about') }}"><span>About</span></a></li>
                 <li class="mobile-dropdown">
+                    <div class="d-flex justify-content-between align-items-center" style="padding: 14px 5px;">
+                        <a class="text-decoration-none text-dark" href="{{ url('/services') }}">
+                            <span>Services</span>
+                        </a>
+                        <button type="button" class="mobile-dropdown-toggle btn p-0 text-decoration-none text-dark btn-link">
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                    </div>
+                    <ul class="mobile-submenu">
+                        <li>
+                            <a href="{{ url('/book-editorial-services') }}">
+                                Editorial Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ url('/book-designing-services') }}">
+                                Designing Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ url('/book-marketing-services') }}">
+                                Marketing Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ url('/book-distribution-services') }}">
+                                Distribution Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ url('/author-support') }}">
+                                Author Support
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="mobile-dropdown">
+                    <div class="d-flex justify-content-between align-items-center" style="padding: 14px 5px;">
+                        <a class="text-decoration-none text-dark" href="{{ url('/packages') }}">
+                            <span>Packages</span>
+                        </a>
+                        <button type="button" class="mobile-dropdown-toggle btn p-0 text-decoration-none text-dark btn-link">
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                    </div>
+
+                    <ul class="mobile-submenu">
+                        <li>
+                            <a href="{{ url('/paperback-publishing-packages') }}">
+                                Paperback
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ url('/ebook-publishing-packages') }}">
+                                eBook
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- <li class="mobile-dropdown">
                     <a href="javascript:void(0);">
                         <span>Services</span>
                         <i class="bi bi-chevron-down"></i>
                     </a>
                     <ul class="mobile-submenu">
-                        <!-- <li><a href="#">Book Publishing</a></li>
-                        <li><a href="#">Editing </a></li>
-                        <li><a href="#">Book Design</a></li>
-                        <li><a href="#">Marketing</a></li> -->
                         <li><a href="{{ url('/book-editorial-services') }}"> Editorial Services</a></li>
                         <li><a href="{{ url('/book-designing-services') }}">Designing Services</a></li>
                         <li><a href="{{ url('/book-marketing-services') }}">Marketing Services</a></li>
@@ -128,7 +250,7 @@
                         <li><a href="{{ url('/paperback-publishing-packages') }}">Paperback</a></li>
                         <li><a href="{{ url('/ebook-publishing-packages') }}">eBook</a></li>
                     </ul>
-                </li>
+                </li> -->
                 <li><a href="{{ url('/royalty-calculator') }}"><span>Royalty Calculator</span></a></li>
                 <li><a href="https://authordashboard.bfcpublications.com"><span>Author Dashboard</span></a></li>
                 <li><a href="https://store.bfcpublications.com"><span>Book Store</span></a></li>
@@ -415,6 +537,61 @@
         </footer>
     </section>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dropdowns = document.querySelectorAll('.navbar-nav .nav-item.dropdown');
+            dropdowns.forEach(function (dropdown) {
+                const toggle = dropdown.querySelector('.dropdown-toggle');
+                const menu = dropdown.querySelector('.dropdown-menu');
+                if (!toggle || !menu) return;
+                toggle.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    dropdowns.forEach(function (otherDropdown) {
+                        if (otherDropdown !== dropdown) {
+                            const otherMenu = otherDropdown.querySelector('.dropdown-menu');
+                            if (otherMenu) {
+                                otherMenu.classList.remove('show');
+                            }
+                        }
+                    });
+                    menu.classList.toggle('show');
+                });
+            });
+            document.addEventListener('click', function (e) {
+                dropdowns.forEach(function (dropdown) {
+                    if (!dropdown.contains(e.target)) {
+                        const menu = dropdown.querySelector('.dropdown-menu');
+                        if (menu) {
+                            menu.classList.remove('show');
+                        }
+                    }
+                });
+            });
+        });
+
+        document.querySelectorAll('.mobile-dropdown-toggle').forEach(function (toggle) {
+            toggle.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                const parent = this.closest('.mobile-dropdown');
+                const submenu = parent.querySelector('.mobile-submenu');
+                document.querySelectorAll('.mobile-dropdown').forEach(function (item) {
+                    if (item !== parent) {
+                        item.classList.remove('active');
+                        const otherMenu = item.querySelector('.mobile-submenu');
+                        if (otherMenu) {
+                            otherMenu.style.display = 'none';
+                        }
+                    }
+                });
+                parent.classList.toggle('active');
+                submenu.style.display =
+                    parent.classList.contains('active') ? 'block' : 'none';
+            });
+
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

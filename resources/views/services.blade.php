@@ -293,7 +293,7 @@
                 var(--svc-blue);
         }
 
-        .bfc_cta_box::before {
+        /* .bfc_cta_box::before {
             content: "";
             position: absolute;
             width: 500px;
@@ -302,16 +302,16 @@
             top: -230px;
             border: 1px solid rgba(207, 70, 78, .3);
             border-radius: 50%;
-        }
+        } */
 
-        .bfc_cta_box::after {
+        /* .bfc_cta_box::after {
             content: "BOOK";
             position: absolute;
             right: 45px;
             bottom: -65px;
             font-size: 180px;
             color: rgba(255, 255, 255, .025);
-        }
+        } */
 
         .bfc_cta_content {
             position: relative;
@@ -343,7 +343,7 @@
                 <div class="row align-items-center g-5">
                     <div class="col-lg-7">
                         <!-- <div class="svc-kicker">BFC Publications</div> -->
-                        <h1>Self-publishing <span>Services in India</span></h1>
+                        <h1>Self-Publishing <span>Services in India</span></h1>
                         <p>
                             From shaping your manuscript to reaching readers across the country, BFC Publications puts you
                             in control of your publishing journey. Get expert support from editing to marketing and
@@ -429,7 +429,7 @@
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <a class="svc-link-card" href="#"><i class="bi bi-send"></i>
+                        <a class="svc-link-card" href="{{ url('/contact') }}"><i class="bi bi-send"></i>
                             <h3>Legal Support</h3>
                             <p>
                                 Protect your work with essential publishing services, including ISBN allocation, copyright
@@ -456,7 +456,7 @@
                                 </span>
                             </h2>
                             <p class="bfc_cta_text">
-                                Browse our ready-made packages, or estimate your earnings per copy first
+                                Browse our ready-made packages, or estimate your earnings per copy first.
 
                             </p>
                         </div>
@@ -483,7 +483,7 @@
             <div class="svc-shell container-xxl px-lg-5 px-md-3 px-2">
                 <div class="svc-heading">
                     <!-- <div class="svc-kicker">Custom publishing plans</div> -->
-                    <h2>Our self-publication services broadly include</h2>
+                    <h2>Our Self-Publication Services Broadly Include</h2>
                 </div>
                 <div class="container">
                     <div class="row g-4">
@@ -526,11 +526,10 @@
                     </div>
                 </div>
                 <p class="py-4">
-                    Authors have the liberty to compile customised plans based on their requirements, by choosing from
-                    the publishing services listed above/below, be it creating a video teaser for the book or executing
-                    an elaborate PR campaign for maximizing outreach. They also have the freedom to decide the selling
-                    price of the book after approximating the sales proceeds through our Royalty Calculator, even if it
-                    is over and above the recommended MRP.
+                    Authors have the liberty to customise a plan based on their requirements, by choosing from
+                    the publishing services listed above, be it creating a video teaser for the book or executing
+                    an elaborate PR campaign for maximising outreach. They also have the freedom to decide the selling
+                    price of the book after approximating the sales proceeds through our Royalty Calculator.
                 </p>
             </div>
         </section>
